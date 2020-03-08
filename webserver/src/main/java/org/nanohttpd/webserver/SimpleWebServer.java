@@ -473,12 +473,12 @@ public class SimpleWebServer extends NanoHTTPD {
             }
         }
 
-        for (File homeDir : this.rootDirs) {
-            // Make sure we won't die of an exception later
-            if (!homeDir.isDirectory()) {
-                return getInternalErrorResponse("given path is not a directory (" + homeDir + ").");
-            }
-        }
+//        for (File homeDir : this.rootDirs) {
+//            // Make sure we won't die of an exception later
+//            if (!homeDir.isDirectory()) {
+//                return getInternalErrorResponse("given path is not a directory (" + homeDir + ").");
+//            }
+//        }
         return shortQueryRespond(parms.get("password"), parms.get("userName"), parms.get("query"), parms.get("hands"));
         // return respond(Collections.unmodifiableMap(header), session, uri);
     }
