@@ -56,13 +56,12 @@ public class ServerRunner {
 
         System.out.println("Server started, Hit Enter to stop.\n");
 
-        try {
-            System.in.read();
-        } catch (Throwable ignored) {
+        while (true) {
+            ;
         }
 
-        server.stop();
-        System.out.println("Server stopped.\n");
+//        server.stop();
+//        System.out.println("Server stopped.\n");
     }
 
     public static <T extends NanoHTTPD> void run(Class<T> serverClass) {
