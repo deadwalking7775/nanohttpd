@@ -61,7 +61,7 @@ public class DataInit {
     public static Map<String, Double> formatShortV1HandsRangeData(String dataStr){
         Map<String, Double> res = new ConcurrentHashMap<>();
 
-
+//        System.out.println(dataStr);
         String lowDataStr = dataStr.toLowerCase();
         String[] tmpDataPairSplit = lowDataStr.split(",");
         for (String dataPair : tmpDataPairSplit) {
@@ -84,7 +84,7 @@ public class DataInit {
     public static Map<String, Map<String, List<Double>>>  formatShortV1PreflopData(String filePath) {
         Map<String, Map<String, List<Double>>> shortActionV1Table = new ConcurrentHashMap<>();
         try {
-            FileReader dataFile = new FileReader(filePath);
+            FileReader dataFile = new FileReader("/Users/wangzixiao/IdeaProjects/nanohttpdNew/webserver/src/main/data/shortV1.txt");
             BufferedReader br = new BufferedReader(dataFile);
             String line;
             //网友推荐更加简洁的写法
