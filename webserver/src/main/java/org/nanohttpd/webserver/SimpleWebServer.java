@@ -388,6 +388,9 @@ public class SimpleWebServer extends NanoHTTPD {
         if (shortActionV1Table.get(query) == null || shortActionV1Table.get(query).get(hands) == null ){
             queryRes = shortActionV1Table.get(query).get(hands);
         }
+        if (shortActionV1Table.get(query) == null){
+            queryRes.add(-333D);
+        }
 //        if (queryRes == null){
 //            queryRes = new ArrayList<>();
 //        }
