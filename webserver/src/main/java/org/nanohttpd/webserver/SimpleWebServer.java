@@ -99,7 +99,7 @@ public class SimpleWebServer extends NanoHTTPD {
 
         String relativelyPath = System.getProperty("user.dir");
         System.out.println(relativelyPath.toString());
-        shortActionV1Table = DataInit.formatShortV1PreflopData(relativelyPath + "/src/main/data/shortV1.txt");
+        shortActionV1Table = DataInit.formatShortV1PreflopData(relativelyPath + "/webserver/src/main/data/shortV1.txt");
     }
 
     private static Map<String, WebServerPlugin> mimeTypeHandlers = new HashMap<String, WebServerPlugin>();
