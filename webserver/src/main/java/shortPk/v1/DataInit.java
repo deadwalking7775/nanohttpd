@@ -84,7 +84,7 @@ public class DataInit {
     public static Map<String, Map<String, List<Double>>>  formatShortV1PreflopData(String filePath) {
         Map<String, Map<String, List<Double>>> shortActionV1Table = new ConcurrentHashMap<>();
         try {
-            FileReader dataFile = new FileReader("/Users/wangzixiao/IdeaProjects/nanohttpdNew/webserver/src/main/data/shortV1.txt");
+            FileReader dataFile = new FileReader(filePath);
             BufferedReader br = new BufferedReader(dataFile);
             String line;
             //网友推荐更加简洁的写法
