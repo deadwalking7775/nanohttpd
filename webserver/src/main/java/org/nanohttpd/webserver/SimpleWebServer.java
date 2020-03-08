@@ -109,7 +109,7 @@ public class SimpleWebServer extends NanoHTTPD {
      */
     public static void main(String[] args) {
         // Defaults
-        int port = 8080;
+        int port = 80;
 
         String host = null; // bind to all interfaces by default
         List<File> rootDirs = new ArrayList<File>();
