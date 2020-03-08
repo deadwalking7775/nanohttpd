@@ -54,12 +54,11 @@ public class ServerRunner {
             System.exit(-1);
         }
 
-        System.out.println("Server started, Hit Enter to stop.\n");
+        System.out.println("Server started, Hit Enter to stop????.\n");
 
         while (true) {
             ;
         }
-
 //        server.stop();
 //        System.out.println("Server stopped.\n");
     }
