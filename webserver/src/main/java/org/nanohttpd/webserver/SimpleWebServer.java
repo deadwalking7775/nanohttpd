@@ -58,6 +58,7 @@ import org.nanohttpd.protocols.http.response.IStatus;
 import org.nanohttpd.protocols.http.response.Response;
 import org.nanohttpd.protocols.http.response.Status;
 import org.nanohttpd.util.ServerRunner;
+import shortPk.v1.DataInit;
 
 public class SimpleWebServer extends NanoHTTPD {
 
@@ -72,6 +73,8 @@ public class SimpleWebServer extends NanoHTTPD {
             add("index.htm");
         }
     };
+
+    public static Map<String, Map<String, List<Double>>> shortActionV1Table;
 
     /**
      * The distribution licence
@@ -93,6 +96,10 @@ public class SimpleWebServer extends NanoHTTPD {
             text = "unknown";
         }
         LICENCE = text;
+
+        String relativelyPath = System.getProperty("user.dir");
+        System.out.println(relativelyPath.toString());
+        shortActionV1Table = DataInit.formatShortV1PreflopData(relativelyPath + "/src/main/data/shortV1.txt");
     }
 
     private static Map<String, WebServerPlugin> mimeTypeHandlers = new HashMap<String, WebServerPlugin>();
@@ -375,6 +382,13 @@ public class SimpleWebServer extends NanoHTTPD {
         return r;
     }
 
+    private Response shortQueryRespond(String password, String userName, String query, String hands) {
+        List<Double> queryRes = shortActionV1Table.get(query).get(hands);
+        Response res = newFixedLengthResponse(Status.OK, NanoHTTPD.MIME_PLAINTEXT, queryRes.toString());
+        ;
+        return res;
+    }
+
     private Response defaultRespond(Map<String, String> headers, IHTTPSession session, String uri) {
         // Remove URL arguments
         uri = uri.trim().replace(File.separatorChar, '/');
@@ -464,7 +478,8 @@ public class SimpleWebServer extends NanoHTTPD {
                 return getInternalErrorResponse("given path is not a directory (" + homeDir + ").");
             }
         }
-        return respond(Collections.unmodifiableMap(header), session, uri);
+        return shortQueryRespond(parms.get("password"), parms.get("userName"), parms.get("query"), parms.get("hands"));
+        // return respond(Collections.unmodifiableMap(header), session, uri);
     }
 
     /**

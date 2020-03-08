@@ -41,6 +41,8 @@ import java.io.IOException;
 import java.io.PipedInputStream;
 import java.io.PipedOutputStream;
 import java.io.UnsupportedEncodingException;
+import java.util.List;
+import java.util.Map;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.client.ClientProtocolException;
@@ -53,6 +55,7 @@ import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.nanohttpd.webserver.SimpleWebServer;
+import shortPk.v1.DataInit;
 
 public class TestHttpServer extends AbstractTestHttpServer {
 
@@ -343,4 +346,23 @@ public class TestHttpServer extends AbstractTestHttpServer {
             }
         }
     }
+
+    @Test
+    public void testDataInit() throws ClientProtocolException, IOException {
+        DataInit dataInit = new DataInit();
+        try {
+            String relativelyPath = System.getProperty("user.dir");
+            System.out.println(relativelyPath.toString());
+            Map<String, Map<String, List<Double>>> shortActionV1Table = DataInit.formatShortV1PreflopData(relativelyPath + "/src/main/data/shortV1.txt");
+            System.out.println(shortActionV1Table.toString());
+            System.out.println(shortActionV1Table.get("huuuuu").get("aks").toString());
+            // Assert.assertEquals("test", 304,
+            // response.getStatusLine().getStatusCode());
+        } finally {
+            // if (response != null) {
+            // response.close();
+            // }
+        }
+    }
+
 }

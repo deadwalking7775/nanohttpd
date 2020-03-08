@@ -1,0 +1,345 @@
+utg	huuuuu	a	n	A8s:1.0,A9s:1.0,ATs:1.0,ATo:0.13,AJs:1.0,AJo:0.592,AQs:1.0,AQo:1.0,AKs:0.192,AKo:1.0,T9s:0.806,TT:0.678,JTs:1.0,JTo:0.624,QTs:1.0,KTs:1.0,JJ:0.816,QJs:1.0,KJs:1.0,QQ:0.592,KQs:1.0,KQo:1.0,KK:0.528	a	A8s:1.0,A9s:1.0,ATs:1.0,ATo:0.13,AJs:1.0,AJo:0.592,AQs:1.0,AQo:1.0,AKs:0.192,AKo:1.0,T9s:0.806,TT:0.678,JTs:1.0,JTo:0.624,QTs:1.0,KTs:1.0,JJ:0.816,QJs:1.0,KJs:1.0,QQ:0.592,KQs:1.0,KQo:1.0,KK:0.528
+utg	huuuuu	c	n	AA:1.0,A6s:0.216,A7s:1.0,A9o:0.272,ATo:0.87,AJo:0.408,AKs:0.808,98s:1.0,T8s:1.0,99:0.57,T9s:0.194,T9o:0.036,J9s:0.536,TT:0.322,JTo:0.376,QTo:0.524,KTo:0.212,JJ:0.184,QJo:0.806,KJo:0.886,QQ:0.408,KK:0.472	c	AA:1.0,A6s:0.216,A7s:1.0,A9o:0.272,ATo:0.87,AJo:0.408,AKs:0.808,98s:1.0,T8s:1.0,99:0.57,T9s:0.194,T9o:0.036,J9s:0.536,TT:0.322,JTo:0.376,QTo:0.524,KTo:0.212,JJ:0.184,QJo:0.806,KJo:0.886,QQ:0.408,KK:0.472
+utg	huuuuu	c	acfff	AA:1.0,ATo:0.688,AJo:0.408,AKs:0.808,TT:0.322,JJ:0.184,QQ:0.408,KK:0.472	c	a	f
+utg	huuuuu	c	ccaff	AA:1.0,AJo:0.408,AKs:0.808,TT:0.242,JJ:0.184,QQ:0.408,KK:0.472	c	c	a
+utg	huuuuu	c	fcaff	AA:1.0,ATo:0.87,AJo:0.408,AKs:0.808,TT:0.322,JJ:0.184,QQ:0.408,KK:0.472	c	f	a
+utg	huuuuu	c	cccaf	AA:1.0,AJo:0.408,AKs:0.808,TT:0.216,JJ:0.184,QQ:0.408,KK:0.472	c	c	c
+utg	huuuuu	c	ccfaf	AA:1.0,AJo:0.408,AKs:0.808,TT:0.206,JJ:0.184,QQ:0.408,KK:0.472	c	c	f
+utg	huuuuu	c	fccaf	AA:1.0,ATo:0.68,AJo:0.408,AKs:0.808,TT:0.322,JJ:0.184,QQ:0.408,KK:0.472	c	f	c
+utg	huuuuu	c	cccca	AA:1.0,ATo:0.034,AJo:0.408,AKs:0.808,TT:0.282,JJ:0.184,QQ:0.408,KK:0.472	c	c	c
+utg	huuuuu	c	cccfa	AA:1.0,AJo:0.408,AKs:0.808,JJ:0.184,QQ:0.408,KK:0.472	c	c	c
+utg	huuuuu	c	ccfca	AA:1.0,ATo:0.092,AJo:0.408,AKs:0.808,TT:0.322,JJ:0.184,QQ:0.408,KK:0.472	c	c	f
+utg	huuuuu	c	ccffa	AA:1.0,AJo:0.408,AKs:0.808,TT:0.322,JJ:0.184,QQ:0.408,KK:0.472	c	c	f
+utg	huuuuu	c	fccca	AA:1.0,ATo:0.87,AJo:0.408,AKs:0.808,TT:0.322,JJ:0.184,QQ:0.408,KK:0.472	c	f	c
+utg	huuuuu	c	fccfa	AA:1.0,ATo:0.656,AJo:0.408,AKs:0.808,TT:0.322,JJ:0.184,QQ:0.408,KK:0.472	c	f	c
+utg	huuuuu	c	fcfca	AA:1.0,ATo:0.87,AJo:0.408,AKs:0.808,TT:0.322,JJ:0.184,QQ:0.408,KK:0.472	c	f	f
+utg	huuuuu	c	fcffa	AA:1.0,ATo:0.67,AJo:0.408,AKs:0.808,TT:0.322,JJ:0.184,QQ:0.408,KK:0.472	c	f	f
+utg	huuuuu	c	ccccc	AA:1.0,ATo:0.5,AJo:0.408,AKs:0.808,TT:0.214,JJ:0.184,QQ:0.408,KK:0.472	c	c	c
+utg	huuuuu	c	ccccf	AA:1.0,AJo:0.408,AKs:0.808,TT:0.15,JJ:0.184,QQ:0.408,KK:0.472	c	c	c
+utg	huuuuu	c	cccfc	AA:1.0,ATo:0.17,AJo:0.408,AKs:0.808,TT:0.322,JJ:0.184,QQ:0.408,KK:0.472	c	c	c
+utg	huuuuu	c	cccff	AA:1.0,AJo:0.408,AKs:0.808,TT:0.146,JJ:0.184,QQ:0.408,KK:0.472	c	c	c
+utg	huuuuu	c	ccfcc	AA:1.0,ATo:0.282,AJo:0.408,AKs:0.808,TT:0.322,JJ:0.184,QQ:0.408,KK:0.472	c	c	f
+utg	huuuuu	c	ccfcf	AA:1.0,AJo:0.408,AKs:0.808,TT:0.322,JJ:0.184,QQ:0.408,KK:0.472	c	c	f
+utg	huuuuu	c	ccffc	AA:1.0,AJo:0.408,AKs:0.808,TT:0.322,JJ:0.184,QQ:0.408,KK:0.472	c	c	f
+utg	huuuuu	c	ccfff	AA:1.0,AJo:0.366,AKs:0.808,TT:0.322,JJ:0.184,QQ:0.408,KK:0.472	c	c	f
+utg	huuuuu	c	fcccc	AA:1.0,ATo:0.87,AJo:0.408,AKs:0.808,T9s:0.194,TT:0.322,JJ:0.184,KJo:0.05,QQ:0.408,KK:0.472	c	f	c
+utg	huuuuu	c	fcccf	AA:1.0,ATo:0.836,AJo:0.408,AKs:0.808,TT:0.322,JJ:0.184,QQ:0.408,KK:0.472	c	f	c
+utg	huuuuu	c	fccfc	AA:1.0,ATo:0.836,AJo:0.408,AKs:0.808,TT:0.322,JJ:0.184,QQ:0.408,KK:0.472	c	f	c
+utg	huuuuu	c	fccff	AA:1.0,ATo:0.054,AJo:0.408,AKs:0.808,TT:0.322,JJ:0.184,QQ:0.408,KK:0.472	c	f	c
+utg	huuuuu	c	fcfcc	AA:1.0,ATo:0.87,AJo:0.408,AKs:0.808,TT:0.322,JJ:0.184,QQ:0.408,KK:0.472	c	f	f
+utg	huuuuu	c	fcfcf	AA:1.0,ATo:0.612,AJo:0.408,AKs:0.808,TT:0.322,JJ:0.184,QQ:0.408,KK:0.472	c	f	f
+utg	huuuuu	c	fcffc	AA:1.0,ATo:0.644,AJo:0.408,AKs:0.808,TT:0.322,JJ:0.184,QQ:0.408,KK:0.472	c	f	f
+utg	huuuuu	c	fcfff	AA:1.0,ATo:0.114,AJo:0.408,AKs:0.808,TT:0.322,JTo:0.376,JJ:0.184,QJo:0.012,QQ:0.408,KK:0.472	c	f	f
+
+utg_plus_one	ahuuuu	ca	n	AA:1.0,ATs:1.0,AJs:1.0,AJo:0.758,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:1.0,JTs:1.0,KTs:0.818,JJ:1.0,QJs:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KK:1.0	a	ca	AA:1.0,ATs:1.0,AJs:1.0,AJo:0.758,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:1.0,JTs:1.0,KTs:0.818,JJ:1.0,QJs:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KK:1.0
+utg_plus_one	chuuuu	a	n	AA:0.254,A7s:0.494,A8s:1.0,A9s:1.0,ATs:1.0,ATo:0.228,AJs:1.0,AJo:0.836,AQs:1.0,AQo:0.748,AKs:0.806,AKo:1.0,T9s:1.0,JTs:1.0,QTs:1.0,KTs:1.0,JJ:0.788,QJs:1.0,KJs:1.0,QQ:0.726,KQs:1.0,KK:0.568	c	a	AA:0.254,A7s:0.494,A8s:1.0,A9s:1.0,ATs:1.0,ATo:0.228,AJs:1.0,AJo:0.836,AQs:1.0,AQo:0.748,AKs:0.806,AKo:1.0,T9s:1.0,JTs:1.0,QTs:1.0,KTs:1.0,JJ:0.788,QJs:1.0,KJs:1.0,QQ:0.726,KQs:1.0,KK:0.568
+utg_plus_one	chuuuu	c	n	AA:0.744,A6s:0.454,A7s:0.506,ATo:0.772,AJo:0.164,AQo:0.252,AKs:0.194,66:0.526,77:1.0,97s:1.0,88:1.0,98s:1.0,T8s:1.0,99:1.0,T9o:0.484,J9s:0.664,Q9s:0.478,TT:1.0,JTo:0.304,QTo:0.084,JJ:0.212,QJo:0.202,KJo:0.19,QQ:0.274,KQo:1.0,KK:0.432	c	c	AA:0.744,A6s:0.454,A7s:0.506,ATo:0.772,AJo:0.164,AQo:0.252,AKs:0.194,66:0.526,77:1.0,97s:1.0,88:1.0,98s:1.0,T8s:1.0,99:1.0,T9o:0.484,J9s:0.664,Q9s:0.478,TT:1.0,JTo:0.304,QTo:0.084,JJ:0.212,QJo:0.202,KJo:0.19,QQ:0.274,KQo:1.0,KK:0.432
+utg_plus_one	chuuuu	c	affff	AA:0.744,ATo:0.612,AJo:0.164,AQo:0.252,AKs:0.194,TT:1.0,JJ:0.212,QQ:0.274,KK:0.432	c	c	a
+utg_plus_one	chuuuu	c	cafff	AA:0.744,ATo:0.324,AJo:0.164,AQo:0.252,AKs:0.194,TT:1.0,JJ:0.212,QQ:0.274,KK:0.432	c	c	c
+utg_plus_one	chuuuu	c	ccaff	AA:0.744,AJo:0.164,AQo:0.252,AKs:0.194,TT:1.0,JJ:0.212,QQ:0.274,KQo:1.0,KK:0.432	c	c	c
+utg_plus_one	chuuuu	c	cccaf	AA:0.744,ATo:0.292,AJo:0.164,AQo:0.252,AKs:0.194,TT:1.0,JJ:0.212,QQ:0.274,KQo:1.0,KK:0.432	c	c	c
+utg_plus_one	chuuuu	c	cfaff	AA:0.744,ATo:0.524,AJo:0.164,AQo:0.252,AKs:0.194,TT:1.0,JJ:0.212,QQ:0.274,KK:0.432	c	c	c
+utg_plus_one	chuuuu	c	cfcaf	AA:0.744,ATo:0.094,AJo:0.164,AQo:0.252,AKs:0.194,TT:1.0,JJ:0.212,QQ:0.274,KQo:0.876,KK:0.432	c	c	c
+utg_plus_one	chuuuu	c	cffaf	AA:0.744,ATo:0.092,AJo:0.164,AQo:0.252,AKs:0.194,TT:1.0,JJ:0.212,QQ:0.274,KK:0.432	c	c	c
+utg_plus_one	chuuuu	c	fafff	AA:0.744,ATo:0.758,AJo:0.164,AQo:0.252,AKs:0.194,TT:1.0,JJ:0.212,QQ:0.274,KK:0.432	c	c	f
+utg_plus_one	chuuuu	c	fcaff	AA:0.744,ATo:0.772,AJo:0.164,AQo:0.252,AKs:0.194,TT:1.0,JJ:0.212,QQ:0.274,KQo:1.0,KK:0.432	c	c	f
+utg_plus_one	chuuuu	c	fccaf	AA:0.744,ATo:0.686,AJo:0.164,AQo:0.252,AKs:0.194,TT:1.0,JJ:0.212,QQ:0.274,KQo:1.0,KK:0.432	c	c	f
+utg_plus_one	chuuuu	c	ffaff	AA:0.744,ATo:0.638,AJo:0.164,AQo:0.252,AKs:0.194,TT:1.0,JJ:0.212,QQ:0.274,KK:0.432	c	c	f
+utg_plus_one	chuuuu	c	ffcaf	AA:0.744,ATo:0.662,AJo:0.164,AQo:0.252,AKs:0.194,TT:1.0,JJ:0.212,QQ:0.274,KK:0.432	c	c	f
+utg_plus_one	chuuuu	c	fffaf	AA:0.744,AJo:0.164,AQo:0.252,AKs:0.194,TT:1.0,JJ:0.212,QQ:0.274,KK:0.432	c	c	f
+utg_plus_one	fhuuuu	a	n	A8s:1.0,A9s:1.0,ATs:1.0,ATo:0.228,AJs:1.0,AJo:0.518,AQs:1.0,AQo:1.0,AKo:1.0,TT:0.83,JTs:1.0,JTo:1.0,QTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,KJs:1.0,KJo:0.602,QQ:0.182,KQs:1.0,KQo:1.0,KK:0.342	f	a	A8s:1.0,A9s:1.0,ATs:1.0,ATo:0.228,AJs:1.0,AJo:0.518,AQs:1.0,AQo:1.0,AKo:1.0,TT:0.83,JTs:1.0,JTo:1.0,QTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,KJs:1.0,KJo:0.602,QQ:0.182,KQs:1.0,KQo:1.0,KK:0.342
+utg_plus_one	fhuuuu	c	n	AA:1.0,A6s:1.0,A7s:1.0,A9o:0.778,ATo:0.772,AJo:0.482,AKs:1.0,98s:1.0,T8s:1.0,99:0.804,T9s:1.0,J9s:1.0,Q9s:1.0,K9s:0.264,TT:0.17,QTo:1.0,KTo:1.0,QJo:1.0,KJo:0.398,QQ:0.818,KK:0.658	f	c	AA:1.0,A6s:1.0,A7s:1.0,A9o:0.778,ATo:0.772,AJo:0.482,AKs:1.0,98s:1.0,T8s:1.0,99:0.804,T9s:1.0,J9s:1.0,Q9s:1.0,K9s:0.264,TT:0.17,QTo:1.0,KTo:1.0,QJo:1.0,KJo:0.398,QQ:0.818,KK:0.658
+utg_plus_one	fhuuuu	c	afffa	AA:1.0,ATo:0.772,AJo:0.482,AKs:1.0,TT:0.17,QQ:0.818,KK:0.658	f	c	a
+utg_plus_one	fhuuuu	c	caffa	AA:1.0,ATo:0.772,AJo:0.482,AKs:1.0,TT:0.17,QQ:0.818,KK:0.658	f	c	c
+utg_plus_one	fhuuuu	c	ccafa	AA:1.0,ATo:0.772,AJo:0.482,AKs:1.0,TT:0.17,QQ:0.818,KK:0.658	f	c	c
+utg_plus_one	fhuuuu	c	cccaa	AA:1.0,ATo:0.772,AJo:0.482,AKs:1.0,TT:0.17,QQ:0.818,KK:0.658	f	c	c
+utg_plus_one	fhuuuu	c	cfafa	AA:1.0,ATo:0.772,AJo:0.482,AKs:1.0,TT:0.17,QQ:0.818,KK:0.658	f	c	c
+utg_plus_one	fhuuuu	c	cfcaa	AA:1.0,ATo:0.772,AJo:0.482,AKs:1.0,TT:0.17,QQ:0.818,KK:0.658	f	c	c
+utg_plus_one	fhuuuu	c	cffaa	AA:1.0,ATo:0.012,AJo:0.482,AKs:1.0,TT:0.17,QQ:0.818,KK:0.658	f	c	c
+utg_plus_one	fhuuuu	c	faffa	AA:1.0,ATo:0.772,AJo:0.482,AKs:1.0,TT:0.17,KJo:0.06,QQ:0.818,KK:0.658	f	c	f
+utg_plus_one	fhuuuu	c	fcafa	AA:1.0,ATo:0.772,AJo:0.482,AKs:1.0,TT:0.17,KJo:0.102,QQ:0.818,KK:0.658	f	c	f
+utg_plus_one	fhuuuu	c	fccaa	AA:1.0,ATo:0.772,AJo:0.482,AKs:1.0,TT:0.17,KJo:0.398,QQ:0.818,KK:0.658	f	c	f
+utg_plus_one	fhuuuu	c	ffafa	AA:1.0,ATo:0.772,AJo:0.482,AKs:1.0,TT:0.17,KJo:0.018,QQ:0.818,KK:0.658	f	c	f
+utg_plus_one	fhuuuu	c	ffcaa	AA:1.0,ATo:0.772,AJo:0.482,AKs:1.0,TT:0.17,KJo:0.048,QQ:0.818,KK:0.658	f	c	f
+utg_plus_one	fhuuuu	c	fffaa	AA:1.0,ATo:0.362,AJo:0.482,AKs:1.0,T9s:1.0,TT:0.17,QTo:0.248,QQ:0.818,KK:0.658	f	c	f
+mp	huuu
+mp	afhuuu	a	n	AA:1.0,ATs:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:0.306,JTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KK:1.0	a	f	ca
+mp	fahuuu	a	n	AA:1.0,ATs:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:1.0,JTs:1.0,QTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	f	a	ca
+mp	cahuuu	ca	n	AA:1.0,AJs:1.0,AQs:1.0,AQo:0.692,AKs:1.0,AKo:1.0,T9s:1.0,JTs:1.0,QTs:1.0,JJ:1.0,QQ:1.0,KQs:1.0,KK:1.0	c	a	ca
+mp	cchuuu	a	n	AA:0.998,A7s:1.0,A8s:1.0,A9s:1.0,ATs:1.0,ATo:0.464,AJs:1.0,AJo:0.928,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,T9s:0.294,JTs:1.0,JTo:0.564,QTs:1.0,KTs:1.0,JJ:0.612,QJs:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KQo:0.19,KK:0.978	c	c	a
+mp	cchuuu	c	n	A6s:1.0,ATo:0.536,AJo:0.072,66:1.0,77:1.0,87s:0.288,97s:1.0,88:1.0,98s:1.0,T8s:1.0,99:1.0,T9s:0.706,T9o:1.0,J9s:1.0,Q9s:1.0,K9s:0.91,TT:1.0,JTo:0.378,QTo:0.176,JJ:0.388,QJo:0.218,KJo:0.28,KQo:0.81,KK:0.022	c	c	c
+mp	cchuuu	c	affff	ATo:0.536,AJo:0.072,TT:1.0,JJ:0.388,KQo:0.81,KK:0.022	c	c	c
+mp	cchuuu	c	cafff	ATo:0.536,AJo:0.072,TT:1.0,JJ:0.388,KQo:0.81,KK:0.022	c	c	c
+mp	cchuuu	c	cfaff	ATo:0.536,AJo:0.072,TT:1.0,JJ:0.388,KQo:0.81,KK:0.022	c	c	c
+mp	cchuuu	c	ccaff	ATo:0.536,AJo:0.072,TT:1.0,JJ:0.388,KQo:0.81,KK:0.022	c	c	c
+mp	cchuuu	c	fafff	ATo:0.536,AJo:0.072,TT:1.0,JJ:0.388,KQo:0.81,KK:0.022	c	c	c
+mp	cchuuu	c	fcaff	ATo:0.536,AJo:0.072,TT:1.0,JJ:0.388,KQo:0.81,KK:0.022	c	c	c
+mp	cchuuu	c	ffaff	ATo:0.536,AJo:0.072,TT:1.0,JJ:0.388,KQo:0.81,KK:0.022	c	c	c
+mp	cfhuuu	a	n	AA:0.42,A7s:0.72,A8s:1.0,A9s:1.0,ATs:1.0,ATo:0.25,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:0.308,AKo:1.0,T9s:0.3,JTs:1.0,JTo:0.144,QTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,QJo:0.196,KJs:1.0,QQ:0.33,KQs:1.0,KQo:0.084,KK:0.458	c	f	a
+mp	cfhuuu	c	n	AA:0.576,A6s:1.0,A7s:0.28,A8o:0.298,A9o:0.998,ATo:0.75,AKs:0.692,66:1.0,77:1.0,97s:1.0,88:1.0,98s:1.0,T8s:1.0,99:1.0,T9s:0.698,T9o:0.684,J9s:1.0,Q9s:1.0,K9s:1.0,TT:1.0,JTo:0.856,QTo:0.784,KTo:0.264,QJo:0.802,KJo:1.0,QQ:0.67,KQo:0.916,KK:0.542	c	f	c
+mp	cfhuuu	c	affff	AA:0.576,ATo:0.75,AKs:0.692,TT:1.0,QQ:0.67,KK:0.542	c	f	c
+mp	cfhuuu	c	cafff	AA:0.576,A9o:0.116,ATo:0.75,AKs:0.692,TT:1.0,QQ:0.67,KQo:0.916,KK:0.542	c	f	c
+mp	cfhuuu	c	cfaff	AA:0.576,ATo:0.75,AKs:0.692,TT:1.0,QQ:0.67,KK:0.542	c	f	c
+mp	cfhuuu	c	ccaff	AA:0.576,A9o:0.692,ATo:0.75,AKs:0.692,TT:1.0,KTo:0.264,QQ:0.67,KQo:0.916,KK:0.542	c	f	c
+mp	cfhuuu	c	fafff	AA:0.576,ATo:0.75,AKs:0.692,TT:1.0,QQ:0.67,KK:0.542	c	f	c
+mp	cfhuuu	c	fcaff	AA:0.576,ATo:0.75,AKs:0.692,TT:1.0,QQ:0.67,KK:0.542	c	f	c
+mp	cfhuuu	c	ffaff	AA:0.576,ATo:0.75,AKs:0.692,TT:1.0,QQ:0.67,KK:0.542	c	f	c
+mp	fchuuu	a	n	AA:0.154,A7s:1.0,A8s:1.0,A9s:1.0,ATs:1.0,ATo:0.086,AJs:1.0,AJo:0.814,AQs:1.0,AQo:1.0,AKs:0.876,AKo:1.0,T9s:1.0,JTs:1.0,JTo:0.688,QTs:1.0,KTs:1.0,KTo:0.16,JJ:0.982,QJs:1.0,QJo:0.016,KJs:1.0,QQ:0.35,KQs:1.0,KQo:0.966,KK:0.632	f	c	a
+mp	fchuuu	c	n	AA:0.836,A6s:1.0,A8o:0.284,A9o:0.656,ATo:0.912,AJo:0.184,AKs:0.124,66:1.0,77:1.0,97s:1.0,88:1.0,98s:1.0,T8s:1.0,99:1.0,T9o:0.528,J9s:1.0,Q9s:1.0,K9s:1.0,TT:0.998,JTo:0.31,QTo:0.692,KTo:0.57,JJ:0.018,QJo:0.982,KJo:1.0,QQ:0.65,KQo:0.032,KK:0.368	f	c	c
+mp	fchuuu	c	affff	AA:0.836,ATo:0.912,AJo:0.184,AKs:0.124,TT:0.998,JJ:0.018,QQ:0.65,KQo:0.032,KK:0.368	f	c	c
+mp	fchuuu	c	cafff	AA:0.836,A9o:0.656,ATo:0.912,AJo:0.184,AKs:0.124,TT:0.998,JJ:0.018,QQ:0.65,KQo:0.032,KK:0.368	f	c	c
+mp	fchuuu	c	cfaff	AA:0.836,ATo:0.912,AJo:0.184,AKs:0.124,TT:0.998,JJ:0.018,QQ:0.65,KQo:0.028,KK:0.368	f	c	c
+mp	fchuuu	c	ccaff	AA:0.836,A9o:0.646,ATo:0.912,AJo:0.184,AKs:0.124,TT:0.998,JJ:0.018,KJo:0.5,QQ:0.65,KQo:0.032,KK:0.368	f	c	c
+mp	fchuuu	c	fafff	AA:0.836,ATo:0.912,AJo:0.184,AKs:0.124,TT:0.998,JJ:0.018,QQ:0.65,KK:0.368	f	c	c
+mp	fchuuu	c	fcaff	AA:0.836,ATo:0.912,AJo:0.184,AKs:0.124,TT:0.998,JJ:0.018,QQ:0.65,KQo:0.032,KK:0.368	f	c	c
+mp	fchuuu	c	ffaff	AA:0.836,ATo:0.912,AJo:0.184,AKs:0.124,TT:0.998,JJ:0.018,QQ:0.65,KK:0.368	f	c	c
+mp	ffhuuu	a	n	A7s:0.98,A8s:1.0,A9s:1.0,ATs:0.676,ATo:0.49,AJs:0.548,AJo:1.0,AQs:1.0,AQo:1.0,AKo:1.0,TT:0.686,JTs:1.0,JTo:1.0,QTs:1.0,QTo:0.154,KTs:1.0,KTo:0.448,JJ:1.0,QJs:1.0,QJo:0.854,KJs:1.0,KJo:0.904,QQ:0.368,KQs:1.0,KQo:1.0
+mp	ffhuuu	c	n	AA:1.0,A6s:1.0,A7s:0.02,A7o:0.164,A8o:1.0,A9o:1.0,ATs:0.324,ATo:0.51,AJs:0.452,AKs:1.0,88:0.378,98s:1.0,T8s:1.0,J8s:1.0,Q8s:0.736,K8s:1.0,99:1.0,T9s:1.0,T9o:0.258,J9s:1.0,J9o:0.256,Q9s:1.0,K9s:1.0,TT:0.314,QTo:0.846,KTo:0.552,QJo:0.146,KJo:0.096,QQ:0.632,KK:1.0
+mp	ffhuuu	c	affff	AA:1.0,ATs:0.324,ATo:0.51,AJs:0.452,AKs:1.0,TT:0.314,KTo:0.014,QJo:0.082,KJo:0.096,QQ:0.632,KK:1.0	f	f	c
+mp	ffhuuu	c	cafff	AA:1.0,ATs:0.324,ATo:0.51,AJs:0.452,AKs:1.0,TT:0.314,KJo:0.096,QQ:0.632,KK:1.0	f	f	c
+mp	ffhuuu	c	cfaff	AA:1.0,ATs:0.324,ATo:0.51,AJs:0.452,AKs:1.0,TT:0.314,QQ:0.632,KK:1.0	f	f	c
+mp	ffhuuu	c	ccaff	AA:1.0,ATs:0.324,ATo:0.51,AJs:0.452,AKs:1.0,TT:0.314,KJo:0.096,QQ:0.632,KK:1.0	f	f	c
+mp	ffhuuu	c	fafff	AA:1.0,ATs:0.324,ATo:0.51,AJs:0.452,AKs:1.0,TT:0.314,KTo:0.13,QJo:0.108,KJo:0.096,QQ:0.632,KK:1.0	f	f	c
+mp	ffhuuu	c	fcaff	AA:1.0,ATs:0.324,ATo:0.51,AJs:0.452,AKs:1.0,TT:0.314,KJo:0.096,QQ:0.632,KK:1.0	f	f	c
+mp	ffhuuu	c	ffaff	AA:1.0,ATs:0.324,ATo:0.39,AJs:0.452,AKs:1.0,T9s:0.524,TT:0.314,QTo:0.328,QQ:0.632,KK:1.0	f	f	c
+hj	huu
+hj	affhuu	ca	n	AA:1.0,ATs:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,JTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KK:1.0	a	f	f
+hj	cafhuu	ca	n	AA:1.0,AJs:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:0.828,JTs:1.0,QTs:1.0,JJ:1.0,QQ:1.0,KQs:1.0,KK:1.0	c	a	f
+hj	ccahuu	ca	n	AA:1.0,AQs:1.0,AKs:1.0,AKo:1.0,T9s:1.0,JTs:1.0,JJ:1.0,QQ:1.0,KQs:1.0,KK:1.0	c	c	a
+hj	cfahuu	ca	n	AA:1.0,AJs:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,T9s:1.0,TT:1.0,JTs:1.0,QTs:1.0,JJ:1.0,QQ:1.0,KQs:1.0,KK:1.0	c	f	a
+hj	fafhuu	ca	n	AA:1.0,ATs:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:1.0,JTs:1.0,QTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	f	a	f
+hj	fcahuu	ca	n	AA:1.0,ATs:1.0,AJs:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:0.594,JTs:1.0,QTs:1.0,KTs:1.0,JJ:1.0,QQ:1.0,KQs:1.0,KK:1.0	f	c	a
+hj	ffahuu	ca	n	AA:1.0,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:1.0,JTs:0.94,QTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	f	f	a
+hj	ccchuu	a	n	AA:0.996,A6s:0.126,A7s:1.0,A8s:1.0,A9s:1.0,ATs:1.0,ATo:0.998,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,JTs:1.0,QTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	c	c	c
+hj	ccfhuu	a	n	AA:0.996,A7s:1.0,A8s:1.0,A9s:1.0,A9o:0.004,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,JTs:1.0,JTo:0.362,QTs:1.0,KTs:1.0,JJ:0.776,QJs:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KQo:0.282,KK:1.0	c	c	f
+hj	cfchuu	a	n	AA:0.994,A7s:1.0,A8s:1.0,A9s:1.0,A9o:0.35,ATs:1.0,ATo:0.944,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,T9s:0.9,JTs:1.0,JTo:0.352,QTs:1.0,KTs:1.0,JJ:0.796,QJs:1.0,QJo:0.04,KJs:1.0,QQ:1.0,KQs:1.0,KQo:0.458,KK:1.0	c	f	c
+hj	fcchuu	a	n	AA:0.99,A7s:1.0,A8s:1.0,A9s:1.0,A9o:0.314,ATs:1.0,ATo:0.832,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,JTs:1.0,JTo:0.08,QTs:1.0,QTo:0.172,KTs:1.0,JJ:0.582,QJs:1.0,QJo:0.582,KJs:1.0,KJo:0.374,QQ:0.498,KQs:1.0,KQo:0.54,KK:1.0	f	c	c
+hj	fffhuu	a	n	A7s:1.0,A8s:1.0,A8o:0.016,A9s:1.0,A9o:1.0,ATo:1.0,AJo:1.0,AQs:0.042,AQo:1.0,AKo:0.758,T9s:0.894,TT:0.168,JTs:0.2,JTo:0.854,QTo:0.826,KTs:0.36,KTo:1.0,JJ:0.242,QJo:1.0,KJs:1.0,KJo:1.0,QQ:0.112,KQs:0.98,KQo:1.0	f	f	f
+hj	fcfhuu	a	n	AA:0.694,A7s:1.0,A8s:1.0,A9s:1.0,ATs:1.0,ATo:0.296,AJs:1.0,AJo:1.0,AQs:0.994,AQo:1.0,AKs:1.0,AKo:1.0,T9s:0.76,JTs:1.0,JTo:0.49,QTs:1.0,QTo:0.592,KTs:1.0,KTo:0.068,JJ:0.552,QJs:1.0,QJo:0.382,KJs:1.0,KJo:0.312,QQ:0.102,KQs:0.39,KQo:0.994,KK:0.728	f	c	f
+hj	fcfhuu	r5.5	n	AA:0.018,A8o:0.002,A9o:0.002,AQs:0.006,TT:0.002,KTo:0.004,JJ:0.002,QJo:0.004,KJo:0.002	f	c	f
+hj	ffchuu	a	n	AA:0.574,A7s:1.0,A8s:1.0,A9s:1.0,ATs:1.0,ATo:0.59,AJs:1.0,AJo:0.874,AQs:0.878,AQo:0.994,AKs:0.278,AKo:1.0,T9s:0.92,JTs:1.0,JTo:0.936,QTs:1.0,QTo:0.178,KTs:1.0,KTo:0.522,JJ:0.282,QJs:1.0,QJo:0.45,KJs:1.0,KJo:0.46,KQs:1.0,KQo:0.524,KK:0.944	f	f	c
+hj	ffchuu	r5.5	n	AA:0.346,A7o:0.016,A8o:0.032,A9o:0.044,ATo:0.03,AJo:0.016,AQo:0.006,AKs:0.044,T9s:0.08,TT:0.05,JTo:0.02,QTo:0.042,KTo:0.072,JJ:0.054,QJo:0.064,KJo:0.004	f	f	c
+hj	fffhuu	c	n	AA:1.0,A6s:1.0,A6o:1.0,A7o:1.0,A8o:0.984,ATs:1.0,AJs:1.0,AQs:0.958,AKs:1.0,AKo:0.242,Q6s:0.796,K6s:1.0,77:0.802,T7s:1.0,J7s:1.0,Q7s:1.0,K7s:1.0,88:1.0,98s:1.0,T8s:1.0,T8o:0.586,J8s:1.0,J8o:0.662,Q8s:1.0,Q8o:0.176,K8s:1.0,K8o:0.366,99:1.0,T9s:0.106,T9o:1.0,J9s:1.0,J9o:1.0,Q9s:1.0,Q9o:1.0,K9s:1.0,K9o:1.0,TT:0.832,JTs:0.8,JTo:0.146,QTs:1.0,QTo:0.174,KTs:0.64,JJ:0.758,QJs:1.0,QQ:0.888,KQs:0.02,KK:1.0	f	f	f
+hj	fffhuu	c	cafff	AA:1.0,ATs:1.0,AJs:1.0,AQs:0.958,AKs:1.0,AKo:0.242,TT:0.832,JTs:0.8,QTs:1.0,KTs:0.64,JJ:0.758,QJs:1.0,QQ:0.888,KQs:0.02,KK:1.0	f	f	f
+hj	fffhuu	c	fafff	AA:1.0,ATs:0.714,AJs:1.0,AQs:0.958,AKs:1.0,AKo:0.242,TT:0.832,JTs:0.8,JTo:0.146,QTs:1.0,KTs:0.434,JJ:0.758,QJs:0.73,QQ:0.888,KK:1.0	f	f	f
+hj	fffhuu	c	affff	AA:1.0,ATs:1.0,AJs:1.0,AQs:0.958,AKs:1.0,AKo:0.242,TT:0.832,JTs:0.8,QTs:1.0,KTs:0.64,JJ:0.758,QJs:1.0,QQ:0.888,KQs:0.02,KK:1.0	f	f	f
+hj	ccchuu	c	n	A6s:0.874,A7o:0.254,A8o:0.258,A9o:0.016,66:1.0,86s:0.16,96s:0.416,K6s:0.39,77:1.0,87s:1.0,97s:1.0,T7s:0.248,Q7s:0.004,K7s:0.376,88:1.0,98s:1.0,T8s:1.0,J8s:0.428,Q8s:0.308,K8s:0.66,99:1.0,T9s:0.998,T9o:0.6,J9s:1.0,Q9s:1.0,K9s:1.0,TT:1.0,JTo:0.496,QTo:0.376,KTo:0.194,QJo:0.392,KJo:0.486	c	c	c
+hj	ccchuu	c	cafff	TT:0.41	c	c	c
+hj	ccchuu	c	fafff	TT:1.0	c	c	c
+hj	ccchuu	c	affff	AA:0	c	c	c
+hj	ccfhuu	c	n	A6s:1.0,A7o:0.468,A8o:0.788,A9o:0.996,66:1.0,86s:0.73,96s:1.0,Q6s:0.198,K6s:1.0,77:1.0,87s:1.0,97s:1.0,T7s:1.0,Q7s:0.58,K7s:1.0,88:1.0,98s:1.0,98o:0.804,T8s:1.0,J8s:1.0,Q8s:1.0,K8s:1.0,99:1.0,T9s:0.998,T9o:1.0,J9s:1.0,Q9s:1.0,K9s:1.0,TT:1.0,JTo:0.638,QTo:0.998,KTo:1.0,JJ:0.224,QJo:1.0,KJo:1.0,KQo:0.718	c	c	f
+hj	ccfhuu	c	cafff	TT:1.0,JJ:0.224,KQo:0.718	c	c	f
+hj	ccfhuu	c	fafff	TT:1.0,JJ:0.224	c	c	f
+hj	ccfhuu	c	affff	TT:1.0,JJ:0.224,KQo:0.718	c	c	f
+hj	cfchuu	c	n	A6s:1.0,A7o:0.516,A8o:1.0,A9o:0.65,ATo:0.056,66:1.0,86s:0.2,96s:0.312,K6s:0.164,77:1.0,87s:1.0,97s:1.0,T7s:0.236,Q7s:0.216,K7s:0.436,88:1.0,98s:1.0,98o:0.322,T8s:1.0,J8s:1.0,Q8s:1.0,K8s:1.0,99:1.0,T9s:0.1,T9o:1.0,J9s:1.0,Q9s:1.0,K9s:1.0,TT:0.998,JTo:0.646,QTo:1.0,KTo:0.68,JJ:0.204,QJo:0.96,KJo:1.0,KQo:0.542	c	f	c
+hj	cfchuu	c	cafff	A9o:0.65,ATo:0.056,TT:0.998,JJ:0.204,KQo:0.542	c	f	c
+hj	cfchuu	c	fafff	ATo:0.056,TT:0.998,JJ:0.204	c	f	c
+hj	cfchuu	c	affff	A9o:0.65,ATo:0.056,TT:0.998,JJ:0.204,KQo:0.542	c	f	c
+hj	cffhuu	c	n	A6s:1.0,A6o:0.258,A7o:1.0,A8o:0.998,A9o:0.996,ATo:0.498,66:1.0,K6s:0.456,77:1.0,87s:1.0,97s:1.0,T7s:0.886,Q7s:0.96,K7s:0.934,88:1.0,98s:0.994,98o:0.416,T8s:1.0,J8s:1.0,Q8s:1.0,K8s:1.0,99:1.0,T9s:0.466,T9o:0.998,J9s:1.0,J9o:0.178,Q9s:1.0,Q9o:0.768,K9s:1.0,TT:0.998,JTo:0.956,QTo:0.858,KTo:0.994,JJ:0.214,QJo:0.624,KJo:0.998,QQ:0.744,KQs:0.02,KQo:0.872,KK:0.688	c	f	f
+hj	cffhuu	c	cafff	A9o:0.312,ATo:0.498,TT:0.998,JJ:0.214,QQ:0.744,KQs:0.02,KQo:0.872,KK:0.688	c	f	f
+hj	cffhuu	c	fafff	ATo:0.498,TT:0.998,JJ:0.214,QQ:0.744,KQs:0.02,KK:0.688	c	f	f
+hj	cffhuu	c	affff	A9o:0.312,ATo:0.498,TT:0.998,JJ:0.214,QQ:0.744,KQs:0.02,KQo:0.872,KK:0.688	c	f	f
+hj	fcchuu	c	n	A6s:1.0,A7o:0.274,A8o:0.678,A9o:0.684,ATo:0.168,66:1.0,K6s:0.14,77:1.0,87s:1.0,97s:1.0,K7s:0.652,88:1.0,98s:1.0,T8s:1.0,J8s:0.982,Q8s:1.0,K8s:1.0,99:1.0,T9s:0.998,T9o:0.292,J9s:1.0,Q9s:1.0,K9s:1.0,TT:0.998,JTo:0.92,QTo:0.826,KTo:0.854,JJ:0.416,QJo:0.418,KJo:0.626,QQ:0.502,KQo:0.458	f	c	c
+hj	fcchuu	c	cafff	A9o:0.684,ATo:0.168,TT:0.998,JJ:0.416,KJo:0.626,QQ:0.502,KQo:0.458	f	c	c
+hj	fcchuu	c	fafff	ATo:0.168,TT:0.998,JJ:0.416,QQ:0.502	f	c	c
+hj	fcchuu	c	affff	A9o:0.684,ATo:0.168,TT:0.998,JJ:0.416,KJo:0.626,QQ:0.502,KQo:0.458	f	c	c
+hj	ffchuu	c	n	AA:0.08,A6s:1.0,A7o:0.612,A8o:0.968,A9o:0.956,ATo:0.38,AJo:0.11,AQs:0.122,AKs:0.678,66:1.0,K6s:0.968,77:1.0,97s:0.57,J7s:0.582,Q7s:0.19,K7s:1.0,88:1.0,98s:1.0,T8s:1.0,J8s:1.0,Q8s:1.0,K8s:1.0,99:1.0,T9o:0.814,J9s:1.0,J9o:0.42,Q9s:1.0,Q9o:0.078,K9s:1.0,TT:0.95,JTo:0.044,QTo:0.782,KTo:0.404,JJ:0.664,QJo:0.486,KJo:0.536,QQ:1.0,KQo:0.476,KK:0.056	f	f	c
+hj	ffchuu	c	cafff	AA:0.08,ATo:0.38,AJo:0.11,AQs:0.122,AKs:0.678,TT:0.95,JJ:0.664,KJo:0.536,QQ:1.0,KQo:0.476,KK:0.056	f	f	c
+hj	ffchuu	c	fafff	AA:0.08,ATo:0.38,AJo:0.11,AQs:0.122,AKs:0.678,TT:0.95,JJ:0.664,QQ:1.0,KQo:0.476,KK:0.056	f	f	c
+hj	ffchuu	c	affff	AA:0.08,ATo:0.38,AJo:0.11,AQs:0.122,AKs:0.678,TT:0.95,JJ:0.664,KJo:0.536,QQ:1.0,KQo:0.476,KK:0.056	f	f	c
+hj	fcfhuu	c	n	AA:0.288,A6s:1.0,A7o:0.864,A8o:0.998,A9o:0.998,ATo:0.702,66:1.0,K6s:0.202,77:1.0,87s:0.324,97s:1.0,K7s:0.86,88:1.0,98s:1.0,T8s:1.0,J8s:1.0,Q8s:1.0,K8s:1.0,99:1.0,T9s:0.24,T9o:1.0,J9s:1.0,J9o:0.1,Q9s:1.0,K9s:1.0,TT:0.998,JTo:0.508,QTo:0.408,KTo:0.93,JJ:0.446,QJo:0.614,KJo:0.686,QQ:0.898,KQs:0.61,KQo:0.006,KK:0.272	f	c	f
+hj	fcfhuu	c	cafff	AA:0.288,A9o:0.724,ATo:0.702,TT:0.998,JJ:0.446,KJo:0.172,QQ:0.898,KQs:0.61,KQo:0.006,KK:0.272	f	c	f
+hj	fcfhuu	c	fafff	AA:0.288,ATo:0.702,TT:0.998,JJ:0.446,QQ:0.898,KQs:0.61,KK:0.272	f	c	f
+hj	fcfhuu	c	affff	AA:0.288,A9o:0.724,ATo:0.702,TT:0.998,JJ:0.446,KJo:0.172,QQ:0.898,KQs:0.61,KQo:0.006,KK:0.272	f	c	f
+co	hu
+co	afffhu	ca	n	AA:1.0,ATs:1.0,ATo:0.678,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,KTs:1.0,JJ:1.0,QJs:0.522,KJs:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	a	f	f
+co	caffhu	ca	n	AA:1.0,AJs:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,JTs:0.802,JJ:1.0,QQ:1.0,KQs:1.0,KK:1.0	c	a	f
+co	ccafhu	ca	n	AA:1.0,AJs:0.568,AQs:1.0,AKs:1.0,AKo:1.0,T9s:1.0,JJ:1.0,QQ:1.0,KQs:1.0,KK:1.0	c	c	a
+co	cccahu	ca	n	AA:1.0,AJs:1.0,AQs:1.0,AKs:1.0,AKo:1.0,T9s:1.0,JTs:1.0,JJ:1.0,QQ:1.0,KQs:1.0,KK:1.0	c	c	c
+co	ccfahu	ca	n	AA:1.0,AJs:1.0,AQs:1.0,AKs:1.0,AKo:1.0,T9s:1.0,JTs:1.0,JJ:1.0,QQ:1.0,KQs:1.0,KK:1.0	c	c	f
+co	cfafhu	ca	n	AA:1.0,AJs:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:0.744,JTs:1.0,KTs:0.516,JJ:1.0,QQ:1.0,KQs:1.0,KK:1.0	c	f	a
+co	cfcahu	ca	n	AA:1.0,AJs:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,JTs:1.0,QTs:0.306,JJ:1.0,QQ:1.0,KQs:1.0,KK:1.0	c	f	c
+co	cffahu	ca	n	AA:1.0,AJs:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:0.63,JTs:1.0,JJ:1.0,QJs:1.0,QQ:1.0,KQs:1.0,KK:1.0	c	f	f
+co	faffhu	ca	n	AA:1.0,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:0.576,QTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	f	a	f
+co	fcafhu	ca	n	AA:1.0,ATs:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:1.0,JTs:1.0,KTs:1.0,JJ:1.0,QQ:1.0,KQs:1.0,KK:1.0	f	c	a
+co	fccahu	ca	n	AA:1.0,AJs:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,T9s:0.374,JTs:1.0,KTs:0.564,JJ:1.0,QQ:1.0,KQs:1.0,KK:1.0	f	c	c
+co	fcfahu	ca	n	AA:1.0,ATs:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:1.0,JTs:0.856,KTs:1.0,JJ:1.0,QJs:0.692,KJs:1.0,QQ:1.0,KQs:1.0,KK:1.0	f	c	f
+co	ffafhu	ca	n	AA:1.0,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:1.0,QTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,KJs:1.0,KJo:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	f	f	a
+co	ffcahu	ca	n	AA:1.0,ATs:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:1.0,QTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	f	f	c
+co	fffahu	ca	n	AA:1.0,A9s:1.0,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:1.0,JTs:1.0,QTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,QJo:1.0,KJs:1.0,KJo:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	f	f	f
+co	cccchu	a	n	AA:0.984,A6s:1.0,A7s:1.0,A8s:1.0,A8o:0.004,A9s:1.0,A9o:0.232,ATs:1.0,ATo:1.0,AJs:1.0,AJo:0.994,AQs:1.0,AQo:0.998,AKs:1.0,AKo:1.0,JTs:1.0,QTs:0.996,KTs:1.0,JJ:0.982,QJs:0.998,KJs:1.0,QQ:1.0,KQs:1.0,KQo:0.996,KK:1.0	c	c	c
+co	cccchu	c	n	A6o:0.148,A7o:0.276,A8o:0.228,A9o:0.118,66:1.0,76s:0.296,86s:0.498,96s:0.612,J6s:0.048,Q6s:0.348,K6s:0.69,77:1.0,87s:0.912,97s:0.984,T7s:0.52,J7s:0.12,Q7s:0.36,K7s:0.642,88:1.0,98s:1.0,T8s:0.998,J8s:0.476,Q8s:0.404,K8s:0.806,99:1.0,T9s:1.0,J9s:0.828,Q9s:0.91,K9s:0.826,TT:1.0,JTo:0.264,QTo:0.37,KTo:0.222,JJ:0.01,QJo:0.276,KJo:0.296	c	c	c
+co	cccfhu	a	n	AA:0.996,A6s:0.008,A7s:1.0,A8s:1.0,A9s:1.0,A9o:0.12,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,JTs:1.0,QTs:0.996,KTs:1.0,JJ:1.0,QJs:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	c	c	c
+co	cccfhu	c	n	A6s:0.992,A6o:0.998,A7o:1.0,A8o:1.0,A9o:0.88,66:1.0,76s:1.0,86s:1.0,96s:1.0,T6s:0.254,J6s:0.708,Q6s:1.0,K6s:1.0,77:1.0,87s:1.0,97s:1.0,T7s:1.0,J7s:1.0,Q7s:1.0,K7s:1.0,88:1.0,98s:1.0,98o:0.574,T8s:1.0,T8o:0.226,J8s:1.0,Q8s:1.0,K8s:1.0,99:1.0,T9s:1.0,T9o:1.0,J9s:1.0,J9o:0.11,Q9s:1.0,K9s:1.0,TT:1.0,JTo:1.0,QTo:1.0,KTo:1.0,QJo:1.0,KJo:1.0	c	c	c
+co	ccfchu	a	n	AA:0.996,A6s:0.008,A7s:1.0,A8s:1.0,A9s:1.0,A9o:0.12,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,JTs:1.0,QTs:0.996,KTs:1.0,JJ:1.0,QJs:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	c	c	f
+co	ccfchu	c	n	A6s:1.0,A6o:1.0,A7o:1.0,A8o:1.0,A9o:0.646,66:1.0,76s:1.0,86s:1.0,96s:1.0,T6s:1.0,J6s:1.0,Q6s:1.0,K6s:1.0,77:1.0,87s:1.0,97s:1.0,97o:0.334,T7s:1.0,J7s:1.0,Q7s:1.0,K7s:1.0,88:1.0,98s:1.0,98o:1.0,T8s:1.0,T8o:0.706,J8s:1.0,Q8s:1.0,K8s:1.0,99:1.0,T9s:1.0,T9o:1.0,J9s:1.0,J9o:0.902,Q9s:1.0,Q9o:0.894,K9s:1.0,K9o:0.5,TT:1.0,JTs:0.05,JTo:1.0,QTo:1.0,KTo:1.0,QJo:1.0,KJo:1.0	c	c	f
+co	ccffhu	a	n	AA:0.99,A7s:1.0,A8s:1.0,A9s:1.0,ATs:1.0,ATo:1.0,AJs:1.0,AJo:0.998,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,JTs:1.0,JTo:0.222,QTs:1.0,KTs:1.0,JJ:0.248,QJs:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KQo:0.182,KK:1.0	c	c	f
+co	ccffhu	c	n	A6s:1.0,A6o:1.0,A7o:1.0,A8o:1.0,A9o:0.998,66:1.0,76s:1.0,86s:1.0,86o:0.006,96s:1.0,96o:0.082,T6s:1.0,J6s:1.0,Q6s:1.0,K6s:1.0,77:1.0,87s:1.0,87o:1.0,97s:1.0,97o:1.0,T7s:1.0,J7s:1.0,Q7s:1.0,K7s:1.0,88:1.0,98s:1.0,98o:1.0,T8s:1.0,T8o:1.0,J8s:1.0,J8o:0.602,Q8s:1.0,K8s:1.0,K8o:1.0,99:1.0,T9s:0.996,T9o:1.0,J9s:1.0,J9o:1.0,Q9s:1.0,Q9o:1.0,K9s:1.0,K9o:1.0,TT:1.0,JTo:0.778,QTo:0.998,KTo:1.0,JJ:0.75,QJo:1.0,KJo:0.998,KQo:0.818	c	c	f
+co	cfcchu	a	n	AA:1.0,A6s:0.278,A7s:1.0,A8s:1.0,A8o:0.58,A9s:1.0,A9o:1.0,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,JTs:1.0,QTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,QJo:0.604,KJs:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	c	f	c
+co	cfcchu	c	n	A6s:0.722,A6o:1.0,A7o:1.0,A8o:0.42,66:1.0,76s:1.0,86s:1.0,96s:1.0,T6s:0.342,J6s:0.646,Q6s:1.0,K6s:1.0,77:1.0,87s:1.0,97s:1.0,97o:0.01,T7s:1.0,J7s:1.0,Q7s:1.0,K7s:1.0,88:1.0,98s:1.0,98o:1.0,T8s:1.0,T8o:0.148,J8s:1.0,Q8s:1.0,K8s:1.0,99:1.0,T9s:1.0,T9o:1.0,J9s:1.0,J9o:0.456,Q9s:1.0,Q9o:0.912,K9s:1.0,TT:1.0,JTo:1.0,QTo:1.0,KTo:1.0,QJo:0.396,KJo:1.0	c	f	c
+co	cfcfhu	a	n	AA:0.968,A7s:1.0,A8s:1.0,A8o:0.238,A9s:1.0,A9o:0.664,ATs:1.0,ATo:1.0,AJs:1.0,AJo:0.996,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,JTs:1.0,QTs:0.992,KTs:1.0,JJ:1.0,QJs:1.0,KJs:1.0,QQ:0.996,KQs:1.0,KQo:0.202,KK:1.0	c	f	c
+co	cfcfhu	c	n	A6s:1.0,A6o:1.0,A7o:1.0,A8o:0.756,A9o:0.332,66:1.0,76s:1.0,86s:1.0,86o:0.272,96s:1.0,T6s:1.0,J6s:1.0,Q6s:1.0,K6s:1.0,77:1.0,87s:1.0,87o:1.0,97s:1.0,97o:1.0,T7s:1.0,J7s:1.0,Q7s:1.0,K7s:1.0,88:1.0,98s:0.994,98o:1.0,T8s:1.0,T8o:1.0,J8s:1.0,J8o:0.418,Q8s:1.0,Q8o:0.994,K8s:1.0,K8o:0.796,99:1.0,T9s:0.986,T9o:1.0,J9s:1.0,J9o:1.0,Q9s:1.0,Q9o:1.0,K9s:1.0,K9o:1.0,TT:1.0,JTo:1.0,QTo:0.998,KTo:0.998,QJo:1.0,KJo:0.998,KQo:0.798	c	f	c
+co	cffchu	a	n	AA:0.998,A7s:1.0,A8s:1.0,A8o:0.356,A9s:1.0,A9o:0.766,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,JTs:0.776,QTs:1.0,QTo:0.04,KTs:1.0,JJ:1.0,QJs:1.0,QJo:0.742,KJs:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	c	f	f
+co	cffchu	c	n	A6s:1.0,A6o:1.0,A7o:1.0,A8o:0.644,A9o:0.234,66:1.0,76s:1.0,86s:1.0,96s:1.0,T6s:1.0,J6s:1.0,Q6s:1.0,K6s:1.0,77:1.0,87s:1.0,87o:0.084,97s:1.0,97o:1.0,T7s:1.0,J7s:1.0,Q7s:1.0,K7s:1.0,88:1.0,98s:0.998,98o:1.0,T8s:1.0,T8o:1.0,J8s:1.0,Q8s:1.0,Q8o:0.766,K8s:1.0,99:1.0,T9s:1.0,T9o:1.0,J9s:1.0,J9o:1.0,Q9s:1.0,Q9o:1.0,K9s:1.0,K9o:1.0,TT:1.0,JTs:0.224,JTo:1.0,QTo:0.96,KTo:1.0,QJo:0.258,KJo:1.0	c	f	f
+co	cfffhu	a	n	AA:0.544,A7s:1.0,A8s:1.0,A9s:1.0,ATs:0.998,ATo:1.0,AJs:0.9,AJo:1.0,AQs:0.942,AQo:1.0,AKs:1.0,AKo:1.0,JTs:0.754,QTs:1.0,QTo:0.298,KTs:0.994,JJ:0.436,QJs:1.0,QJo:0.238,QQ:0.724,KQs:0.488,KK:0.974
+co	cfffhu	r5	n	AA:0.456,A7o:0.014,A8o:0.034,A9o:0.052,ATs:0.002,AJs:0.1,AQs:0.058,97o:0.004,T7o:0.004,T8o:0.018,J8o:0.002,T9o:0.044,J9o:0.008,K9o:0.004,TT:0.024,JTs:0.046,JTo:0.004,QTo:0.018,KTo:0.04,JJ:0.114,QJo:0.048,KJo:0.044,QQ:0.056,KQs:0.074,KK:0.026
+co	cfffhu	c	n	A6s:1.0,A6o:1.0,A7o:0.986,A8o:0.966,A9o:0.948,66:1.0,76s:1.0,86s:1.0,96s:1.0,96o:0.232,T6s:1.0,J6s:1.0,Q6s:1.0,K6s:1.0,77:1.0,87s:1.0,87o:1.0,97s:1.0,97o:0.996,T7s:1.0,T7o:0.448,J7s:1.0,Q7s:1.0,Q7o:0.136,K7s:1.0,K7o:0.014,88:1.0,98s:1.0,98o:1.0,T8s:1.0,T8o:0.982,J8s:1.0,J8o:0.998,Q8s:1.0,Q8o:1.0,K8s:1.0,K8o:1.0,99:1.0,T9s:1.0,T9o:0.956,J9s:1.0,J9o:0.992,Q9s:1.0,Q9o:1.0,K9s:1.0,K9o:0.996,TT:0.976,JTs:0.2,JTo:0.996,QTo:0.684,KTs:0.006,KTo:0.96,JJ:0.45,QJo:0.712,KJs:1.0,KJo:0.956,QQ:0.22,KQs:0.438,KQo:1.0
+co	fccchu	a	n	AA:0.996,A7s:1.0,A8s:1.0,A8o:0.244,A9s:1.0,A9o:0.998,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,JTs:1.0,QTs:1.0,QTo:0.606,KTs:1.0,JJ:1.0,QJs:1.0,QJo:0.908,KJs:1.0,KJo:0.13,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	f	c	c
+co	fccchu	c	n	A6s:1.0,A6o:1.0,A7o:1.0,A8o:0.756,66:1.0,76s:1.0,86s:1.0,96s:1.0,J6s:0.556,Q6s:1.0,K6s:1.0,77:1.0,87s:1.0,97s:1.0,T7s:1.0,J7s:1.0,Q7s:1.0,K7s:1.0,88:1.0,98s:1.0,98o:0.898,T8s:1.0,J8s:1.0,Q8s:1.0,K8s:1.0,99:1.0,T9s:1.0,T9o:1.0,J9s:1.0,J9o:0.13,Q9s:1.0,Q9o:0.756,K9s:1.0,TT:1.0,JTo:1.0,QTo:0.394,KTo:1.0,QJo:0.092,KJo:0.868	f	c	c
+co	fccfhu	a	n	AA:0.934,A7s:1.0,A8s:1.0,A8o:0.464,A9s:1.0,ATs:1.0,ATo:1.0,AJs:1.0,AJo:0.998,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,JTs:0.984,QTs:1.0,KTs:1.0,JJ:0.42,QJs:1.0,QJo:0.388,KJs:1.0,QQ:1.0,KQs:1.0,KQo:0.648,KK:1.0	f	c	c
+co	fccfhu	c	n	A6s:1.0,A6o:1.0,A7o:0.996,A8o:0.534,A9o:0.994,66:1.0,76s:1.0,86s:1.0,96s:1.0,T6s:1.0,J6s:1.0,Q6s:1.0,K6s:1.0,77:1.0,87s:1.0,87o:1.0,97s:1.0,97o:1.0,T7s:1.0,J7s:1.0,Q7s:1.0,K7s:1.0,K7o:0.306,88:1.0,98s:1.0,98o:1.0,T8s:1.0,T8o:0.996,J8s:1.0,J8o:0.974,Q8s:1.0,Q8o:1.0,K8s:1.0,K8o:1.0,99:1.0,T9s:1.0,T9o:0.996,J9s:1.0,J9o:1.0,Q9s:1.0,Q9o:1.0,K9s:1.0,K9o:1.0,TT:1.0,JTo:1.0,QTo:0.994,KTo:0.994,JJ:0.572,QJo:0.604,KJo:0.996,KQo:0.352	f	c	c
+co	fcfchu	a	n	AA:0.998,A6s:1.0,A7s:1.0,A8s:1.0,A8o:0.73,A9s:1.0,A9o:1.0,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,JTs:1.0,QTs:1.0,QTo:0.464,KTs:1.0,JJ:0.87,QJs:1.0,QJo:0.528,KJs:1.0,KJo:0.82,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	f	c	f
+co	fcfchu	c	n	A6o:1.0,A7o:1.0,A8o:0.27,66:1.0,76s:1.0,86s:1.0,96s:1.0,T6s:1.0,J6s:1.0,Q6s:1.0,K6s:1.0,77:1.0,87s:1.0,97s:1.0,T7s:1.0,J7s:1.0,Q7s:1.0,K7s:1.0,88:1.0,98s:1.0,98o:1.0,T8s:1.0,T8o:0.206,J8s:1.0,J8o:0.126,Q8s:1.0,Q8o:0.57,K8s:1.0,K8o:0.186,99:1.0,T9s:1.0,T9o:1.0,J9s:1.0,J9o:1.0,Q9s:1.0,Q9o:1.0,K9s:1.0,K9o:1.0,TT:1.0,JTo:1.0,QTo:0.536,KTo:1.0,JJ:0.13,QJo:0.472,KJo:0.18	f	c	f
+co	fcffhu	a	n	AA:0.25,A7s:1.0,A8s:1.0,A8o:0.402,A9s:1.0,A9o:0.12,ATs:0.948,ATo:0.952,AJs:0.926,AJo:1.0,AQs:0.9,AQo:1.0,AKs:1.0,AKo:1.0,JTs:0.27,JTo:0.47,QTs:1.0,QTo:0.396,KTs:0.836,QJs:0.148,QJo:0.772,KJs:0.784,QQ:0.712,KQo:0.79,KK:0.984	f	c	f
+co	fcffhu	r5.5	n	AA:0.75,A7o:0.034,A8o:0.04,A9o:0.088,ATs:0.052,AJs:0.074,AQs:0.1,T8o:0.048,J8o:0.028,T9o:0.03,J9s:0.034,J9o:0.034,K9o:0.008,TT:0.022,JTo:0.046,QTo:0.01,KTo:0.066,JJ:0.12,QJs:0.006,QJo:0.078,KJs:0.036,KJo:0.076,QQ:0.106,KQs:0.034,KQo:0.026,KK:0.016	f	c	f
+co	fcffhu	c	n	A6s:1.0,A6o:1.0,A7o:0.966,A8o:0.558,A9o:0.792,ATo:0.048,66:1.0,76s:1.0,86s:1.0,96s:1.0,T6s:1.0,J6s:1.0,Q6s:1.0,K6s:1.0,77:1.0,87s:1.0,87o:0.522,97s:1.0,97o:1.0,T7s:1.0,J7s:1.0,Q7s:1.0,K7s:1.0,88:1.0,98s:1.0,98o:1.0,T8s:1.0,T8o:0.952,J8s:1.0,J8o:0.972,Q8s:1.0,Q8o:1.0,K8s:1.0,K8o:1.0,99:1.0,T9s:1.0,T9o:0.97,J9s:0.966,J9o:0.966,Q9s:1.0,Q9o:1.0,K9s:1.0,K9o:0.992,TT:0.978,JTs:0.73,JTo:0.484,QTo:0.594,KTs:0.164,KTo:0.934,JJ:0.88,QJs:0.844,QJo:0.148,KJs:0.18,KJo:0.924,QQ:0.182,KQs:0.966,KQo:0.186	f	c	f
+co	ffcchu	a	n	AA:0.99,A6s:1.0,A7s:1.0,A8s:1.0,A8o:0.006,A9s:1.0,A9o:0.772,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:0.998,AQo:1.0,AKs:1.0,AKo:1.0,JTs:1.0,JTo:0.192,QTs:1.0,QTo:0.776,KTs:1.0,JJ:0.998,QJs:1.0,QJo:0.92,KJs:1.0,KJo:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	f	f	c
+co	ffcchu	c	n	A6o:1.0,A7o:1.0,A8o:0.994,A9o:0.228,66:1.0,76s:1.0,86s:1.0,96s:1.0,T6s:1.0,J6s:1.0,Q6s:1.0,K6s:1.0,77:1.0,87s:1.0,97s:1.0,T7s:1.0,J7s:1.0,Q7s:1.0,K7s:1.0,K7o:0.172,88:1.0,98s:1.0,98o:0.91,T8s:1.0,J8s:1.0,J8o:0.498,Q8s:1.0,K8s:1.0,99:1.0,T9s:1.0,T9o:1.0,J9s:1.0,J9o:1.0,Q9s:1.0,Q9o:1.0,K9s:1.0,K9o:1.0,TT:1.0,JTo:0.806,QTo:0.222,KTo:0.998,QJo:0.08	f	f	c
+co	ffcfhu	a	n	A6s:0.786,A7s:1.0,A8s:1.0,A8o:0.358,A9s:1.0,A9o:0.35,ATs:0.198,ATo:1.0,AJs:0.988,AJo:1.0,AQs:0.868,AQo:1.0,AKs:0.954,AKo:1.0,T9s:0.76,JTo:0.948,QTo:0.506,KTs:0.316,KTo:0.474,QJs:0.824,QJo:0.502,KJs:1.0,KJo:1.0,QQ:0.408,KQs:0.852,KQo:0.96,KK:0.99	f	f	c
+co	ffcfhu	r5.5	n	AA:1.0,A6o:0.022,A7o:0.07,A8o:0.058,A9o:0.052,ATs:0.342,AJs:0.012,AQs:0.132,AKs:0.046,K7o:0.022,T8s:0.226,T8o:0.006,J8o:0.018,K8s:0.064,T9o:0.076,J9o:0.05,K9o:0.078,JTo:0.052,QTo:0.084,KTo:0.13,JJ:0.182,QJs:0.176,QJo:0.09,QQ:0.08,KK:0.01	f	f	c
+co	ffcfhu	c	n	A6s:0.214,A6o:0.978,A7o:0.93,A8o:0.584,A9o:0.598,ATs:0.46,66:1.0,76s:1.0,86s:1.0,96s:1.0,T6s:1.0,J6s:1.0,Q6s:1.0,K6s:1.0,K6o:0.076,77:1.0,87s:1.0,97s:1.0,97o:0.064,T7s:1.0,J7s:1.0,J7o:0.216,Q7s:1.0,K7s:1.0,K7o:0.978,88:1.0,98s:1.0,98o:1.0,T8s:0.774,T8o:0.994,J8s:1.0,J8o:0.982,Q8s:1.0,Q8o:1.0,K8s:0.936,K8o:0.998,99:1.0,T9s:0.24,T9o:0.924,J9s:1.0,J9o:0.95,Q9s:1.0,Q9o:1.0,K9s:1.0,K9o:0.922,TT:1.0,JTs:1.0,QTs:1.0,QTo:0.41,KTs:0.684,KTo:0.396,JJ:0.818,QJo:0.408,QQ:0.514,KQs:0.148,KQo:0.04	f	f	c
+co	fffchu	a	n	A6s:0.402,A7s:1.0,A8s:1.0,A8o:0.734,A9s:1.0,A9o:0.986,ATs:0.244,ATo:0.89,AJs:0.486,AJo:1.0,AQs:0.642,AQo:1.0,AKs:0.302,AKo:1.0,T9s:0.91,JTs:0.36,JTo:0.848,QTs:0.548,QTo:0.738,KTs:0.726,KTo:0.822,JJ:0.558,QJs:0.642,QJo:0.83,KJs:1.0,KJo:1.0,QQ:0.98,KQs:0.888,KQo:1.0,KK:1.0	f	f	f
+co	fffchu	r5.5	n	AA:1.0,A6o:0.114,A7o:0.102,A8o:0.046,A9o:0.014,ATs:0.074,AQs:0.106,AKs:0.394,K7o:0.012,T8o:0.09,J8o:0.074,Q8o:0.078,K8o:0.028,T9s:0.09,T9o:0.072,J9o:0.162,Q9o:0.144,K9o:0.094,JTs:0.302,QTs:0.346,KTs:0.274,JJ:0.194,QJs:0.358,QQ:0.02	f	f	f
+co	fffchu	c	n	A6s:0.598,A6o:0.886,A7o:0.898,A8o:0.22,ATs:0.682,ATo:0.11,AJs:0.514,AQs:0.254,AKs:0.304,66:1.0,T6s:1.0,J6s:1.0,Q6s:1.0,K6s:1.0,K6o:0.116,77:1.0,87s:1.0,97s:1.0,T7s:1.0,J7s:1.0,Q7s:1.0,K7s:1.0,K7o:0.684,88:1.0,98s:1.0,98o:0.344,T8s:1.0,T8o:0.91,J8s:1.0,J8o:0.926,Q8s:1.0,Q8o:0.922,K8s:1.0,K8o:0.972,99:1.0,T9o:0.928,J9s:1.0,J9o:0.838,Q9s:1.0,Q9o:0.856,K9s:1.0,K9o:0.906,TT:1.0,JTs:0.338,JTo:0.152,QTs:0.106,QTo:0.262,KTo:0.178,JJ:0.25,QJo:0.17,KQs:0.112	f	f	f
+co	ffffhu	a	n	A6s:0.01,A7s:1.0,A8s:1.0,A8o:0.998,A9o:1.0,ATs:0.82,ATo:1.0,AJs:0.044,AJo:1.0,AQo:1.0,AKo:0.132,T9s:0.332,J9s:0.822,Q9s:0.176,K9s:0.294,QTo:0.29,KTo:1.0,QJo:0.782,KJs:0.226,KJo:1.0,QQ:0.112,KQs:0.286,KQo:1.0	f	f	f
+co	ffffhu	r5	n	AA:0.648,A6o:0.162,A7o:0.134,A9s:0.326,AJs:0.18,AQs:0.082,AKs:0.374,AKo:0.082,Q6s:0.032,T7s:0.218,J7s:0.178,Q7s:0.186,K7o:0.038,98o:0.138,T8o:0.194,J8o:0.21,Q8o:0.184,K8o:0.2,T9s:0.278,T9o:0.06,J9o:0.144,Q9o:0.272,K9o:0.254,TT:0.18,JTo:0.204,QTo:0.132,KTs:0.154,JJ:0.296,QJs:0.032,QJo:0.074,KJs:0.18,QQ:0.228,KQs:0.09,KK:0.386	f	f	f
+co	ffffhu	c	n	AA:0.352,A6s:0.99,A6o:0.838,A7o:0.866,A8o:0.002,A9s:0.674,ATs:0.18,AJs:0.778,AQs:0.918,AKs:0.626,AKo:0.784,66:1.0,86s:1.0,96s:1.0,T6s:1.0,J6s:1.0,Q6s:0.968,Q6o:0.98,K6s:1.0,K6o:1.0,77:1.0,87s:1.0,97s:1.0,97o:1.0,T7s:0.782,T7o:1.0,J7s:0.822,J7o:1.0,Q7s:0.814,Q7o:1.0,K7s:1.0,K7o:0.962,88:1.0,98s:1.0,98o:0.862,T8s:1.0,T8o:0.806,J8s:1.0,J8o:0.79,Q8s:1.0,Q8o:0.816,K8s:1.0,K8o:0.8,99:1.0,T9s:0.39,T9o:0.94,J9s:0.178,J9o:0.856,Q9s:0.824,Q9o:0.728,K9s:0.706,K9o:0.746,TT:0.82,JTs:1.0,JTo:0.796,QTs:1.0,QTo:0.578,KTs:0.846,JJ:0.704,QJs:0.968,QJo:0.144,KJs:0.594,QQ:0.658,KQs:0.622,KK:0.614	f	f	f
+co	cccchu	c	cafff	JJ:0.01	c	c	c
+co	cccfhu	c	cafff	TT:0.444	c	c	c
+co	ccfchu	c	cafff	TT:1.0	c	c	f
+co	ccffhu	c	cafff	TT:1.0,JJ:0.75	c	c	f
+co	cfcchu	c	cafff	A6s:0.306,TT:1.0	c	f	c
+co	cfcfhu	c	cafff	TT:1.0	c	f	c
+co	cffchu	c	cafff	A9o:0.234,TT:1.0,JTs:0.224	c	f	f
+co	cfffhu	c	cafff	TT:0.976,KTs:0.006,JJ:0.45,KJs:1.0,QQ:0.22,KQs:0.438	c	f	f
+co	fccchu	c	cafff	TT:1.0,KJo:0.344	f	c	c
+co	fccfhu	c	cafff	TT:1.0,JJ:0.572,KQo:0.108	f	c	c
+co	fcfchu	c	cafff	TT:1.0,JJ:0.13,KJo:0.18	f	c	f
+co	fcffhu	c	cafff	ATo:0.048,TT:0.978,JTs:0.73,KTs:0.164,JJ:0.88,QJs:0.844,KJs:0.18,QQ:0.182,KQs:0.966,KQo:0.186	f	c	f
+co	ffcchu	c	cafff	TT:1.0,KTo:0.888	f	f	c
+co	ffcfhu	c	cafff	ATs:0.46,TT:1.0,JTs:1.0,QTs:1.0,KTs:0.684,KTo:0.27,JJ:0.818,QQ:0.514,KQs:0.148,KQo:0.04	f	f	c
+co	fffchu	c	cafff	ATs:0.682,ATo:0.11,AJs:0.514,AQs:0.254,AKs:0.304,TT:1.0,JTs:0.338,QTs:0.106,QTo:0.186,KTo:0.178,JJ:0.25,QJo:0.17,KQs:0.112	f	f	f
+co	ffffhu	c	cafff	AA:0.352,A9s:0.674,ATs:0.18,AJs:0.778,AQs:0.918,AKs:0.626,AKo:0.784,TT:0.82,JTs:1.0,JTo:0.796,QTs:1.0,QTo:0.578,KTs:0.846,JJ:0.704,QJs:0.968,QJo:0.144,KJs:0.594,QQ:0.658,KQs:0.622,KK:0.614	f	f	f
+btn	h
+btn	affffh	ca	n	AA:1.0,ATs:1.0,ATo:0.678,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,KTs:1.0,JJ:1.0,QJs:0.522,KJs:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	a	f	f
+btn	cafffh	ca	n	AA:1.0,ATs:1.0,AJs:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:0.454,QTs:1.0,KTs:1.0,JJ:1.0,QQ:1.0,KQs:1.0,KK:1.0	c	a	f
+btn	ccaffh	ca	n	AA:1.0,AJs:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,T9s:1.0,JTs:1.0,QTs:0.37,KTs:1.0,JJ:1.0,QQ:1.0,KQs:1.0,KK:1.0	c	c	a
+btn	cccafh	ca	n	AA:1.0,AJs:1.0,AQs:1.0,AQo:0.988,AKs:1.0,AKo:1.0,T9s:1.0,TT:1.0,JTs:1.0,QTs:0.354,JJ:1.0,KJs:0.08,QQ:1.0,KQs:1.0,KK:1.0	c	c	c
+btn	ccccah	ca	n	AA:1.0,ATs:0.642,AJs:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,T9s:1.0,TT:1.0,JTs:1.0,QTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KK:1.0	c	c	c
+btn	cccfah	ca	n	AA:1.0,AJs:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,T9s:1.0,JTs:1.0,QTs:1.0,JJ:1.0,QJs:0.736,QQ:1.0,KQs:1.0,KK:1.0	c	c	c
+btn	ccfafh	ca	n	AA:1.0,AJs:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,T9s:1.0,JTs:1.0,QTs:0.958,JJ:1.0,QQ:1.0,KQs:1.0,KK:1.0	c	c	f
+btn	ccfcah	ca	n	AA:1.0,ATs:0.162,AJs:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,T9s:1.0,TT:1.0,JTs:1.0,QTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KK:1.0	c	c	f
+btn	ccffah	ca	n	AA:1.0,AJs:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,T9s:1.0,TT:0.216,JTs:1.0,QTs:0.966,JJ:1.0,QQ:1.0,KQs:1.0,KK:1.0	c	c	f
+btn	cfaffh	ca	n	AA:1.0,ATs:1.0,AJs:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:1.0,JTs:1.0,QTs:1.0,KTs:1.0,JJ:1.0,KJs:0.004,QQ:1.0,KQs:1.0,KK:1.0	c	f	a
+btn	cfcafh	ca	n	AA:1.0,ATs:1.0,AJs:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,T9s:1.0,TT:1.0,JTs:1.0,QTs:1.0,KTs:1.0,JJ:1.0,QQ:1.0,KQs:1.0,KK:1.0	c	f	c
+btn	cfccah	ca	n	AA:1.0,A9s:1.0,ATs:1.0,AJs:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,T9s:1.0,TT:1.0,JTs:1.0,QTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KK:1.0	c	f	c
+btn	cfcfah	ca	n	AA:1.0,ATs:1.0,AJs:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,T9s:0.978,TT:0.516,JTs:1.0,QTs:1.0,KTs:0.016,JJ:1.0,QJs:1.0,KJs:0.012,QQ:1.0,KQs:1.0,KK:1.0	c	f	c
+btn	cffafh	ca	n	AA:1.0,ATs:1.0,AJs:1.0,AJo:0.928,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:1.0,JTs:1.0,QTs:0.004,KTs:1.0,JJ:1.0,QJs:1.0,KJs:0.59,QQ:1.0,KQs:1.0,KK:1.0	c	f	f
+btn	cffcah	ca	n	AA:1.0,A9s:0.956,ATs:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,T9s:1.0,TT:1.0,JTs:1.0,QTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KK:1.0	c	f	f
+btn	cfffah	ca	n	AA:1.0,ATs:1.0,AJs:1.0,AJo:0.612,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:0.214,JTs:0.868,KTs:0.478,JJ:1.0,QJs:1.0,KJs:0.342,QQ:1.0,KQs:1.0,KK:1.0	c	f	f
+btn	fafffh	ca	n	AA:1.0,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:1.0,QTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,KJs:1.0,KJo:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	f	a	f
+btn	fcaffh	ca	n	AA:1.0,A9s:1.0,ATs:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:1.0,JTs:1.0,QTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KQo:0.26,KK:1.0	f	c	a
+btn	fccafh	ca	n	AA:1.0,ATs:1.0,AJs:1.0,AJo:0.166,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,T9s:1.0,TT:1.0,JTs:1.0,KTs:1.0,JJ:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KK:1.0	f	c	c
+btn	fcccah	ca	n	AA:1.0,A9s:1.0,ATs:1.0,AJs:1.0,AJo:0.658,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,T9s:1.0,TT:1.0,JTs:1.0,QTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KK:1.0	f	c	c
+btn	fccfah	ca	n	AA:1.0,ATs:1.0,AJs:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,T9s:0.794,TT:0.55,JTs:1.0,QTs:0.376,KTs:1.0,JJ:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KK:1.0	f	c	c
+btn	fcfafh	ca	n	AA:1.0,A9s:0.174,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:1.0,JTs:1.0,QTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	f	c	f
+btn	fcfcah	ca	n	AA:1.0,A9s:1.0,ATs:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:1.0,JTs:1.0,QTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	f	c	f
+btn	fcffah	ca	n	AA:1.0,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:1.0,JTs:1.0,QTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	f	c	f
+btn	ffaffh	ca	n	AA:1.0,A9s:1.0,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:1.0,QTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,QJo:1.0,KJs:1.0,KJo:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	f	f	a
+btn	ffcafh	ca	n	AA:1.0,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:1.0,JTs:0.902,QTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,KJs:1.0,KJo:0.236,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	f	f	c
+btn	ffccah	ca	n	AA:1.0,ATs:1.0,ATo:0.602,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:1.0,JTs:1.0,QTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	f	f	c
+btn	ffcfah	ca	n	AA:1.0,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:1.0,JTs:1.0,QTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,KJs:1.0,KJo:0.096,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	f	f	c
+btn	fffafh	ca	n	AA:1.0,A9s:1.0,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:1.0,JTs:1.0,QTs:1.0,QTo:0.842,KTs:1.0,KTo:1.0,JJ:1.0,QJs:1.0,QJo:1.0,KJs:1.0,KJo:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	f	f	f
+btn	fffcah	ca	n	AA:1.0,A9s:1.0,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:1.0,JTs:1.0,QTs:1.0,KTs:1.0,KTo:0.636,JJ:1.0,QJs:1.0,QJo:0.5,KJs:1.0,KJo:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	f	f	f
+btn	ffffah	ca	n	AA:1.0,A9s:1.0,A9o:1.0,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:1.0,JTs:1.0,JTo:1.0,QTs:1.0,QTo:0.816,KTs:1.0,KTo:1.0,JJ:1.0,QJs:1.0,QJo:1.0,KJs:1.0,KJo:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	f	f	f
+btn	ccccch	a	n	AA:0.898,A6s:0.042,A7s:1.0,A8s:1.0,A8o:0.608,A9s:1.0,A9o:0.636,ATs:1.0,ATo:0.97,AJs:1.0,AJo:0.948,AQs:0.99,AQo:0.98,AKs:1.0,AKo:0.974,JTs:1.0,JTo:0.002,QTs:1.0,KTs:0.774,JJ:0.98,QJs:1.0,QJo:0.244,KJs:0.994,KJo:0.148,QQ:0.952,KQs:1.0,KQo:0.998,KK:0.996	c	c	c
+btn	ccccch	r7	n	AA:0.102,A8o:0.016,A9o:0.034,ATo:0.03,AJo:0.052,AQs:0.01,AQo:0.02,AKo:0.026,JTo:0.012,KTs:0.05,JJ:0.02,QJo:0.01,KJs:0.006,KJo:0.04,QQ:0.048,KQo:0.002,KK:0.004	c	c	c
+btn	ccccfh	a	n	AA:0.968,A6s:0.11,A7s:1.0,A8s:1.0,A8o:0.412,A9s:1.0,A9o:0.454,ATs:1.0,ATo:1.0,AJs:1.0,AJo:0.996,AQs:1.0,AQo:0.998,AKs:1.0,AKo:1.0,JTs:0.906,QTs:0.656,KTs:0.99,JJ:0.992,QJs:0.99,KJs:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	c	c	c
+btn	cccfch	a	n	AA:0.994,A6s:0.154,A7s:1.0,A8s:1.0,A8o:0.554,A9s:1.0,A9o:1.0,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,JTs:0.842,QTs:0.196,KTs:0.256,JJ:0.878,QJs:0.81,KJs:0.8,QQ:1.0,KQs:1.0,KQo:0.998,KK:1.0	c	c	c
+btn	cccffh	a	n	AA:0.91,A7s:1.0,A8s:1.0,A8o:0.324,A9s:1.0,ATs:0.982,ATo:1.0,AJs:1.0,AJo:0.994,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,JTs:0.822,QTs:0.65,KTs:0.996,JJ:0.028,QJs:0.52,KJs:1.0,QQ:1.0,KQs:1.0,KQo:0.592,KK:1.0	c	c	c
+btn	ccfcch	a	n	AA:0.998,A7s:1.0,A8s:1.0,A8o:0.038,A9s:1.0,A9o:0.998,ATs:1.0,ATo:1.0,AJs:1.0,AJo:0.998,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,JTs:1.0,QTs:0.996,KTs:0.78,JJ:0.998,QJs:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	c	c	f
+btn	ccfcfh	a	n	AA:0.936,A7s:1.0,A8s:1.0,A8o:0.73,A9s:1.0,A9o:0.114,ATs:1.0,ATo:1.0,AJs:0.988,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,JTs:0.868,QTs:0.996,KTs:0.896,JJ:0.672,QJs:1.0,KJs:0.98,QQ:1.0,KQs:1.0,KK:1.0	c	c	f
+btn	ccffch	a	n	AA:0.958,A7s:1.0,A8s:1.0,A8o:0.772,A9s:1.0,ATs:1.0,ATo:1.0,AJs:0.996,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,JTs:0.036,QTs:0.976,KTs:1.0,JJ:0.63,QJs:1.0,KJs:0.594,QQ:1.0,KQs:1.0,KQo:0.142,KK:1.0	c	c	f
+btn	ccfffh	a	n	AA:0.79,A7s:0.944,A8s:1.0,A8o:0.568,A9s:0.622,ATs:0.952,ATo:0.786,AJs:0.93,AJo:0.846,AQs:0.972,AQo:1.0,AKs:1.0,AKo:1.0,KTs:0.688,QQ:0.954,KQs:0.194,KK:1.0	c	c	f
+btn	ccfffh	r5.5	n	AA:0.21,A6o:0.008,A7o:0.004,A8o:0.012,A9o:0.034,AJs:0.07,AQs:0.028,T7o:0.008,J8o:0.014,J9o:0.002,K9o:0.014,JTs:0.04,QTo:0.002,KTo:0.026,JJ:0.016,QJo:0.026,KJo:0.002,QQ:0.046	c	c	f
+btn	cfccch	a	n	AA:1.0,A6s:0.17,A7s:1.0,A8s:1.0,A8o:0.852,A9s:1.0,A9o:1.0,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,JTs:1.0,QTs:1.0,QTo:0.776,KTs:1.0,JJ:1.0,QJs:1.0,QJo:0.842,KJs:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	c	f	c
+btn	cfccfh	a	n	AA:0.96,A7s:1.0,A8s:1.0,A8o:0.872,A9s:1.0,A9o:0.298,ATs:1.0,ATo:0.998,AJs:1.0,AJo:0.998,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,JTs:0.206,QTs:1.0,QTo:0.472,JJ:1.0,QJs:1.0,QJo:1.0,KJs:1.0,QQ:0.994,KQs:1.0,KK:1.0	c	f	c
+btn	cfcfch	a	n	AA:0.926,A7s:1.0,A8s:1.0,A8o:1.0,A9s:1.0,A9o:0.184,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,JTs:0.122,QTs:1.0,QTo:0.046,JJ:0.992,QJs:1.0,QJo:0.744,KJs:0.864,QQ:0.992,KQs:1.0,KK:1.0	c	f	c
+btn	cfcffh	a	n	AA:0.586,A7s:1.0,A8s:1.0,A8o:1.0,A9s:1.0,A9o:0.5,ATs:1.0,ATo:1.0,AJs:0.884,AJo:1.0,AQs:0.95,AQo:1.0,AKs:1.0,AKo:1.0,QTs:0.72,QTo:0.038,KTs:0.22,QJs:0.758,QJo:0.22,QQ:0.94,KQs:1.0,KK:1.0	c	f	c
+btn	cfcffh	r5.5	n	AA:0.414,A6o:0.02,A7o:0.022,A9o:0.056,AJs:0.116,AQs:0.05,T8o:0.016,J8o:0.032,J9o:0.014,K9o:0.006,JTs:0.082,QTo:0.042,KTo:0.066,JJ:0.064,QJo:0.028,KJo:0.016,QQ:0.06	c	f	c
+btn	cffcch	a	n	AA:0.988,A6s:1.0,A7s:1.0,A7o:0.402,A8s:1.0,A8o:1.0,A9s:1.0,A9o:0.998,ATs:1.0,ATo:1.0,AJs:0.998,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,JTs:0.994,QTs:0.998,QTo:0.188,KTs:0.136,JJ:0.998,QJs:1.0,QJo:0.85,KJs:0.71,QQ:1.0,KQs:1.0,KQo:0.346,KK:1.0	c	f	f
+btn	cffcfh	a	n	AA:0.868,A7s:1.0,A7o:0.156,A8s:1.0,A8o:1.0,A9s:0.248,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:0.956,AQo:1.0,AKs:1.0,AKo:1.0,QTs:0.654,QTo:0.214,JJ:0.342,QJs:0.996,QJo:0.792,QQ:0.98,KQs:1.0,KK:1.0	c	f	f
+btn	cffcfh	r5.5	n	AA:0.132,A6o:0.006,A7o:0.006,A9o:0.028,AQs:0.044,T7o:0.01,J8o:0.008,J9o:0.006,JTs:0.022,JTo:0.004,QTo:0.01,KTo:0.018,JJ:0.034,QJs:0.004,KJo:0.006,QQ:0.02	c	f	f
+btn	cfffch	a	n	AA:0.932,A7s:1.0,A7o:0.332,A8s:1.0,A8o:1.0,ATs:0.218,ATo:1.0,AJs:1.0,AJo:1.0,AQs:0.99,AQo:1.0,AKs:1.0,AKo:1.0,QTo:0.49,JJ:0.858,QJo:0.712,QQ:0.988,KK:1.0	c	f	f
+btn	cffffh	a	n	AA:0.406,A7o:0.044,A8o:0.644,ATo:0.116,AQo:0.91,AKo:0.798,QTo:0.448	c	f	f
+btn	cffffh	r5	n	AA:0.032,A6o:0.004,A9o:0.002,AJs:0.01,AQs:0.01,T7o:0.004,J8o:0.006,K8o:0.002,TT:0.006,KTo:0.004,JJ:0.006,QJo:0.002,KJo:0.004	c	f	f
+btn	fcccch	a	n	AA:0.994,A6s:1.0,A7s:1.0,A8s:1.0,A8o:0.998,A9s:1.0,A9o:0.998,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,JTs:1.0,QTs:1.0,QTo:0.452,KTs:1.0,JJ:1.0,QJs:1.0,QJo:0.458,KJs:1.0,KJo:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	f	c	c
+btn	fcccfh	a	n	AA:0.854,A6s:0.564,A7s:1.0,A8s:1.0,A8o:1.0,A9s:1.0,A9o:0.48,ATs:1.0,ATo:1.0,AJs:0.99,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,QTs:1.0,KTs:0.682,JJ:0.56,QJs:1.0,QJo:0.864,KJs:1.0,QQ:1.0,KQs:1.0,KQo:0.426,KK:1.0	f	c	c
+btn	fcccfh	r6.5	n	AA:0.146,A6o:0.016,A7o:0.01,A9o:0.026,AJs:0.01,J8o:0.012,QTo:0.016,KTo:0.022,JJ:0.034,QJo:0.01	f	c	c
+btn	fccfch	a	n	AA:0.932,A6s:0.386,A7s:1.0,A8s:1.0,A8o:1.0,A9s:1.0,A9o:0.308,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,QTs:0.864,JJ:0.988,QJs:1.0,QJo:0.816,KJs:0.996,QQ:0.992,KQs:1.0,KK:1.0	f	c	c
+btn	fccffh	a	n	A7s:1.0,A7o:0.086,A8s:1.0,A8o:1.0,A9s:0.686,A9o:0.292,ATs:1.0,ATo:1.0,AJs:0.818,AJo:1.0,AQs:0.956,AQo:1.0,AKs:1.0,AKo:1.0,QTs:0.356,QTo:0.01,KTs:0.758,QJs:0.588,QJo:0.144,QQ:0.65,KQs:0.028,KK:1.0	f	c	c
+btn	fccffh	r5.5	n	AA:1.0,A6o:0.062,A7o:0.064,A9o:0.106,AJs:0.182,AQs:0.044,T7o:0.03,T8o:0.066,J8o:0.048,J9o:0.008,K9o:0.002,JTs:0.08,QTo:0.07,KTo:0.108,JJ:0.208,QJo:0.112,KJo:0.076,QQ:0.224	f	c	c
+btn	fcfcch	a	n	AA:0.992,A6s:1.0,A7s:1.0,A7o:0.562,A8s:1.0,A8o:1.0,A9s:1.0,A9o:1.0,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,QTs:1.0,QTo:0.536,KTs:0.048,JJ:0.998,QJs:0.998,QJo:0.626,KJs:1.0,KJo:0.658,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	f	c	f
+btn	fcfcfh	a	n	AA:0.7,A6s:0.496,A7s:1.0,A7o:0.288,A8s:1.0,A8o:1.0,A9s:0.92,ATs:1.0,ATo:1.0,AJs:0.948,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,QTs:0.168,QJs:0.958,QJo:0.92,QQ:0.95,KQs:0.988,KQo:0.184,KK:1.0	f	c	f
+btn	fcfcfh	r5.5	n	AA:0.3,A6o:0.022,A7o:0.028,A9o:0.03,AJs:0.052,T7o:0.012,J7o:0.004,T8o:0.002,J8o:0.028,Q8o:0.002,J9o:0.01,K9o:0.004,JTo:0.018,QTs:0.008,QTo:0.018,KTo:0.032,JJ:0.074,QJs:0.042,KJo:0.014,QQ:0.05,KQs:0.012	f	c	f
+btn	fcffch	a	n	AA:0.782,A6s:0.94,A7s:1.0,A7o:1.0,A8s:1.0,A8o:1.0,A9o:0.118,ATo:1.0,AJs:1.0,AJo:1.0,AQs:0.98,AQo:1.0,AKs:1.0,AKo:1.0,QTo:0.796,KTo:0.098,JJ:0.434,QJo:0.928,KJo:0.418,QQ:0.962,KQs:0.516,KQo:0.398,KK:1.0	f	c	f
+btn	fcffch	r5.5	n	AA:0.218,A6o:0.01,A9o:0.034,ATs:0.008,AQs:0.02,97o:0.008,T7o:0.004,J7o:0.006,K7o:0.002,T8o:0.016,J8o:0.01,K8o:0.002,J9o:0.014,K9o:0.004,JTs:0.006,JTo:0.018,KTo:0.024,JJ:0.058,QJs:0.024,QJo:0.002,KJo:0.016,QQ:0.038,KQs:0.04	f	c	f
+btn	fcfffh	a	n	AA:0.738,A7o:0.404,A8o:1.0,ATo:0.084,AJo:0.766,AQo:1.0,AKs:0.006,AKo:1.0,QTo:0.252,KTo:0.272	f	c	f
+btn	fcfffh	r5	n	AA:0.102,A6o:0.006,A9o:0.004,ATo:0.004,AJs:0.014,AQs:0.02,AKs:0.002,T6o:0.004,K6o:0.002,87o:0.004,T7o:0.008,J7o:0.006,T8o:0.006,J8o:0.002,Q8o:0.004,J9o:0.004,K9o:0.002,TT:0.012,JTo:0.004,QTo:0.002,KTo:0.008,JJ:0.02,QJo:0.008,KJo:0.002,QQ:0.004,KQo:0.01,KK:0.004	f	c	f
+btn	ffccch	a	n	AA:0.97,A6s:1.0,A6o:0.012,A7s:1.0,A7o:1.0,A8s:1.0,A8o:1.0,A9s:1.0,A9o:1.0,ATs:0.998,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,QTs:0.884,KTs:0.736,JJ:0.994,QJs:0.988,QJo:0.72,KJs:1.0,KJo:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0	f	f	c
+btn	ffccfh	a	n	AA:0.518,A6s:1.0,A7s:1.0,A7o:0.978,A8s:1.0,A8o:1.0,ATs:0.86,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,QJs:0.886,QJo:0.472,KJs:0.544,KJo:0.104,QQ:0.93,KQs:1.0,KQo:1.0,KK:1.0	f	f	c
+btn	ffccfh	r5	n	AA:0.482,A6o:0.068,A9o:0.046,ATs:0.14,T7o:0.016,K7o:0.018,J8o:0.038,Q8o:0.008,T9o:0.004,J9o:0.014,K9o:0.028,JTs:0.022,JTo:0.004,QTo:0.08,KTo:0.038,JJ:0.09,QJs:0.096,KJo:0.014,QQ:0.07	f	f	c
+btn	ffcfch	a	n	A6s:1.0,A6o:0.408,A7s:1.0,A7o:1.0,A8s:0.806,A8o:1.0,ATs:0.102,ATo:1.0,AJs:1.0,AJo:1.0,AQs:0.76,AQo:1.0,AKs:0.776,AKo:1.0,QTo:0.226,KTo:0.05,JJ:0.252,QJo:0.86,KJs:0.062,KJo:1.0,QQ:0.878,KQs:0.9,KQo:1.0,KK:0.95	f	f	c
+btn	ffcfch	r5.5	n	AA:1.0,A6o:0.012,A9o:0.096,ATs:0.156,AQs:0.24,AKs:0.224,T6o:0.036,K6o:0.032,97o:0.028,T7o:0.08,J7o:0.028,K7o:0.072,T8o:0.042,J8o:0.052,Q8o:0.058,K8o:0.016,T9o:0.012,J9o:0.04,Q9o:0.018,K9o:0.06,JTs:0.056,JTo:0.064,QTo:0.032,KTo:0.134,JJ:0.31,QJs:0.208,QQ:0.122,KK:0.05	f	f	c
+btn	ffcffh	a	n	A6o:0.006,A7o:1.0,ATo:0.206,AJo:0.644,AQo:0.858,AKo:0.378,KK:0.572	f	f	c
+btn	ffcffh	r5	n	AA:1.0,A6o:0.12,A8o:0.016,A9o:0.05,ATo:0.022,AJs:0.21,AQs:0.178,AKs:0.27,76o:0.028,T6o:0.086,K6o:0.02,87o:0.008,97o:0.05,T7o:0.094,J7o:0.092,K7o:0.072,T8o:0.028,J8o:0.038,Q8o:0.036,T9o:0.028,J9o:0.022,Q9o:0.054,K9o:0.042,TT:0.066,JTs:0.158,KTo:0.09,JJ:0.19,QJs:0.136,QJo:0.032,KJo:0.052,QQ:0.068,KQo:0.064,KK:0.122	f	f	c
+btn	fffcch	a	n	A6s:0.662,A6o:0.406,A7o:0.972,A8s:0.242,A8o:1.0,A9o:0.134,ATs:0.742,ATo:1.0,AJs:0.5,AJo:1.0,AQo:1.0,AKo:0.762,K7s:1.0,K7o:0.076,JTo:0.154,QTo:0.568,KTs:0.216,KTo:1.0,JJ:0.476,QJs:1.0,QJo:1.0,KJs:1.0,KJo:1.0,QQ:0.802,KQs:1.0,KQo:1.0,KK:0.242	f	f	f
+btn	fffcch	r5.5	n	AA:1.0,A9s:0.002,A9o:0.132,ATs:0.258,AJs:0.5,AQs:1.0,AKs:1.0,AKo:0.238,96o:0.038,T6o:0.15,Q6o:0.108,K6o:0.114,T7o:0.154,J7o:0.126,K7o:0.052,T8o:0.208,J8o:0.262,Q8o:0.254,K8o:0.124,T9o:0.022,J9o:0.194,Q9o:0.26,K9o:0.144,TT:0.402,JTs:0.986,QTs:0.34,JJ:0.524,QQ:0.198,KK:0.758	f	f	f
+btn	fffcfh	a	n	A6o:0.148,A7o:0.244,ATo:0.184,AJo:0.326,AQo:0.742,AKo:0.508,KJo:0.062,KQo:0.182	f	f	f
+btn	fffcfh	r5	n	AA:1.0,A6o:0.03,A7o:0.026,A9o:0.278,ATs:0.462,AJs:0.738,AQs:1.0,AKs:1.0,AKo:0.378,76o:0.062,86o:0.116,96o:0.146,T6o:0.214,J6o:0.044,Q6o:0.234,K6o:0.112,87o:0.016,97o:0.088,T7o:0.224,J7o:0.288,Q7o:0.044,K7o:0.022,T8o:0.162,J8o:0.198,Q8o:0.208,K8o:0.16,J9o:0.062,Q9o:0.114,K9o:0.2,TT:0.116,JTs:0.596,JTo:0.004,QTs:0.164,QTo:0.042,KTo:0.114,JJ:0.416,QJo:0.218,QQ:0.506,KQo:0.084,KK:1.0	f	f	f
+btn	ffffch	a	n	A6o:0.468,A7o:0.226,A8o:0.806,A9o:0.024,ATo:1.0,AJo:0.99,AQo:0.58,K7o:0.298,Q8o:0.286,KTo:0.886,QJo:0.19,KJo:0.564,KQo:0.062	f	f	f
+btn	ffffch	r5	n	AA:1.0,A9s:0.644,A9o:0.414,ATs:1.0,AJs:1.0,AQs:1.0,AQo:0.33,AKs:1.0,AKo:1.0,76o:0.14,86o:0.484,96o:0.738,T6o:0.588,J6o:0.606,Q6o:0.418,K6o:0.11,87o:0.222,97o:0.358,T7o:0.578,J7o:0.56,Q7o:0.388,K7o:0.124,98o:0.404,T8o:0.294,J8o:0.368,Q8o:0.444,K8o:0.578,99:0.186,T9o:0.286,J9o:0.37,Q9o:0.256,K9o:0.604,TT:0.62,JTs:1.0,JTo:0.192,QTs:1.0,QTo:0.152,KTs:0.442,JJ:1.0,QJs:1.0,QJo:0.41,KJs:0.88,QQ:1.0,KQs:1.0,KQo:0.198,KK:1.0	f	f	f
+4max
+mp_play	huuu	a	n	A8s:1.0,A9s:1.0,ATo:0.43,AJo:0.812,AQs:0.244,AQo:1.0,AKo:1.0,T9s:1.0,TT:0.102,JTs:1.0,JTo:0.706,QTs:1.0,KTs:1.0,KTo:0.058,JJ:0.822,QJs:1.0,KJs:1.0,KJo:0.26,KQs:0.904,KQo:1.0
+mp_play	huuu	c	n	AA:1.0,A6s:1.0,A7s:1.0,A8o:0.748,A9o:1.0,ATs:1.0,ATo:0.57,AJs:1.0,AJo:0.188,AQs:0.756,AKs:1.0,77:0.726,97s:0.392,88:1.0,98s:1.0,T8s:1.0,J8s:0.752,Q8s:0.374,K8s:0.37,99:1.0,T9o:0.986,J9s:1.0,Q9s:1.0,K9s:1.0,TT:0.898,JTo:0.294,QTo:1.0,KTo:0.942,JJ:0.178,QJo:1.0,KJo:0.74,QQ:1.0,KQs:0.096,KK:1.0
+mp_play	huuu	c	aff	AA:1.0,ATs:1.0,ATo:0.57,AJs:1.0,AJo:0.188,AQs:0.756,AKs:1.0,TT:0.898,JJ:0.178,QQ:1.0,KQs:0.096,KK:1.0
+mp_play	huuu	c	caf	AA:1.0,ATs:1.0,ATo:0.57,AJs:1.0,AJo:0.188,AQs:0.756,AKs:1.0,TT:0.898,JJ:0.178,QQ:1.0,KQs:0.096,KK:1.0
+mp_play	huuu	c	cca	AA:1.0,ATs:1.0,ATo:0.57,AJs:1.0,AJo:0.188,AQs:0.756,AKs:1.0,TT:0.898,JJ:0.178,QQ:1.0,KQs:0.096,KK:1.0
+mp_play	huuu	c	cfa	AA:1.0,ATs:1.0,ATo:0.57,AJs:1.0,AJo:0.188,AQs:0.756,AKs:1.0,TT:0.898,JJ:0.178,QQ:1.0,KQs:0.096,KK:1.0
+mp_play	huuu	c	faf	AA:1.0,ATs:1.0,ATo:0.57,AJs:1.0,AJo:0.188,AQs:0.756,AKs:1.0,TT:0.898,JJ:0.178,KJo:0.016,QQ:1.0,KQs:0.096,KK:1.0
+mp_play	huuu	c	fca	AA:1.0,ATs:1.0,ATo:0.57,AJs:1.0,AJo:0.188,AQs:0.756,AKs:1.0,TT:0.898,JJ:0.178,KJo:0.046,QQ:1.0,KQs:0.096,KK:1.0
+mp_play	huuu	c	ffa	AA:1.0,ATs:0.97,AJs:1.0,AQs:0.756,AKs:1.0,99:0.674,TT:0.898,JTo:0.294,JJ:0.178,QQ:1.0,KK:1.0
+hj_play	ahuu	ca	n	AA:1.0,ATs:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:1.0,JTs:1.0,QTs:1.0,KTs:0.96,JJ:1.0,QJs:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KQo:0.524,KK:1.0
+hj_play	chuu	a	n	AA:0.2,A7s:1.0,A8s:1.0,A9s:1.0,A9o:0.132,ATs:1.0,ATo:0.086,AJs:1.0,AJo:0.776,AQs:0.89,AQo:0.98,AKs:0.854,AKo:0.982,T9s:0.896,JTs:1.0,JTo:0.674,QTs:1.0,QTo:0.1,KTs:1.0,KTo:0.344,JJ:0.798,QJs:1.0,KJs:1.0,KJo:0.212,QQ:0.302,KQs:1.0,KQo:0.618,KK:0.654
+hj_play	chuu	c	n	AA:0.714,A6s:1.0,A7o:0.282,A8o:0.67,A9o:0.854,ATo:0.912,AJo:0.206,AQs:0.11,AKs:0.146,66:1.0,K6s:0.262,77:1.0,87s:0.758,97s:1.0,K7s:1.0,88:1.0,98s:0.994,T8s:1.0,J8s:1.0,Q8s:1.0,K8s:1.0,99:1.0,T9o:0.794,J9s:1.0,Q9s:1.0,K9s:1.0,TT:1.0,JTo:0.326,QTo:0.888,KTo:0.644,JJ:0.202,QJo:0.984,KJo:0.762,QQ:0.69,KQo:0.382,KK:0.346
+hj_play	chuu	c	aff	AA:0.714,ATo:0.912,AJo:0.206,AQs:0.11,AKs:0.146,TT:1.0,JJ:0.202,QQ:0.69,KQo:0.382,KK:0.346
+hj_play	chuu	c	caf	AA:0.714,A9o:0.324,ATo:0.912,AJo:0.206,AQs:0.11,AKs:0.146,TT:1.0,JJ:0.202,KJo:0.148,QQ:0.69,KQo:0.382,KK:0.346
+hj_play	chuu	c	faf	AA:0.714,ATo:0.608,AJo:0.206,AQs:0.11,AKs:0.146,99:0.264,TT:1.0,JJ:0.202,QQ:0.69,KK:0.346
+hj_play	fhuu	a	n	A7s:1.0,A8s:1.0,A8o:0.032,A9s:1.0,A9o:1.0,ATo:0.722,AJs:0.112,AJo:1.0,AQo:1.0,AKo:1.0,T9s:1.0,JTs:0.958,JTo:0.604,QTs:1.0,QTo:0.286,KTo:0.88,JJ:0.184,QJs:0.242,QJo:0.78,KJs:0.456,KJo:1.0,KQs:0.892,KQo:1.0
+hj_play	fhuu	c	n	AA:1.0,A6s:1.0,A6o:1.0,A7o:1.0,A8o:0.968,ATs:1.0,ATo:0.278,AJs:0.888,AQs:1.0,AKs:1.0,66:0.304,K6s:1.0,77:1.0,97s:1.0,T7s:0.958,J7s:0.952,Q7s:0.406,K7s:1.0,88:1.0,98s:1.0,T8s:1.0,T8o:0.176,J8s:1.0,J8o:0.04,Q8s:1.0,K8s:1.0,99:1.0,T9o:1.0,J9s:1.0,J9o:1.0,Q9s:1.0,Q9o:1.0,K9s:1.0,K9o:1.0,TT:1.0,JTs:0.042,JTo:0.396,QTo:0.714,KTs:1.0,KTo:0.12,JJ:0.816,QJs:0.758,QJo:0.22,KJs:0.544,QQ:1.0,KQs:0.108,KK:1.0
+hj_play	fhuu	c	aff	AA:1.0,ATs:1.0,ATo:0.278,AJs:0.888,AQs:1.0,AKs:1.0,TT:1.0,JTs:0.042,KTs:1.0,JJ:0.816,QJs:0.758,KJs:0.544,QQ:1.0,KQs:0.108,KK:1.0
+hj_play	fhuu	c	caf	AA:1.0,ATs:1.0,ATo:0.278,AJs:0.888,AQs:1.0,AKs:1.0,99:0.196,TT:1.0,JTs:0.042,KTs:1.0,JJ:0.816,QJs:0.758,KJs:0.544,QQ:1.0,KQs:0.108,KK:1.0
+hj_play	fhuu	c	faf	AA:1.0,ATs:0.846,AJs:0.888,AQs:1.0,AKs:1.0,99:0.326,TT:1.0,JTs:0.042,JTo:0.396,QTo:0.072,KTs:0.492,JJ:0.816,QJs:0.032,QQ:1.0,KK:1.0
+co_play	afhu	a	n	AA:1.0,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:1.0,JTs:1.0,QTs:0.426,KTs:1.0,JJ:1.0,QJs:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0
+co_play	cahu	a	n	AA:1.0,ATs:1.0,AJs:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:0.944,JJ:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KK:1.0
+co_play	fahu	a	n	AA:1.0,A9s:1.0,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:1.0,JTs:1.0,QTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,KJs:1.0,KJo:0.814,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0
+co_play	cchu	a	n	AA:0.994,A6s:0.558,A7s:1.0,A8s:1.0,A8o:0.532,A9s:1.0,A9o:0.73,ATs:1.0,ATo:1.0,AJs:1.0,AJo:0.998,AQs:1.0,AQo:1.0,AKs:1.0,AKo:0.998,T9s:0.176,JTs:1.0,QTs:1.0,QTo:0.192,KTs:1.0,KTo:0.134,JJ:1.0,QJs:1.0,QJo:0.582,KJs:1.0,KJo:0.618,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0
+co_play	cchu	c	n	A6s:0.442,A6o:0.354,A7o:0.94,A8o:0.468,A9o:0.268,66:1.0,76s:0.02,86s:0.49,96s:0.844,Q6s:0.9,K6s:1.0,77:1.0,87s:1.0,97s:1.0,T7s:0.96,J7s:0.598,Q7s:0.964,K7s:1.0,88:1.0,98s:1.0,98o:0.178,T8s:1.0,J8s:1.0,Q8s:1.0,K8s:1.0,99:1.0,T9s:0.816,T9o:0.604,J9s:1.0,J9o:0.132,Q9s:1.0,Q9o:0.088,K9s:1.0,TT:1.0,JTo:1.0,QTo:0.808,KTo:0.864,QJo:0.416,KJo:0.382
+co_play	cchu	c	aff	A9o:0.268,TT:1.0,KJo:0.01
+co_play	cfhu	a	n	A7s:1.0,A8s:1.0,A8o:0.242,A9s:1.0,A9o:0.754,ATs:0.594,ATo:0.664,AJs:1.0,AJo:0.828,AQs:1.0,AQo:0.942,AKs:0.51,AKo:1.0,T9s:0.854,JTs:0.544,JTo:0.488,QTs:0.732,QTo:0.29,KTs:1.0,KTo:0.42,JJ:0.45,QJs:1.0,QJo:0.1,KJs:1.0,KJo:0.214,QQ:0.796,KQs:0.392,KQo:0.544,KK:1.0
+co_play	cfhu	c	n	A6s:1.0,A6o:0.662,A7o:1.0,A8o:0.75,A9o:0.246,ATs:0.406,ATo:0.336,66:1.0,76s:0.578,86s:1.0,96s:1.0,T6s:0.676,J6s:1.0,Q6s:1.0,K6s:1.0,77:1.0,87s:1.0,97s:1.0,T7s:1.0,J7s:1.0,Q7s:1.0,K7s:1.0,88:1.0,98s:0.664,98o:1.0,T8s:1.0,T8o:0.45,J8s:1.0,J8o:0.064,Q8s:1.0,K8s:1.0,99:1.0,T9o:0.79,J9s:1.0,J9o:1.0,Q9s:1.0,Q9o:1.0,K9s:1.0,K9o:1.0,TT:1.0,JTs:0.386,JTo:0.506,QTo:0.678,KTo:0.518,JJ:0.534,QJo:0.75,KJo:0.64,KQs:0.608,KQo:0.354
+co_play	cfhu	c	aff	A9o:0.116,ATs:0.406,ATo:0.336,99:0.542,TT:1.0,JTs:0.386,JJ:0.534,KQs:0.608,KQo:0.354
+co_play	cfhu	r8	n	AA:1.0,A6o:0.338,A8o:0.006,AJo:0.172,AQo:0.058,AKs:0.49,98s:0.336,T9s:0.146,T9o:0.21,JTs:0.072,JTo:0.006,QTs:0.268,QTo:0.032,KTo:0.062,JJ:0.018,QJo:0.15,KJo:0.146,QQ:0.204,KQo:0.102
+co_play	cfhu	r8	faf	AA:1.0,AJo:0.172,AQo:0.058,AKs:0.49,98s:0.336,T9s:0.146,JTs:0.072,JTo:0.006,QTs:0.268,JJ:0.018,QJo:0.15,KJo:0.146,QQ:0.204,KQo:0.102
+co_play	cfhu	r8	aff	AA:1.0,A8o:0.006,AJo:0.172,AQo:0.058,AKs:0.49,98s:0.336,T9s:0.146,T9o:0.21,JTs:0.072,JTo:0.006,QTs:0.268,QTo:0.032,KTo:0.062,JJ:0.018,QJo:0.122,KJo:0.146,QQ:0.204,KQo:0.102
+co_play	fchu	a	n	AA:0.422,A6s:0.98,A7s:1.0,A8s:1.0,A8o:0.754,A9s:1.0,A9o:0.87,ATs:0.342,ATo:0.818,AJs:0.868,AJo:0.962,AQs:1.0,AQo:0.91,AKs:1.0,AKo:0.902,T9s:1.0,J9s:0.594,JTs:0.086,JTo:0.94,QTs:1.0,QTo:0.502,KTs:0.912,KTo:0.66,JJ:0.732,QJs:1.0,QJo:0.588,KJs:1.0,KJo:0.834,QQ:0.864,KQs:0.53,KQo:1.0,KK:0.976
+co_play	fchu	c	n	AA:0.01,A6s:0.02,A6o:0.972,A7o:1.0,A8o:0.164,A9o:0.102,ATs:0.658,ATo:0.182,AJs:0.132,66:1.0,86s:0.078,T6s:0.144,J6s:0.778,Q6s:1.0,K6s:1.0,77:1.0,87s:1.0,97s:1.0,T7s:1.0,J7s:1.0,Q7s:1.0,K7s:1.0,88:1.0,98s:0.88,98o:0.122,T8s:0.59,T8o:0.572,J8s:1.0,J8o:0.416,Q8s:1.0,K8s:1.0,K8o:0.13,99:1.0,T9o:0.782,J9s:0.358,J9o:1.0,Q9s:1.0,Q9o:1.0,K9s:1.0,K9o:1.0,TT:1.0,JTs:0.914,JTo:0.038,QTo:0.498,KTs:0.088,KTo:0.258,JJ:0.268,QJo:0.254,KJo:0.094,KQs:0.47
+co_play	fchu	c	aff	AA:0.01,A9o:0.102,ATs:0.658,ATo:0.182,AJs:0.132,TT:1.0,JTs:0.914,KTs:0.088,JJ:0.268,QJo:0.132,KJo:0.094,KQs:0.47
+co_play	fchu	r8	n	AA:0.568,A6o:0.028,A8o:0.082,A9o:0.028,AJo:0.038,AQo:0.09,AKo:0.098,98s:0.12,T8s:0.41,T9o:0.218,J9s:0.048,JTo:0.022,KTo:0.08,QJo:0.156,KJo:0.072,QQ:0.136,KK:0.024
+co_play	fchu	r8	ffa	AA:0.568,A8o:0.082,A9o:0.028,AJo:0.038,AQo:0.09,AKo:0.098,98s:0.12,J9s:0.048,KTo:0.08,QJo:0.156,KJo:0.072,QQ:0.136,KK:0.024
+co_play	fchu	r8	aff	AA:0.568,A8o:0.082,A9o:0.028,AJo:0.038,AQo:0.09,AKo:0.098,98s:0.12,T8s:0.41,T9o:0.218,J9s:0.048,JTo:0.022,KTo:0.08,QJo:0.156,KJo:0.072,QQ:0.136,KK:0.024
+co_play	ffhu	a	n	A6s:1.0,A6o:0.014,A7s:0.912,A7o:0.68,A8s:0.598,A8o:0.934,A9o:1.0,ATs:0.796,ATo:1.0,AJs:0.628,AJo:1.0,AQo:1.0,AKo:0.95,98s:1.0,T9s:0.816,T9o:0.312,J9s:0.964,J9o:0.046,QTo:0.546,KTo:1.0,QJo:0.766,KJs:0.852,KJo:1.0,QQ:0.868,KQs:0.788,KQo:1.0,KK:0.052
+co_play	ffhu	c	n	AA:0.998,A6o:0.984,A7s:0.088,A7o:0.32,A8s:0.402,A8o:0.066,A9s:0.996,ATs:0.2,AJs:0.37,AQs:0.996,AKs:1.0,AKo:0.048,66:1.0,86s:1.0,96s:1.0,T6s:1.0,J6s:1.0,Q6s:1.0,K6s:1.0,K6o:1.0,77:1.0,87s:1.0,97s:1.0,97o:0.86,T7s:1.0,T7o:0.998,J7s:1.0,J7o:0.894,Q7s:1.0,Q7o:0.31,K7s:1.0,K7o:1.0,88:1.0,98o:1.0,T8s:1.0,T8o:1.0,J8s:1.0,J8o:0.998,Q8s:1.0,Q8o:0.998,K8s:1.0,K8o:1.0,99:1.0,T9s:0.178,T9o:0.688,J9s:0.036,J9o:0.952,Q9s:1.0,Q9o:0.998,K9s:1.0,K9o:0.998,TT:1.0,JTs:1.0,JTo:0.998,QTs:1.0,QTo:0.454,KTs:0.998,JJ:0.994,QJs:1.0,QJo:0.232,KJs:0.148,QQ:0.132,KQs:0.212,KK:0.942
+co_play	ffhu	c	aff	AA:0.998,A9s:0.996,ATs:0.2,AJs:0.37,AQs:0.996,AKs:1.0,AKo:0.048,99:1.0,TT:1.0,JTs:1.0,JTo:0.78,QTs:1.0,KTs:0.998,JJ:0.994,QJs:1.0,KJs:0.148,QQ:0.132,KQs:0.212,KK:0.942
+
+overcall overcall a n AA:1.0,AJs:1.0,AQs:1.0,AKs:1.0,AKo:1.0,JTs:0.802,JJ:1.0,QQ:1.0,KQs:0.3,AQo:0.3.KK:1.0,TT:0.5,T9s:1.0,T8s:1.0,98s:1.0,99:0.3,JTo:0.5,T9o:0.5
