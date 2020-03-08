@@ -385,7 +385,7 @@ public class SimpleWebServer extends NanoHTTPD {
 
     private Response shortQueryRespond(String password, String userName, String query, String hands) {
         List<Double> queryRes = new ArrayList<>();
-        if (shortActionV1Table.get(query) == null || shortActionV1Table.get(query).get(hands) == null ){
+        if (shortActionV1Table.get(query) != null && shortActionV1Table.get(query).get(hands) != null ){
             queryRes = shortActionV1Table.get(query).get(hands);
         }
         if (shortActionV1Table.get(query) == null){
