@@ -181,7 +181,7 @@ public class SimpleWebServer extends NanoHTTPD {
                 registerPluginForMimeType(indexFiles, mime, info.getWebServerPlugin(mime), options);
             }
         }
-        ServerRunner.executeInstance(new SimpleWebServer(host, port, rootDirs, quiet, cors));
+        SimpleServerRunner.executeInstance(new SimpleWebServer(host, port, rootDirs, quiet, cors));
     }
 
     protected static void registerPluginForMimeType(String[] indexFiles, String mimeType, WebServerPlugin plugin, Map<String, String> commandLineOptions) {
