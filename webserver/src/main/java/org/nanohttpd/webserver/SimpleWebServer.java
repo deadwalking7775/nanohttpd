@@ -464,7 +464,7 @@ public class SimpleWebServer extends NanoHTTPD {
     public Response serve(IHTTPSession session) {
         Map<String, List<String>>  paramsAll = session.getParameters();
         Map<String, String> header = session.getHeaders();
-        Map<String, String> parms = session.getParms();
+
         String uri = session.getUri();
 
 
@@ -472,12 +472,13 @@ public class SimpleWebServer extends NanoHTTPD {
         StringBuilder responseMsg = new StringBuilder();
         try {
             session.parseBody(files);
-            for (String key : files.keySet()) {
-                parms.put(key, files.get(key));
-            }
+//            for (String key : files.keySet()) {
+//                parms.put(key, files.get(key));
+//            }
         } catch (Exception e) {
             responseMsg.append(e.getMessage());
         }
+        Map<String, String> parms = session.getParms();
 
         if (!this.quiet) {
             System.out.println(session.getMethod() + " '" + uri + "' ");
