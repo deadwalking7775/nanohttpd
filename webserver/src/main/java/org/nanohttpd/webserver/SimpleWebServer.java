@@ -99,7 +99,7 @@ public class SimpleWebServer extends NanoHTTPD {
 
         String relativelyPath = System.getProperty("user.dir");
         System.out.println(relativelyPath.toString());
-        shortActionV1Table = DataInit.formatShortV1PreflopData(relativelyPath + "/webserver/src/main/data/shortV1.txt");
+//        shortActionV1Table = DataInit.formatShortV1PreflopData(relativelyPath + "/webserver/src/main/data/shortV1.txt");
         System.out.println("init done");
     }
 
@@ -462,24 +462,38 @@ public class SimpleWebServer extends NanoHTTPD {
 
     @Override
     public Response serve(IHTTPSession session) {
+        Map<String, List<String>>  paramsAll = session.getParameters();
         Map<String, String> header = session.getHeaders();
         Map<String, String> parms = session.getParms();
         String uri = session.getUri();
+
+
+        Map<String, String> files = new HashMap<String, String>();
+        StringBuilder responseMsg = new StringBuilder();
+        try {
+            session.parseBody(files);
+            for (String key : files.keySet()) {
+                parms.put(key, files.get(key));
+            }
+        } catch (Exception e) {
+            responseMsg.append(e.getMessage());
+        }
 
         if (!this.quiet) {
             System.out.println(session.getMethod() + " '" + uri + "' ");
 
             Iterator<String> e = header.keySet().iterator();
-            while (e.hasNext()) {
-                String value = e.next();
-                System.out.println("  HDR: '" + value + "' = '" + header.get(value) + "'");
-            }
+//            while (e.hasNext()) {
+//                String value = e.next();
+//                System.out.println("  HDR: '" + value + "' = '" + header.get(value) + "'");
+//            }
             e = parms.keySet().iterator();
             while (e.hasNext()) {
                 String value = e.next();
                 System.out.println("  PRM: '" + value + "' = '" + parms.get(value) + "'");
             }
         }
+
 
 //        for (File homeDir : this.rootDirs) {
 //            // Make sure we won't die of an exception later

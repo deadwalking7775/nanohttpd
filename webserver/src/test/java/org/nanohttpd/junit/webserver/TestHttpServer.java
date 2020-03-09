@@ -119,6 +119,41 @@ public class TestHttpServer extends AbstractTestHttpServer {
         response.close();
     }
 
+
+    @Test
+    public void doPostTest() throws Exception {
+        CloseableHttpClient httpclient = HttpClients.createDefault();
+        HttpGet httpget = new HttpGet("http://localhost:9090/testdir/test.html");
+        CloseableHttpResponse response = httpclient.execute(httpget);
+        HttpEntity entity = response.getEntity();
+        String string = new String(readContents(entity), "UTF-8");
+        Assert.assertEquals("<html>\n<head>\n<title>dummy</title>\n</head>\n<body>\n\t<h1>it works</h1>\n</body>\n</html>", string);
+        response.close();
+
+        httpget = new HttpGet("http://localhost:9090/");
+        response = httpclient.execute(httpget);
+        entity = response.getEntity();
+        string = new String(readContents(entity), "UTF-8");
+        Assert.assertTrue(string.indexOf("testdir") > 0);
+        response.close();
+
+        httpget = new HttpGet("http://localhost:9090/testdir");
+        response = httpclient.execute(httpget);
+        entity = response.getEntity();
+        string = new String(readContents(entity), "UTF-8");
+        Assert.assertTrue(string.indexOf("test.html") > 0);
+        response.close();
+
+        httpget = new HttpGet("http://localhost:9090/testdir/testpdf.pdf");
+        response = httpclient.execute(httpget);
+        entity = response.getEntity();
+
+        byte[] actual = readContents(entity);
+        byte[] expected = readContents(new FileInputStream("src/test/resources/testdir/testpdf.pdf"));
+        Assert.assertArrayEquals(expected, actual);
+        response.close();
+
+    }
     @Test
     public void doSomeBasicTest() throws Exception {
         CloseableHttpClient httpclient = HttpClients.createDefault();
