@@ -67,32 +67,32 @@ public class TestHttpServer extends AbstractTestHttpServer {
 
     @BeforeClass
     public static void setUp() throws Exception {
-        stdIn = new PipedOutputStream();
-        System.setIn(new PipedInputStream(stdIn));
-        serverStartThread = new Thread(new Runnable() {
-
-            @Override
-            public void run() {
-                String[] args = {
-                    "--host",
-                    "localhost",
-                    "--port",
-                    "9090",
-                    "--dir",
-                    "src/test/resources"
-                };
-                SimpleWebServer.main(args);
-            }
-        });
-        serverStartThread.start();
-        // give the server some tine to start.
-        Thread.sleep(100);
+//        stdIn = new PipedOutputStream();
+//        System.setIn(new PipedInputStream(stdIn));
+//        serverStartThread = new Thread(new Runnable() {
+//
+//            @Override
+//            public void run() {
+//                String[] args = {
+//                    "--host",
+//                    "localhost",
+//                    "--port",
+//                    "9090",
+//                    "--dir",
+//                    "src/test/resources"
+//                };
+//                SimpleWebServer.main(args);
+//            }
+//        });
+//        serverStartThread.start();
+//        // give the server some tine to start.
+//        Thread.sleep(100);
     }
 
     @AfterClass
     public static void tearDown() throws Exception {
-        stdIn.write("\n\n".getBytes());
-        serverStartThread.join(2000);
+//        stdIn.write("\n\n".getBytes());
+//        serverStartThread.join(2000);
 //        Assert.assertFalse(serverStartThread.isAlive());
     }
 
@@ -390,19 +390,17 @@ public class TestHttpServer extends AbstractTestHttpServer {
         try {
             String relativelyPath = System.getProperty("user.dir");
             System.out.println(relativelyPath.toString());
-            Map<String, Map<String, List<Double>>> shortActionV1Table = DataInit.formatShortV1PreflopData(relativelyPath + "/src/main/data/shortV1.txt");
-            System.out.println(shortActionV1Table.toString());
-            System.out.println(shortActionV1Table.get("overcall").get("aa").toString());
+            Map<String, Map<String, List<Double>>> shortActionV1Table = DataInit.formatShortV1PreflopData("/Users/wangzixiao/IdeaProjects/nanohttpdNew/webserver/src/main/data/shortV1.txt");
+//            shortActionV1Table.forEach((s, stringListMap) -> System.out.println(s + " "+stringListMap));
+
 
             MessageDigest messageDigest = MessageDigest.getInstance("MD5");
-            byte[] digest=messageDigest.digest(("123").getBytes());
-            BigInteger bigInt = new BigInteger(1,digest);
-            String hashtext = bigInt.toString(16);
-            // Now we need to zero pad it if you actually want the full 32 chars.
-            while(hashtext.length() < 32 ){
-                hashtext = "0"+hashtext;
-            }
-            System.out.println(hashtext);
+            String overcallQ = DataInit.md5EncodeSalty(messageDigest,"overcall");
+            String aaQ = DataInit.md5EncodeSalty(messageDigest, "aa");
+
+            System.out.println(shortActionV1Table.get(overcallQ).get(aaQ).toString());
+
+//            System.out.println(hashtext);
             // Assert.assertEquals("test", 304,
             // response.getStatusLine().getStatusCode());
         } catch (Exception e){
