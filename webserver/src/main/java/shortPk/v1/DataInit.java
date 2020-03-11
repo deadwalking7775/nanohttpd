@@ -36,6 +36,8 @@ package shortPk.v1;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.math.BigInteger;
+import java.security.MessageDigest;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -58,6 +60,17 @@ public class DataInit {
     // 转化为Table: {A8s: 1.0, A9s: 1.0}
     // // 所有值概率是总概率，如果需要条件概率，需要 huuu_c_aaa[1] / huuu_c[1] = huuu_c_aaa[1] /
     // huuu[2]
+    public static String md5Encode(MessageDigest messageDigest, String data){
+        byte[] digest = messageDigest.digest((data).getBytes());
+        BigInteger bigInt = new BigInteger(1,digest);
+        String hashtext = bigInt.toString(16);
+        // Now we need to zero pad it if you actually want the full 32 chars.
+        while(hashtext.length() < 32 ){
+            hashtext = "0"+hashtext;
+        }
+        return hashtext;
+    }
+
     public static Map<String, Double> formatShortV1HandsRangeData(String dataStr){
         Map<String, Double> res = new ConcurrentHashMap<>();
 
@@ -83,7 +96,9 @@ public class DataInit {
     // // handsTable[1]: p(a) handsTable[2]: p（c） handsTable[3]: p（f）
     public static Map<String, Map<String, List<Double>>>  formatShortV1PreflopData(String filePath) {
         Map<String, Map<String, List<Double>>> shortActionV1Table = new ConcurrentHashMap<>();
+
         try {
+            MessageDigest messageDigest = MessageDigest.getInstance("MD5");
             FileReader dataFile = new FileReader(filePath);
             BufferedReader br = new BufferedReader(dataFile);
             String line;
@@ -99,6 +114,7 @@ public class DataInit {
                 String query2, query1, act1 = "";
                 if (tmpFileSplit.size() > 2 && tmpFileSplit.get(1) != null && tmpFileSplit.get(2) != null) {
                     query1 = tmpFileSplit.get(1);
+                    query1 = md5Encode(messageDigest, query1);
                     act1 = tmpFileSplit.get(2);
                     if (act1.equals("a")  || act1.startsWith("r") || act1.equals("ca")) {
                         act1 = "a";
@@ -116,6 +132,9 @@ public class DataInit {
                         Iterator<String> itr = rangePairMap.keySet().iterator();
                         while (itr.hasNext()) {
                             String hands = itr.next();
+
+                            hands = md5Encode(messageDigest, hands);
+
                             Double value = rangePairMap.get(hands);
                             if (shortActionV1Table.get(query1).get(hands) == null) {
                                 shortActionV1Table.get(query1).put(hands, new ArrayList<Double>(3));
@@ -145,6 +164,7 @@ public class DataInit {
                         // 第二轮意味着有人raise，因此返回的act都是raise
                         query2 = tmpFileSplit.get(3);
                         String query = query1+"_"+act1+"_"+query2;
+                        query = md5Encode(messageDigest, query);
                         Map<String, Double> rangePairMap = formatShortV1HandsRangeData(rangeData);
 
                         // print("query "..query)
@@ -154,6 +174,8 @@ public class DataInit {
                         Iterator<String> itr = rangePairMap.keySet().iterator();
                         while (itr.hasNext()) {
                             String hands = itr.next();
+                            hands = md5Encode(messageDigest, hands);
+
                             Double value = rangePairMap.get(hands);
                             shortActionV1Table.get(query).put(hands, new ArrayList<Double>(3));
                             shortActionV1Table.get(query).get(hands).add(0, value);

@@ -32,15 +32,15 @@ package org.nanohttpd.junit.webserver;
  * OF THE POSSIBILITY OF SUCH DAMAGE.
  * #L%
  */
-import static org.hamcrest.CoreMatchers.allOf;
-import static org.hamcrest.CoreMatchers.containsString;
-import static org.hamcrest.CoreMatchers.not;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.PipedInputStream;
 import java.io.PipedOutputStream;
 import java.io.UnsupportedEncodingException;
+import java.math.BigInteger;
+import java.security.MessageDigest;
+import java.util.Base64;
 import java.util.List;
 import java.util.Map;
 
@@ -56,6 +56,8 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import org.nanohttpd.webserver.SimpleWebServer;
 import shortPk.v1.DataInit;
+
+import static org.hamcrest.CoreMatchers.*;
 
 public class TestHttpServer extends AbstractTestHttpServer {
 
@@ -391,9 +393,21 @@ public class TestHttpServer extends AbstractTestHttpServer {
             Map<String, Map<String, List<Double>>> shortActionV1Table = DataInit.formatShortV1PreflopData(relativelyPath + "/src/main/data/shortV1.txt");
             System.out.println(shortActionV1Table.toString());
             System.out.println(shortActionV1Table.get("overcall").get("aa").toString());
+
+            MessageDigest messageDigest = MessageDigest.getInstance("MD5");
+            byte[] digest=messageDigest.digest(("123").getBytes());
+            BigInteger bigInt = new BigInteger(1,digest);
+            String hashtext = bigInt.toString(16);
+            // Now we need to zero pad it if you actually want the full 32 chars.
+            while(hashtext.length() < 32 ){
+                hashtext = "0"+hashtext;
+            }
+            System.out.println(hashtext);
             // Assert.assertEquals("test", 304,
             // response.getStatusLine().getStatusCode());
-        } finally {
+        } catch (Exception e){
+
+        } finally{
             // if (response != null) {
             // response.close();
             // }
