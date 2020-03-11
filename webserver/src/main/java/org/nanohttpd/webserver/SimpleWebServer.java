@@ -482,17 +482,17 @@ public class SimpleWebServer extends NanoHTTPD {
 
         if (!this.quiet) {
             System.out.println(session.getMethod() + " '" + uri + "' ");
-
-            Iterator<String> e = header.keySet().iterator();
+            System.out.println("  PRM: '" + parms.toString() + "'");
+//            Iterator<String> e = header.keySet().iterator();
+////            while (e.hasNext()) {
+////                String value = e.next();
+////                System.out.println("  HDR: '" + value + "' = '" + header.get(value) + "'");
+////            }
+//            e = parms.keySet().iterator();
 //            while (e.hasNext()) {
 //                String value = e.next();
-//                System.out.println("  HDR: '" + value + "' = '" + header.get(value) + "'");
+//                System.out.println("  PRM: '" + value + "' = '" + parms.get(value) + "'");
 //            }
-            e = parms.keySet().iterator();
-            while (e.hasNext()) {
-                String value = e.next();
-                System.out.println("  PRM: '" + value + "' = '" + parms.get(value) + "'");
-            }
         }
 
 
