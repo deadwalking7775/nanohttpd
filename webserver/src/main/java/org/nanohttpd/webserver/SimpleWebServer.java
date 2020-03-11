@@ -502,8 +502,18 @@ public class SimpleWebServer extends NanoHTTPD {
 //                return getInternalErrorResponse("given path is not a directory (" + homeDir + ").");
 //            }
 //        }
-        return shortQueryRespond(parms.get("password"), parms.get("userName"), parms.get("query"), parms.get("hands"));
-        // return respond(Collections.unmodifiableMap(header), session, uri);
+
+
+        if (!parms.containsKey("password") || !parms.containsKey("userName") || !parms.containsKey("query") || !parms.containsKey("hands")){
+            return newFixedLengthResponse(Status.OK, NanoHTTPD.MIME_PLAINTEXT, "[-2]");
+        } else {
+            try {
+                return shortQueryRespond(parms.get("password"), parms.get("userName"), parms.get("query"), parms.get("hands"));
+            } catch (Exception e){
+                System.out.println("error get Res: "+e.toString());
+                return newFixedLengthResponse(Status.OK, NanoHTTPD.MIME_PLAINTEXT, "[-3]");
+            }
+        }
     }
 
     /**
