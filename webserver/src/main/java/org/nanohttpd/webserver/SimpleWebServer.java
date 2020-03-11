@@ -394,6 +394,7 @@ public class SimpleWebServer extends NanoHTTPD {
 //        if (queryRes == null){
 //            queryRes = new ArrayList<>();
 //        }
+        System.out.println("queryRes: "+queryRes);
         Response res = newFixedLengthResponse(Status.OK, NanoHTTPD.MIME_PLAINTEXT, queryRes.toString());
         return res;
     }
