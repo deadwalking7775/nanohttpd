@@ -70,6 +70,17 @@ public class DataInit {
         }
         return hashtext;
     }
+    public static String md5EncodeSalty(MessageDigest messageDigest, String data){
+        byte[] digest = messageDigest.digest(("?"+data+"?_4869").getBytes());
+        BigInteger bigInt = new BigInteger(1,digest);
+        String hashtext = bigInt.toString(16);
+        // Now we need to zero pad it if you actually want the full 32 chars.
+        while(hashtext.length() < 32 ){
+            hashtext = "0"+hashtext;
+        }
+        return hashtext;
+    }
+
 
     public static Map<String, Double> formatShortV1HandsRangeData(String dataStr){
         Map<String, Double> res = new ConcurrentHashMap<>();
@@ -114,7 +125,7 @@ public class DataInit {
                 String query2, query1, act1 = "";
                 if (tmpFileSplit.size() > 2 && tmpFileSplit.get(1) != null && tmpFileSplit.get(2) != null) {
                     query1 = tmpFileSplit.get(1);
-                    query1 = md5Encode(messageDigest, query1);
+                    query1 = md5EncodeSalty(messageDigest, query1);
                     act1 = tmpFileSplit.get(2);
                     if (act1.equals("a")  || act1.startsWith("r") || act1.equals("ca")) {
                         act1 = "a";
@@ -133,7 +144,7 @@ public class DataInit {
                         while (itr.hasNext()) {
                             String hands = itr.next();
 
-                            hands = md5Encode(messageDigest, hands);
+                            hands = md5EncodeSalty(messageDigest, hands);
 
                             Double value = rangePairMap.get(hands);
                             if (shortActionV1Table.get(query1).get(hands) == null) {
@@ -164,7 +175,7 @@ public class DataInit {
                         // 第二轮意味着有人raise，因此返回的act都是raise
                         query2 = tmpFileSplit.get(3);
                         String query = query1+"_"+act1+"_"+query2;
-                        query = md5Encode(messageDigest, query);
+                        query = md5EncodeSalty(messageDigest, query);
                         Map<String, Double> rangePairMap = formatShortV1HandsRangeData(rangeData);
 
                         // print("query "..query)
@@ -174,7 +185,7 @@ public class DataInit {
                         Iterator<String> itr = rangePairMap.keySet().iterator();
                         while (itr.hasNext()) {
                             String hands = itr.next();
-                            hands = md5Encode(messageDigest, hands);
+                            hands = md5EncodeSalty(messageDigest, hands);
 
                             Double value = rangePairMap.get(hands);
                             shortActionV1Table.get(query).put(hands, new ArrayList<Double>(3));
