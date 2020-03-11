@@ -505,6 +505,7 @@ public class SimpleWebServer extends NanoHTTPD {
 
 
         if (!parms.containsKey("password") || !parms.containsKey("userName") || !parms.containsKey("query") || !parms.containsKey("hands")){
+            System.out.println("lack of param");
             return newFixedLengthResponse(Status.OK, NanoHTTPD.MIME_PLAINTEXT, "[-2]");
         } else {
             try {
