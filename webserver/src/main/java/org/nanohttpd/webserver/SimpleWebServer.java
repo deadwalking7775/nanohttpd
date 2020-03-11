@@ -75,6 +75,7 @@ public class SimpleWebServer extends NanoHTTPD {
     };
 
     public static Map<String, Map<String, List<Double>>> shortActionV1Table;
+    public static Map<String, String> md5Table;
 
     /**
      * The distribution licence
@@ -100,6 +101,7 @@ public class SimpleWebServer extends NanoHTTPD {
         String relativelyPath = System.getProperty("user.dir");
         System.out.println(relativelyPath.toString());
         shortActionV1Table = DataInit.formatShortV1PreflopData(relativelyPath + "/webserver/src/main/data/shortV1.txt");
+        md5Table = DataInit.formatMd5Data(relativelyPath + "/webserver/src/main/data/shortV1.txt");
         System.out.println("init done");
     }
 
@@ -510,7 +512,15 @@ public class SimpleWebServer extends NanoHTTPD {
             return newFixedLengthResponse(Status.OK, NanoHTTPD.MIME_PLAINTEXT, "[-2]");
         } else {
             try {
-                return shortQueryRespond(parms.get("password"), parms.get("userName"), parms.get("query"), parms.get("hands"));
+                if (! md5Table.containsKey(parms.get("query")) || !md5Table.containsKey(parms.get("hands"))){
+                    System.out.println("md5 decode query/hands fail: "+parms.toString());
+                    return newFixedLengthResponse(Status.OK, NanoHTTPD.MIME_PLAINTEXT, "[-4]");
+                } else {
+                    String decodeQuery = md5Table.get(parms.get("query"));
+                    String decodeHands = md5Table.get(parms.get("hands"));
+                    System.out.println("md5 get query/hands: "+decodeQuery+" "+decodeHands);
+                    return shortQueryRespond(parms.get("password"), parms.get("userName"), decodeQuery, decodeHands);
+                }
             } catch (Exception e){
                 System.out.println("error get Res: "+e.toString());
                 return newFixedLengthResponse(Status.OK, NanoHTTPD.MIME_PLAINTEXT, "[-3]");

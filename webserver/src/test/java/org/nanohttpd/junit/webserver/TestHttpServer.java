@@ -394,11 +394,13 @@ public class TestHttpServer extends AbstractTestHttpServer {
 //            shortActionV1Table.forEach((s, stringListMap) -> System.out.println(s + " "+stringListMap));
 
 
-            MessageDigest messageDigest = MessageDigest.getInstance("MD5");
-            String overcallQ = DataInit.md5EncodeSalty(messageDigest,"overcall");
-            String aaQ = DataInit.md5EncodeSalty(messageDigest, "aa");
+//            MessageDigest messageDigest = MessageDigest.getInstance("MD5");
+//            String overcallQ = DataInit.md5EncodeSalty(messageDigest,"overcall");
+//            String aaQ = DataInit.md5EncodeSalty(messageDigest, "aa");
 
-            System.out.println(shortActionV1Table.get(overcallQ).get(aaQ).toString());
+            System.out.println(shortActionV1Table.get("overcall").get("aa").toString());
+            System.out.println(shortActionV1Table.get("overcall").get("t9o").toString());
+            System.out.println(shortActionV1Table.get("overcall").get("jts").toString());
 
 //            System.out.println(hashtext);
             // Assert.assertEquals("test", 304,

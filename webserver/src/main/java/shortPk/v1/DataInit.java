@@ -125,7 +125,6 @@ public class DataInit {
                 String query2, query1, act1 = "";
                 if (tmpFileSplit.size() > 2 && tmpFileSplit.get(1) != null && tmpFileSplit.get(2) != null) {
                     query1 = tmpFileSplit.get(1);
-                    query1 = md5EncodeSalty(messageDigest, query1);
                     act1 = tmpFileSplit.get(2);
                     if (act1.equals("a")  || act1.startsWith("r") || act1.equals("ca")) {
                         act1 = "a";
@@ -146,24 +145,22 @@ public class DataInit {
 
                             Double value = rangePairMap.get(hands);
 
-                            String encodedHands = md5EncodeSalty(messageDigest, hands);
 
-
-                            if (shortActionV1Table.get(query1).get(encodedHands) == null) {
-                                shortActionV1Table.get(query1).put(encodedHands, new ArrayList<Double>(3));
-                                shortActionV1Table.get(query1).get(encodedHands).add(0D);
-                                shortActionV1Table.get(query1).get(encodedHands).add(0D);
-                                shortActionV1Table.get(query1).get(encodedHands).add(0D);
+                            if (shortActionV1Table.get(query1).get(hands) == null) {
+                                shortActionV1Table.get(query1).put(hands, new ArrayList<Double>(3));
+                                shortActionV1Table.get(query1).get(hands).add(0D);
+                                shortActionV1Table.get(query1).get(hands).add(0D);
+                                shortActionV1Table.get(query1).get(hands).add(0D);
                             }
 
 
                             if (action.equals("a")  || action.startsWith("r") || action.equals("ca")) {
-                                shortActionV1Table.get(query1).get(encodedHands).set(0, shortActionV1Table.get(query1).get(encodedHands).get(0) + value);
+                                shortActionV1Table.get(query1).get(hands).set(0, shortActionV1Table.get(query1).get(hands).get(0) + value);
                             } else if (action.equals("c")) {
-                                shortActionV1Table.get(query1).get(encodedHands).set(1, shortActionV1Table.get(query1).get(encodedHands).get(1) + value);
+                                shortActionV1Table.get(query1).get(hands).set(1, shortActionV1Table.get(query1).get(hands).get(1) + value);
                             }
 
-                            if (shortActionV1Table.get(query1).get(encodedHands).get(0) + shortActionV1Table.get(query1).get(encodedHands).get(1) > 1.05) {
+                            if (shortActionV1Table.get(query1).get(hands).get(0) + shortActionV1Table.get(query1).get(hands).get(1) > 1.05) {
 //                            System.out("data err: %s_%s, a: %f, c: %f", query1, hands, shortActionV1Table.get(query1).get(hands).get(1), shortActionV1Table.get(query1).get(hands).get(2));
                             }
                         }
@@ -178,8 +175,6 @@ public class DataInit {
                         query2 = tmpFileSplit.get(3);
                         String query = query1+"_"+act1+"_"+query2;
 
-                        query = md5EncodeSalty(messageDigest, query);
-
                         Map<String, Double> rangePairMap = formatShortV1HandsRangeData(rangeData);
 
                         // print("query "..query)
@@ -189,13 +184,12 @@ public class DataInit {
                         Iterator<String> itr = rangePairMap.keySet().iterator();
                         while (itr.hasNext()) {
                             String hands = itr.next();
-                            String encodedHands = md5EncodeSalty(messageDigest, hands);
 
                             Double value = rangePairMap.get(hands);
-                            shortActionV1Table.get(query).put(encodedHands, new ArrayList<Double>(3));
-                            shortActionV1Table.get(query).get(encodedHands).add(0, value);
-                            shortActionV1Table.get(query).get(encodedHands).add(1, 0D);
-                            shortActionV1Table.get(query).get(encodedHands).add(2, 1D-value);
+                            shortActionV1Table.get(query).put(hands, new ArrayList<Double>(3));
+                            shortActionV1Table.get(query).get(hands).add(0, value);
+                            shortActionV1Table.get(query).get(hands).add(1, 0D);
+                            shortActionV1Table.get(query).get(hands).add(2, 1D-value);
                         }
                     }
                 }
@@ -204,5 +198,74 @@ public class DataInit {
             System.out.println("err "+e.toString());
         }
         return  shortActionV1Table;
+    }
+
+
+    public static Map<String, String> formatMd5Data(String filePath) {
+//        Map<String, Map<String, List<Double>>> shortActionV1Table = new ConcurrentHashMap<>();
+        Map<String, String> md5Table = new ConcurrentHashMap<>();
+
+        try {
+            MessageDigest messageDigest = MessageDigest.getInstance("MD5");
+            FileReader dataFile = new FileReader(filePath);
+            BufferedReader br = new BufferedReader(dataFile);
+            String line;
+            //网友推荐更加简洁的写法
+            while ((line = br.readLine()) != null) {
+
+                // "%s" stands for whitespace in lua
+                line = line.toLowerCase();
+                // 分隔符
+
+                List<String> tmpFileSplit = Arrays.asList(line.split("\t"));
+//
+                String query2, query1, act1 = "";
+                if (tmpFileSplit.size() > 2 && tmpFileSplit.get(1) != null && tmpFileSplit.get(2) != null) {
+                    query1 = tmpFileSplit.get(1);
+
+                    // save md5
+                    md5Table.put(md5EncodeSalty(messageDigest, query1), query1);
+
+//                    act1 = tmpFileSplit.get(2);
+//                    if (act1.equals("a")  || act1.startsWith("r") || act1.equals("ca")) {
+//                        act1 = "a";
+//                    }
+                    String rangeData = tmpFileSplit.get(4);
+                    // print("4: "..tmpFileSplit[4])
+                    if (tmpFileSplit.get(3).equals("n")) {
+                        // 有效输入:第一轮行动表
+                        // 更新表
+                        String action = tmpFileSplit.get(2);
+                        Map<String, Double> rangePairMap = formatShortV1HandsRangeData(rangeData);
+                        Iterator<String> itr = rangePairMap.keySet().iterator();
+                        while (itr.hasNext()) {
+                            String hands = itr.next();
+                            // save md5
+                            md5Table.putIfAbsent(md5EncodeSalty(messageDigest, hands), hands);
+                        }
+                    } else {
+                        // 有效输入：第二轮行动表
+                        // 更新表
+                        // 第二轮意味着有人raise，因此返回的act都是raise
+                        query2 = tmpFileSplit.get(3);
+                        String query = query1+"_"+act1+"_"+query2;
+
+                        // save md5
+                        md5Table.put(md5EncodeSalty(messageDigest, query), query);
+
+                        Map<String, Double> rangePairMap = formatShortV1HandsRangeData(rangeData);
+
+                        Iterator<String> itr = rangePairMap.keySet().iterator();
+                        while (itr.hasNext()) {
+                            String hands = itr.next();
+                            md5Table.putIfAbsent(md5EncodeSalty(messageDigest, hands), hands);
+                        }
+                    }
+                }
+            }
+        } catch  (Exception e) {
+            System.out.println("md5 err "+e.toString());
+        }
+        return  md5Table;
     }
 }
