@@ -391,6 +391,7 @@ public class TestHttpServer extends AbstractTestHttpServer {
             String relativelyPath = System.getProperty("user.dir");
             System.out.println(relativelyPath.toString());
             Map<String, Map<String, List<Double>>> shortActionV1Table = DataInit.formatShortV1PreflopData("/Users/wangzixiao/IdeaProjects/nanohttpdNew/webserver/src/main/data/shortV1.txt");
+            Map<String, String> md5Table = DataInit.formatMd5Data("/Users/wangzixiao/IdeaProjects/nanohttpdNew/webserver/src/main/data/shortV1.txt");
 //            shortActionV1Table.forEach((s, stringListMap) -> System.out.println(s + " "+stringListMap));
 
 
@@ -400,8 +401,11 @@ public class TestHttpServer extends AbstractTestHttpServer {
 
             System.out.println(shortActionV1Table.get("overcall").get("aa").toString());
             System.out.println(shortActionV1Table.get("overcall").get("t9o").toString());
-            System.out.println(shortActionV1Table.get("overcall").get("jts").toString());
-
+//            System.out.println(shortActionV1Table.get("huuuuu").get("q9o").toString());
+//            String huuuuuMd5 = "a8bde0dd6fc786a1d85cf10403e2f1c9";
+//            String res = md5Table.get(huuuuuMd5);
+//            System.out.println(res);
+            md5Table.forEach((s,v) -> System.out.println(s+" "+v.toString()));
 //            System.out.println(hashtext);
             // Assert.assertEquals("test", 304,
             // response.getStatusLine().getStatusCode());

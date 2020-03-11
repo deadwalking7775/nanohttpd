@@ -226,10 +226,10 @@ public class DataInit {
                     // save md5
                     md5Table.put(md5EncodeSalty(messageDigest, query1), query1);
 
-//                    act1 = tmpFileSplit.get(2);
-//                    if (act1.equals("a")  || act1.startsWith("r") || act1.equals("ca")) {
-//                        act1 = "a";
-//                    }
+                    act1 = tmpFileSplit.get(2);
+                    if (act1.equals("a")  || act1.startsWith("r") || act1.equals("ca")) {
+                        act1 = "a";
+                    }
                     String rangeData = tmpFileSplit.get(4);
                     // print("4: "..tmpFileSplit[4])
                     if (tmpFileSplit.get(3).equals("n")) {

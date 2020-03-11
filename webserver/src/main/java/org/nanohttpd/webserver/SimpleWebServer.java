@@ -484,8 +484,8 @@ public class SimpleWebServer extends NanoHTTPD {
         Map<String, String> parms = session.getParms();
 
         if (!this.quiet) {
-            System.out.println(session.getMethod() + " '" + uri + "' ");
-            System.out.println("  PRM: '" + parms.toString() + "'");
+//            System.out.println(session.getMethod() + " '" + uri + "' ");
+//            System.out.println("  PRM: '" + parms.toString() + "'");
 //            Iterator<String> e = header.keySet().iterator();
 ////            while (e.hasNext()) {
 ////                String value = e.next();
