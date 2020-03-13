@@ -1,4 +1,3 @@
-status1	player act	status 2nd rnd
 utg	huuuuu	a	n	A8s:1.0,A9s:1.0,ATs:1.0,ATo:0.13,AJs:1.0,AJo:0.592,AQs:1.0,AQo:1.0,AKs:0.192,AKo:1.0,T9s:0.806,TT:0.678,JTs:1.0,JTo:0.624,QTs:1.0,KTs:1.0,JJ:0.816,QJs:1.0,KJs:1.0,QQ:0.592,KQs:1.0,KQo:1.0,KK:0.528
 utg	huuuuu	c	n	AA:1.0,A6s:0.216,A7s:1.0,A9o:0.272,ATo:0.87,AJo:0.408,AKs:0.808,98s:1.0,T8s:1.0,99:0.57,T9s:0.194,T9o:0.036,J9s:0.536,TT:0.322,JTo:0.376,QTo:0.524,KTo:0.212,JJ:0.184,QJo:0.806,KJo:0.886,QQ:0.408,KK:0.472
 utg	huuuuu	c	affff	AA:1.0,ATo:0.688,AJo:0.408,AKs:0.808,TT:0.322,JJ:0.184,QQ:0.408,KK:0.472
@@ -127,7 +126,6 @@ hj	fffhuu	c	affff	AA:1.0,ATs:1.0,AJs:1.0,AQs:0.958,AKs:1.0,AKo:0.242,TT:0.832,JT
 hj	ccchuu	c	n	A6s:0.874,A7o:0.254,A8o:0.258,A9o:0.016,66:1.0,86s:0.16,96s:0.416,K6s:0.39,77:1.0,87s:1.0,97s:1.0,T7s:0.248,Q7s:0.004,K7s:0.376,88:1.0,98s:1.0,T8s:1.0,J8s:0.428,Q8s:0.308,K8s:0.66,99:1.0,T9s:0.998,T9o:0.6,J9s:1.0,Q9s:1.0,K9s:1.0,TT:1.0,JTo:0.496,QTo:0.376,KTo:0.194,QJo:0.392,KJo:0.486
 hj	ccchuu	c	cafff	TT:0.41
 hj	ccchuu	c	fafff	TT:1.0
-hj	ccchuu	c	affff	0
 hj	ccfhuu	c	n	A6s:1.0,A7o:0.468,A8o:0.788,A9o:0.996,66:1.0,86s:0.73,96s:1.0,Q6s:0.198,K6s:1.0,77:1.0,87s:1.0,97s:1.0,T7s:1.0,Q7s:0.58,K7s:1.0,88:1.0,98s:1.0,98o:0.804,T8s:1.0,J8s:1.0,Q8s:1.0,K8s:1.0,99:1.0,T9s:0.998,T9o:1.0,J9s:1.0,Q9s:1.0,K9s:1.0,TT:1.0,JTo:0.638,QTo:0.998,KTo:1.0,JJ:0.224,QJo:1.0,KJo:1.0,KQo:0.718
 hj	ccfhuu	c	cafff	TT:1.0,JJ:0.224,KQo:0.718
 hj	ccfhuu	c	fafff	TT:1.0,JJ:0.224
@@ -357,7 +355,7 @@ btn_play	ffch	a	n	A6o:0.32,A7o:0.346,A8o:0.396,A9o:0.128,ATo:1.0,AJo:0.79,AQo:0.
 btn_play	ffch	r7	n	AA:1.0,A9s:1.0,A9o:0.46,ATs:1.0,AJs:1.0,AJo:0.21,AQs:1.0,AQo:0.562,AKs:1.0,AKo:1.0,76o:0.216,86o:0.382,96o:0.622,T6o:0.706,J6o:0.616,Q6o:0.392,K6o:0.344,87o:0.06,97o:0.334,T7o:0.522,J7o:0.286,Q7o:0.16,K7o:0.036,98o:0.284,T8o:0.298,J8o:0.152,Q8o:0.348,K8o:0.194,T9o:0.084,J9o:0.194,Q9o:0.192,K9o:0.208,TT:0.166,JTs:0.5,JTo:0.232,QTs:0.51,QTo:0.228,KTs:0.974,KTo:0.012,JJ:1.0,QJs:1.0,QJo:0.576,KJs:0.908,QQ:1.0,KQs:0.914,KQo:0.22,KK:1.0
 btn_play	ffah	ca	n	AA:1.0,A9s:1.0,A9o:1.0,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:1.0,JTs:1.0,JTo:1.0,QTs:1.0,QTo:0.172,KTs:1.0,KTo:1.0,JJ:1.0,QJs:1.0,QJo:1.0,KJs:1.0,KJo:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0
 
-overcall	overcall	a	n	AA:1.0,AJs:1.0,AQs:1.0,AKs:1.0,AKo:1.0,JTs:0.802,JJ:1.0,QQ:1.0,KQs:0.3,AQo:0.3.KK:1.0,TT:0.5,T9s:1.0,T8s:1.0,98s:1.0,99:0.3,JTo:0.5,T9o:0.5
+overcall	overcall	a	n	AA:1.0,AJs:1.0,AQs:1.0,AKs:1.0,AKo:1.0,JTs:0.802,JJ:1.0,QQ:1.0,KQs:0.3,AQo:0.3,KK:1.0,TT:0.5,T9s:1.0,T8s:1.0,98s:1.0,99:0.3,JTo:0.5,T9o:0.5
 
 
 2max

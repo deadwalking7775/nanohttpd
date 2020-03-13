@@ -108,14 +108,14 @@ public class DataInit {
     public static Map<String, Map<String, List<Double>>>  formatShortV1PreflopData(String filePath) {
         Map<String, Map<String, List<Double>>> shortActionV1Table = new ConcurrentHashMap<>();
 
+        String line = "";
         try {
             MessageDigest messageDigest = MessageDigest.getInstance("MD5");
             FileReader dataFile = new FileReader(filePath);
             BufferedReader br = new BufferedReader(dataFile);
-            String line;
             //网友推荐更加简洁的写法
             while ((line = br.readLine()) != null) {
-
+                System.out.println(line);
                 // "%s" stands for whitespace in lua
                 line = line.toLowerCase();
                 // 分隔符
@@ -195,6 +195,7 @@ public class DataInit {
                 }
             }
         } catch  (Exception e) {
+            System.out.println(line);
             System.out.println("err "+e.toString());
         }
         return  shortActionV1Table;
