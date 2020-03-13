@@ -399,9 +399,9 @@ public class TestHttpServer extends AbstractTestHttpServer {
 //            String overcallQ = DataInit.md5EncodeSalty(messageDigest,"overcall");
 //            String aaQ = DataInit.md5EncodeSalty(messageDigest, "aa");
 
+            System.out.println(shortActionV1Table.get("fhuuuu_c_cffaa").get("aa").toString());
             System.out.println(shortActionV1Table.get("overcall").get("aa").toString());
             System.out.println(shortActionV1Table.get("overcall").get("t9o").toString());
-            System.out.println(shortActionV1Table.get("fhuuuu_c_cffaa").get("aa").toString());
 
 //            System.out.println(shortActionV1Table.get("huuuuu").get("q9o").toString());
 //            String huuuuuMd5 = "a8bde0dd6fc786a1d85cf10403e2f1c9";
@@ -412,7 +412,7 @@ public class TestHttpServer extends AbstractTestHttpServer {
             // Assert.assertEquals("test", 304,
             // response.getStatusLine().getStatusCode());
         } catch (Exception e){
-
+            System.out.println("err");
         } finally{
             // if (response != null) {
             // response.close();
