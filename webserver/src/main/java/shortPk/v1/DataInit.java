@@ -224,7 +224,7 @@ public class DataInit {
                     query1 = tmpFileSplit.get(1);
 
                     // save md5
-                    md5Table.put(md5EncodeSalty(messageDigest, query1), query1);
+                    md5Table.putIfAbsent(md5EncodeSalty(messageDigest, query1), query1);
 
                     act1 = tmpFileSplit.get(2);
                     if (act1.equals("a")  || act1.startsWith("r") || act1.equals("ca")) {
@@ -251,7 +251,7 @@ public class DataInit {
                         String query = query1+"_"+act1+"_"+query2;
 
                         // save md5
-                        md5Table.put(md5EncodeSalty(messageDigest, query), query);
+                        md5Table.putIfAbsent(md5EncodeSalty(messageDigest, query), query);
 
                         Map<String, Double> rangePairMap = formatShortV1HandsRangeData(rangeData);
 
