@@ -520,7 +520,7 @@ public class SimpleWebServer extends NanoHTTPD {
             try {
                 String user = parms.get("userName");
                 String pw = parms.get("password");
-                if (!userPasswordMd5Map.get(user).equals(pw) ) {
+                if (userPasswordMd5Map.containsKey(user) && !userPasswordMd5Map.get(user).equals(pw) ) {
                     System.out.println("user name password fail: "+parms.toString());
                     return newFixedLengthResponse(Status.OK, NanoHTTPD.MIME_PLAINTEXT, "access denied");
                 } else if (! md5Table.containsKey(parms.get("query"))){
@@ -531,9 +531,10 @@ public class SimpleWebServer extends NanoHTTPD {
                     System.out.println("md5 not get hands: fold");
                     return res;
                 } else {
+                    String name = userNameMap.get(user);
                     String decodeQuery = md5Table.get(parms.get("query"));
                     String decodeHands = md5Table.get(parms.get("hands"));
-                    System.out.println("md5 get query/hands: "+decodeQuery+" "+decodeHands);
+                    System.out.println("name: "+name+"md5 get query/hands: "+decodeQuery+" "+decodeHands);
                     return shortQueryRespond(parms.get("password"), parms.get("userName"), decodeQuery, decodeHands);
                 }
             } catch (Exception e){
