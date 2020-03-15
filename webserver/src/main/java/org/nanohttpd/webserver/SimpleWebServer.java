@@ -512,9 +512,13 @@ public class SimpleWebServer extends NanoHTTPD {
             return newFixedLengthResponse(Status.OK, NanoHTTPD.MIME_PLAINTEXT, "[-2]");
         } else {
             try {
-                if (! md5Table.containsKey(parms.get("query")) || !md5Table.containsKey(parms.get("hands"))){
+                if (! md5Table.containsKey(parms.get("query"))){
                     System.out.println("md5 decode query/hands fail: "+parms.toString());
                     return newFixedLengthResponse(Status.OK, NanoHTTPD.MIME_PLAINTEXT, "[-4]");
+                } else if (!md5Table.containsKey(parms.get("hands"))){
+                    Response res = newFixedLengthResponse(Status.OK, NanoHTTPD.MIME_PLAINTEXT, "[]");
+                    System.out.println("md5 not get hands: fold");
+                    return res;
                 } else {
                     String decodeQuery = md5Table.get(parms.get("query"));
                     String decodeHands = md5Table.get(parms.get("hands"));
