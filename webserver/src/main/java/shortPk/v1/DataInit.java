@@ -201,6 +201,52 @@ public class DataInit {
         return  shortActionV1Table;
     }
 
+//    jason1 55A0013
+//    jason2 F5DA0B1
+//    jason3 D455616
+//    jsonWb WBWB123
+//    ZXZX ZX1234
+//    testwzx testwzx
+
+
+
+//    b5996087043319bac567ddf1c81115ff bc34f48b37c34a36ebc7644e97204219
+//    f8ea44204bd130c04908288c6661e44e f8ea44204bd130c04908288c6661e44e
+//  4b2f495481a4d4ff22cc6a22683b298c 88a35f0c2cba4d8d9ee573b2efeec99c
+//  08bbdc5234d80d8e270f31b2fe038488 6bd7d943af1e7773a90aefe31577de03
+//    fc3f86537b4fb8f49df54852440fd4f3 d9d14ea527bc57e7631e7647be59998a
+//    a31bd57fdf296f71e9c531589760ba44 23dcac11bf03e85e4298de30dffa3ff0
+    public static Map<String, String> getUserPassword() {
+        Map<String, String> res =  new ConcurrentHashMap<>();
+        try {
+            MessageDigest messageDigest = MessageDigest.getInstance("MD5");
+            res.put(md5EncodeSalty(messageDigest, "jason1"), md5EncodeSalty(messageDigest, "55A0013"));
+            res.put(md5EncodeSalty(messageDigest, "jason2"), md5EncodeSalty(messageDigest, "F5DA0B1"));
+            res.put(md5EncodeSalty(messageDigest, "jason3"), md5EncodeSalty(messageDigest, "D455616"));
+            res.put(md5EncodeSalty(messageDigest, "jsonWb"), md5EncodeSalty(messageDigest, "WBWB123"));
+            res.put(md5EncodeSalty(messageDigest, "ZXZX"), md5EncodeSalty(messageDigest, "ZX1234"));
+            res.put(md5EncodeSalty(messageDigest, "testwzx"), md5EncodeSalty(messageDigest, "testwzx"));
+        } catch (Exception e){
+            System.out.println(e.toString());
+        }
+        return res;
+    }
+
+    public static Map<String, String> getUserName() {
+        Map<String, String> res =  new ConcurrentHashMap<>();
+        try {
+            MessageDigest messageDigest = MessageDigest.getInstance("MD5");
+            res.put(md5EncodeSalty(messageDigest, "jason1"), "jason1");
+            res.put(md5EncodeSalty(messageDigest, "jason2"), "jason2");
+            res.put(md5EncodeSalty(messageDigest, "jason3"), "jason3");
+            res.put(md5EncodeSalty(messageDigest, "jsonWb"), "jsonWb");
+            res.put(md5EncodeSalty(messageDigest, "ZXZX"), "ZXZX");
+            res.put(md5EncodeSalty(messageDigest, "testwzx"), "testwzx");
+        } catch (Exception e){
+            System.out.println(e.toString());
+        }
+        return res;
+    }
 
     public static Map<String, String> formatMd5Data(String filePath) {
 //        Map<String, Map<String, List<Double>>> shortActionV1Table = new ConcurrentHashMap<>();

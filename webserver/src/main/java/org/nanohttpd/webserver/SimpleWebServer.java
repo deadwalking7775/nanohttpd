@@ -41,6 +41,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
+import java.security.MessageDigest;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -76,6 +77,8 @@ public class SimpleWebServer extends NanoHTTPD {
 
     public static Map<String, Map<String, List<Double>>> shortActionV1Table;
     public static Map<String, String> md5Table;
+    public static Map<String, String> userPasswordMd5Map;
+    public static Map<String, String> userNameMap;
 
     /**
      * The distribution licence
@@ -102,6 +105,9 @@ public class SimpleWebServer extends NanoHTTPD {
         System.out.println(relativelyPath.toString());
         shortActionV1Table = DataInit.formatShortV1PreflopData(relativelyPath + "/webserver/src/main/data/shortV1.txt");
         md5Table = DataInit.formatMd5Data(relativelyPath + "/webserver/src/main/data/shortV1.txt");
+        userPasswordMd5Map = DataInit.getUserPassword();
+        userNameMap = DataInit.getUserName();
+
         System.out.println("init done");
     }
 
@@ -512,7 +518,12 @@ public class SimpleWebServer extends NanoHTTPD {
             return newFixedLengthResponse(Status.OK, NanoHTTPD.MIME_PLAINTEXT, "[-2]");
         } else {
             try {
-                if (! md5Table.containsKey(parms.get("query"))){
+                String user = parms.get("userName");
+                String pw = parms.get("password");
+                if (!userPasswordMd5Map.get(user).equals(pw) ) {
+                    System.out.println("user name password fail: "+parms.toString());
+                    return newFixedLengthResponse(Status.OK, NanoHTTPD.MIME_PLAINTEXT, "access denied");
+                } else if (! md5Table.containsKey(parms.get("query"))){
                     System.out.println("md5 decode query/hands fail: "+parms.toString());
                     return newFixedLengthResponse(Status.OK, NanoHTTPD.MIME_PLAINTEXT, "[-4]");
                 } else if (!md5Table.containsKey(parms.get("hands"))){

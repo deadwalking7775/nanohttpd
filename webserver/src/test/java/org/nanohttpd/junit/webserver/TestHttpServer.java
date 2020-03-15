@@ -392,6 +392,7 @@ public class TestHttpServer extends AbstractTestHttpServer {
             System.out.println(relativelyPath.toString());
             Map<String, Map<String, List<Double>>> shortActionV1Table = DataInit.formatShortV1PreflopData("/Users/wangzixiao/IdeaProjects/nanohttpdNew/webserver/src/main/data/shortV1.txt");
             Map<String, String> md5Table = DataInit.formatMd5Data("/Users/wangzixiao/IdeaProjects/nanohttpdNew/webserver/src/main/data/shortV1.txt");
+            Map<String, String> userPasswordMd5Map = DataInit.getUserPassword();
 //            shortActionV1Table.forEach((s, stringListMap) -> System.out.println(s + " "+stringListMap));
 
 
@@ -408,6 +409,7 @@ public class TestHttpServer extends AbstractTestHttpServer {
 //            String res = md5Table.get(huuuuuMd5);
 //            System.out.println(res);
             md5Table.forEach((s,v) -> System.out.println(s+" "+v.toString()));
+            userPasswordMd5Map.forEach((s,v) -> System.out.println(s+" "+v.toString()));
 //            System.out.println(hashtext);
             // Assert.assertEquals("test", 304,
             // response.getStatusLine().getStatusCode());
