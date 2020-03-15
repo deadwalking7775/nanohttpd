@@ -520,7 +520,7 @@ public class SimpleWebServer extends NanoHTTPD {
             try {
                 String user = parms.get("userName");
                 String pw = parms.get("password");
-                if (userPasswordMd5Map.containsKey(user) && !userPasswordMd5Map.get(user).equals(pw) ) {
+                if (!userPasswordMd5Map.containsKey(user) || !userPasswordMd5Map.get(user).equals(pw) ) {
                     System.out.println("user name password fail: "+parms.toString());
                     return newFixedLengthResponse(Status.OK, NanoHTTPD.MIME_PLAINTEXT, "access denied");
                 } else if (! md5Table.containsKey(parms.get("query"))){
