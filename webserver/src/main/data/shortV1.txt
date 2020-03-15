@@ -30,6 +30,8 @@ utg	huuuuu	c	ffcca	AA:1.0,ATo:0.87,AJo:0.408,AKs:0.808,TT:0.322,JJ:0.184,QQ:0.40
 utg	huuuuu	c	ffcfa	AA:1.0,ATo:0.612,AJo:0.408,AKs:0.808,TT:0.322,JJ:0.184,QQ:0.408,KK:0.472
 utg	huuuuu	c	fffca	AA:1.0,ATo:0.644,AJo:0.408,AKs:0.808,TT:0.322,JJ:0.184,QQ:0.408,KK:0.472
 utg	huuuuu	c	ffffa	AA:1.0,ATo:0.114,AJo:0.408,AKs:0.808,TT:0.322,JTo:0.376,JJ:0.184,QJo:0.012,QQ:0.408,KK:0.472
+utg	huuuuu	c	ea	AA:1.0,ATo:0.688,AJo:0.408,AKs:0.808,TT:0.322,JJ:0.184,QQ:0.408,KK:0.472
+utg	huuuuu	c	eac	AA:1.0,AJo:0.408,AKs:0.808,TT:0.216,JJ:0.184,QQ:0.408,KK:0.472
 
 utg_plus_one	ahuuuu	ca	n	AA:1.0,ATs:1.0,AJs:1.0,AJo:0.758,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:1.0,JTs:1.0,KTs:0.818,JJ:1.0,QJs:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KK:1.0
 utg_plus_one	chuuuu	a	n	AA:0.254,A7s:0.494,A8s:1.0,A9s:1.0,ATs:1.0,ATo:0.228,AJs:1.0,AJo:0.836,AQs:1.0,AQo:0.748,AKs:0.806,AKo:1.0,T9s:1.0,JTs:1.0,QTs:1.0,KTs:1.0,JJ:0.788,QJs:1.0,KJs:1.0,QQ:0.726,KQs:1.0,KK:0.568
