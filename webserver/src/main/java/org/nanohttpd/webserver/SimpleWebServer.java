@@ -42,15 +42,7 @@ import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 import java.security.MessageDigest;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.ServiceLoader;
-import java.util.StringTokenizer;
+import java.util.*;
 
 import org.nanohttpd.protocols.http.IHTTPSession;
 import org.nanohttpd.protocols.http.NanoHTTPD;
@@ -534,7 +526,9 @@ public class SimpleWebServer extends NanoHTTPD {
                     String name = userNameMap.get(user);
                     String decodeQuery = md5Table.get(parms.get("query"));
                     String decodeHands = md5Table.get(parms.get("hands"));
-                    System.out.println("name: "+name+"md5 get query/hands: "+decodeQuery+" "+decodeHands);
+
+                    System.out.println((new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss")).format(new Date())
+                            +": name: "+name+" md5 get query/hands: "+decodeQuery+" "+decodeHands);
                     return shortQueryRespond(parms.get("password"), parms.get("userName"), decodeQuery, decodeHands);
                 }
             } catch (Exception e){
