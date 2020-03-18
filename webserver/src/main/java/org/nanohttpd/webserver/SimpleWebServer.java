@@ -68,6 +68,7 @@ public class SimpleWebServer extends NanoHTTPD {
     };
 
     public static Map<String, Map<String, List<Double>>> shortActionV1Table;
+    public static Map<String, Map<String, List<Double>>> shortActionV2Table;
     public static Map<String, String> md5Table;
     public static Map<String, String> userPasswordMd5Map;
     public static Map<String, String> userNameMap;
@@ -96,6 +97,7 @@ public class SimpleWebServer extends NanoHTTPD {
         String relativelyPath = System.getProperty("user.dir");
         System.out.println(relativelyPath.toString());
         shortActionV1Table = DataInit.formatShortV1PreflopData(relativelyPath + "/webserver/src/main/data/shortV1.txt");
+        shortActionV2Table = DataInit.formatShortV1PreflopDataV2(relativelyPath + "/webserver/src/main/data/shortV1.txt");
         md5Table = DataInit.formatMd5Data(relativelyPath + "/webserver/src/main/data/shortV1.txt");
         userPasswordMd5Map = DataInit.getUserPassword();
         userNameMap = DataInit.getUserName();
@@ -383,20 +385,26 @@ public class SimpleWebServer extends NanoHTTPD {
         return r;
     }
 
-    private Response shortQueryRespond(String password, String userName, String query, String hands) {
-        List<Double> queryRes = new ArrayList<>();
-        if (shortActionV1Table.get(query) != null && shortActionV1Table.get(query).get(hands) != null ){
-            queryRes = shortActionV1Table.get(query).get(hands);
+    private String shortQueryRespond(String password, String userName, String query, String hands, String ver) {
+        Map<String, Map<String, List<Double>>> targetTable;
+        if (ver.equals("")){
+            targetTable = shortActionV1Table;
+        } else {
+            targetTable = shortActionV2Table;
         }
-        if (shortActionV1Table.get(query) == null){
+
+        List<Double> queryRes = new ArrayList<>();
+        if (targetTable.get(query) != null && targetTable.get(query).get(hands) != null ){
+            queryRes = targetTable.get(query).get(hands);
+        }
+        if (targetTable.get(query) == null){
             queryRes.add(-333D);
         }
 //        if (queryRes == null){
 //            queryRes = new ArrayList<>();
 //        }
         System.out.println("queryRes: "+queryRes);
-        Response res = newFixedLengthResponse(Status.OK, NanoHTTPD.MIME_PLAINTEXT, queryRes.toString());
-        return res;
+        return queryRes.toString();
     }
 
     private Response defaultRespond(Map<String, String> headers, IHTTPSession session, String uri) {
@@ -512,6 +520,22 @@ public class SimpleWebServer extends NanoHTTPD {
             try {
                 String user = parms.get("userName");
                 String pw = parms.get("password");
+                String type = "";
+                String ver = "";
+                if (parms.containsKey("type")) {
+                    type = parms.get("type");
+                    ver = parms.get("version");
+                }
+
+                System.out.println((new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss")).format(new Date())
+                        +": req param: "+parms.toString());
+
+                if (md5Table.containsKey(type) && md5Table.get(type).equals("error")){
+                    System.out.println((new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss")).format(new Date())
+                            +": error:  get query/hands: "+parms.get("query")+" "+parms.get("hands"));
+                    return newFixedLengthResponse(Status.OK, NanoHTTPD.MIME_PLAINTEXT, "");
+                }
+
                 if (!userPasswordMd5Map.containsKey(user) || !userPasswordMd5Map.get(user).equals(pw) ) {
                     System.out.println("user name password fail: "+parms.toString());
                     return newFixedLengthResponse(Status.OK, NanoHTTPD.MIME_PLAINTEXT, "access denied");
@@ -519,17 +543,19 @@ public class SimpleWebServer extends NanoHTTPD {
                     System.out.println("md5 decode query/hands fail: "+parms.toString());
                     return newFixedLengthResponse(Status.OK, NanoHTTPD.MIME_PLAINTEXT, "[-4]");
                 } else if (!md5Table.containsKey(parms.get("hands"))){
-                    Response res = newFixedLengthResponse(Status.OK, NanoHTTPD.MIME_PLAINTEXT, "[]");
-                    System.out.println("md5 not get hands: fold");
-                    return res;
+                    System.out.println("md5 not get hands: fold "+parms.toString());
+                    return newFixedLengthResponse(Status.OK, NanoHTTPD.MIME_PLAINTEXT, "[]");
                 } else {
                     String name = userNameMap.get(user);
                     String decodeQuery = md5Table.get(parms.get("query"));
                     String decodeHands = md5Table.get(parms.get("hands"));
 
+                    String queryRes = shortQueryRespond(parms.get("password"), parms.get("userName"), decodeQuery, decodeHands, ver);
+
                     System.out.println((new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss")).format(new Date())
-                            +": name: "+name+" md5 get query/hands: "+decodeQuery+" "+decodeHands);
-                    return shortQueryRespond(parms.get("password"), parms.get("userName"), decodeQuery, decodeHands);
+                            +": name: "+name+" md5 get query/hands: "+decodeQuery+" "+decodeHands+" queryRes: "+queryRes);
+
+                    return newFixedLengthResponse(Status.OK, NanoHTTPD.MIME_PLAINTEXT, queryRes);
                 }
             } catch (Exception e){
                 System.out.println("error get Res: "+e.toString());

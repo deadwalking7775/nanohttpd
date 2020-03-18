@@ -393,17 +393,15 @@ public class TestHttpServer extends AbstractTestHttpServer {
             Map<String, Map<String, List<Double>>> shortActionV1Table = DataInit.formatShortV1PreflopData("/Users/wangzixiao/IdeaProjects/nanohttpdNew/webserver/src/main/data/shortV1.txt");
             Map<String, String> md5Table = DataInit.formatMd5Data("/Users/wangzixiao/IdeaProjects/nanohttpdNew/webserver/src/main/data/shortV1.txt");
             Map<String, String> userPasswordMd5Map = DataInit.getUserPassword();
-//            shortActionV1Table.forEach((s, stringListMap) -> System.out.println(s + " "+stringListMap));
+            Map<String, Map<String, List<Double>>> shortActionV2Table = DataInit.formatShortV1PreflopDataV2("/Users/wangzixiao/IdeaProjects/nanohttpdNew/webserver/src/main/data/shortV1.txt");
 
 
 //            MessageDigest messageDigest = MessageDigest.getInstance("MD5");
 //            String overcallQ = DataInit.md5EncodeSalty(messageDigest,"overcall");
 //            String aaQ = DataInit.md5EncodeSalty(messageDigest, "aa");
 
-            System.out.println("fcfhuu"+shortActionV1Table.get("fcfhuu").get("aa").toString());
-            System.out.println("cccfah"+shortActionV1Table.get("cccfah").get("aa").toString());
-            System.out.println("o"+shortActionV1Table.get("overcall").get("t9o").toString());
 
+            shortActionV2Table.forEach((s, stringListMap) -> System.out.println(s + " "+stringListMap));
 //            System.out.println(shortActionV1Table.get("huuuuu").get("q9o").toString());
 //            String huuuuuMd5 = "a8bde0dd6fc786a1d85cf10403e2f1c9";
 //            String res = md5Table.get(huuuuuMd5);
@@ -413,6 +411,9 @@ public class TestHttpServer extends AbstractTestHttpServer {
 //            System.out.println(hashtext);
             // Assert.assertEquals("test", 304,
             // response.getStatusLine().getStatusCode());
+            System.out.println("fcfhuu"+shortActionV2Table.get("fcfhuu").get("aa").toString());
+            System.out.println("ccfh"+shortActionV2Table.get("ccfh").get("a6o").toString());
+            System.out.println("o"+shortActionV2Table.get("overcall").get("t9o").toString());
         } catch (Exception e){
             System.out.println("err");
         } finally{
