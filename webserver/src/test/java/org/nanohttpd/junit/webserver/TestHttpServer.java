@@ -390,10 +390,10 @@ public class TestHttpServer extends AbstractTestHttpServer {
         try {
             String relativelyPath = System.getProperty("user.dir");
             System.out.println(relativelyPath.toString());
-            Map<String, Map<String, List<Double>>> shortActionV1Table = DataInit.formatShortV1PreflopData("/Users/wangzixiao/IdeaProjects/nanohttpdNew/webserver/src/main/data/shortV1.txt");
-            Map<String, String> md5Table = DataInit.formatMd5Data("/Users/wangzixiao/IdeaProjects/nanohttpdNew/webserver/src/main/data/shortV1.txt");
+            Map<String, Map<String, List<Double>>> shortActionV1Table = DataInit.formatShortV1PreflopData("/Users/wangzixiao/IdeaProjects/nanohttpdNew/webserver/src/main/data/shortV2.txt");
+            Map<String, String> md5Table = DataInit.formatMd5Data("/Users/wangzixiao/IdeaProjects/nanohttpdNew/webserver/src/main/data/shortV2.txt");
             Map<String, String> userPasswordMd5Map = DataInit.getUserPassword();
-            Map<String, Map<String, List<Double>>> shortActionV2Table = DataInit.formatShortV1PreflopDataV2("/Users/wangzixiao/IdeaProjects/nanohttpdNew/webserver/src/main/data/shortV1.txt");
+            Map<String, Map<String, List<Double>>> shortActionV2Table = DataInit.formatShortV1PreflopDataV2("/Users/wangzixiao/IdeaProjects/nanohttpdNew/webserver/src/main/data/shortV2.txt");
 
 
 //            MessageDigest messageDigest = MessageDigest.getInstance("MD5");
