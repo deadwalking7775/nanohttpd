@@ -213,6 +213,7 @@ public class DataInit {
     //
     // // 生成结果 {query: handsTable}
     // // handsTable[1]: p(a) handsTable[2]: p（c） handsTable[3]: p（f）
+    // 增加 raise
     public static Map<String, Map<String, List<Double>>>  formatShortV1PreflopDataV2(String filePath) {
         Map<String, Map<String, List<Double>>> shortActionV1Table = new ConcurrentHashMap<>();
 

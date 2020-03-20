@@ -69,6 +69,7 @@ public class SimpleWebServer extends NanoHTTPD {
 
     public static Map<String, Map<String, List<Double>>> shortActionV1Table;
     public static Map<String, Map<String, List<Double>>> shortActionV2Table;
+    public static Map<String, Map<String, List<Double>>> shortActionV3Table;
     public static Map<String, String> md5Table;
     public static Map<String, String> userPasswordMd5Map;
     public static Map<String, String> userNameMap;
@@ -96,8 +97,9 @@ public class SimpleWebServer extends NanoHTTPD {
 
         String relativelyPath = System.getProperty("user.dir");
         System.out.println(relativelyPath.toString());
-        shortActionV1Table = DataInit.formatShortV1PreflopData(relativelyPath + "/webserver/src/main/data/shortV2.txt");
-        shortActionV2Table = DataInit.formatShortV1PreflopDataV2(relativelyPath + "/webserver/src/main/data/shortV2.txt");
+        shortActionV1Table = DataInit.formatShortV1PreflopData(relativelyPath + "/webserver/src/main/data/shortV1.txt");
+        shortActionV2Table = DataInit.formatShortV1PreflopDataV2(relativelyPath + "/webserver/src/main/data/shortV1.txt");
+        shortActionV3Table = DataInit.formatShortV1PreflopDataV2(relativelyPath + "/webserver/src/main/data/shortV2.txt");
         md5Table = DataInit.formatMd5Data(relativelyPath + "/webserver/src/main/data/shortV2.txt");
         userPasswordMd5Map = DataInit.getUserPassword();
         userNameMap = DataInit.getUserName();
@@ -389,6 +391,8 @@ public class SimpleWebServer extends NanoHTTPD {
         Map<String, Map<String, List<Double>>> targetTable;
         if (ver.equals("")){
             targetTable = shortActionV1Table;
+        } else if (ver.equals("0.1.3")) {
+            targetTable = shortActionV3Table;
         } else {
             targetTable = shortActionV2Table;
         }
