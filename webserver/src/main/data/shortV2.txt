@@ -419,9 +419,64 @@ overcall	overcall	a	n	AA:1.0,AJs:1.0,AQs:1.0,AKs:1.0,AKo:1.0,JTs:0.802,JJ:1.0,QQ
 
 
 2max
+co_play	hu	c	n	AA:0.9,A6o:0.26,A7o:0.258,ATs:0.212,AKs:0.36,J9s:0.178,JTs:0.156,QTs:0.032,JJ:0.1,QJs:0.626,QQ:0.274,KK:0.254
 co_play	hu	a	n	A6s:1.0,A7s:1.0,A7o:0.396,A8s:1.0,A8o:0.916,A9s:1.0,A9o:1.0,ATs:0.788,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:0.602,AKo:1.0,98s:1.0,98o:0.59,T8s:1.0,T9s:0.982,T9o:0.77,J9s:0.764,TT:0.14,JTo:0.784,QTs:0.858,QTo:0.488,KTs:0.962,KTo:0.81,JJ:0.554,QJs:0.304,QJo:0.432,KJs:0.576,KJo:1.0,QQ:0.704,KQs:0.882,KQo:1.0,KK:0.724
-co_play	hu	c	n	AA:0.908,A6o:0.964,A7o:0.604,A8o:0.064,ATs:0.212,AKs:0.36,66:1.0,96s:0.208,Q6s:0.542,K6s:1.0,77:1.0,87s:0.994,97s:1.0,T7s:0.98,J7s:1.0,Q7s:1.0,K7s:1.0,88:1.0,98o:0.404,T8o:0.944,J8s:0.988,J8o:0.326,Q8s:1.0,K8s:0.982,99:0.96,T9o:0.23,J9s:0.236,J9o:0.968,Q9s:1.0,Q9o:0.966,K9s:0.99,K9o:0.96,TT:0.858,JTs:0.974,JTo:0.216,QTs:0.1,QTo:0.5,KTo:0.19,JJ:0.42,QJs:0.626,QJo:0.546,KJs:0.424,QQ:0.274,KQs:0.118,KK:0.254
-btn_play	ah	c	n	AA:0.588,A6s:0.56,A6o:1.0,A7s:0.998,A7o:0.626,A8s:0.802,A8o:0.362,A9s:1.0,A9o:0.786,AQs:0.368,AKs:1.0,AKo:0.15,66:1.0,76s:1.0,86s:1.0,96s:1.0,T6s:1.0,Q6s:1.0,K6s:1.0,77:1.0,87s:1.0,97s:1.0,T7s:1.0,J7s:1.0,Q7s:1.0,K7s:1.0,K7o:0.204,88:1.0,98s:1.0,98o:1.0,T8s:1.0,T8o:1.0,J8s:1.0,J8o:0.714,Q8s:1.0,K8s:1.0,K8o:0.452,99:1.0,T9s:1.0,T9o:1.0,J9s:1.0,J9o:1.0,Q9s:1.0,Q9o:1.0,K9s:1.0,K9o:1.0,TT:1.0,JTs:1.0,JTo:1.0,QTs:1.0,QTo:0.898,KTs:1.0,KTo:0.428,JJ:0.19,QJs:1.0,QJo:0.868,KJs:1.0,KJo:0.37,KQs:1.0,KQo:0.744,KK:0.118
-btn_play	ah	a	n	AA:0.412,A6s:0.402,A7s:0.002,A7o:0.374,A8s:0.198,A8o:0.638,A9o:0.214,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:0.632,AQo:1.0,AKo:0.85,QTo:0.102,KTo:0.572,JJ:0.81,QJo:0.132,KJo:0.63,QQ:1.0,KQo:0.256,KK:0.882
+btn_play	ah	c	n	AA:1.0,A9s:1.0,A9o:1.0,ATs:1.0,ATo:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,99:0.704,TT:1.0,JTs:1.0,JTo:0.28,QTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,QJo:0.704,KJs:1.0,KJo:1.0,QQ:1.0,KQs:1.0,KQo:1.0,KK:1.0
 btn_play	ch	a	n	A6o:0.69,A7o:0.406,A8o:0.124,A9o:0.344,ATo:1.0,AJo:1.0,AQo:0.966,AKo:0.356,Q9o:0.37,K9o:0.074,QTo:0.186,KTo:0.534,JJ:0.37,QJo:0.248,KJo:0.988,KQo:0.474
 btn_play	ch	r4	n	AA:1.0,A7o:0.102,A8s:0.758,A8o:0.218,A9s:1.0,ATs:0.96,AJs:1.0,AQs:1.0,AKs:1.0,AKo:0.642,76s:0.01,76o:0.042,86s:0.15,86o:0.108,96o:0.22,T6s:0.05,T6o:0.226,J6o:0.162,Q6o:0.27,K6o:0.112,77:0.098,87s:0.314,87o:0.006,97s:0.018,97o:0.266,T7s:0.14,T7o:0.278,J7o:0.284,Q7o:0.11,K7o:0.228,88:0.162,98s:0.088,98o:0.338,T8o:0.264,J8o:0.262,Q8s:0.038,Q8o:0.272,K8o:0.254,99:0.526,T9s:0.098,T9o:0.404,J9o:0.324,Q9o:0.134,K9o:0.37,TT:0.674,JTs:1.0,JTo:0.118,QTs:0.166,QTo:0.196,KTs:0.356,JJ:0.63,QJs:0.674,QJo:0.298,KJs:0.322,QQ:1.0,KQs:0.54,KQo:0.178,KK:1.0
+
+mp	aahuuu	a	n	AA:1.0,AQs:1.0,AKs:1.0,AKo:1.0,97s:1.0,98s:1.0,T8s:1.0,T9s:1.0,T9o:1.0,JTs:1.0,JJ:1.0,QQ:1.0,KK:1.0
+hj	aaahuu	a	n	AA:1.0,AKs:1.0,87s:1.0,97s:1.0,98s:1.0,T8s:1.0,T9s:1.0,T9o:1.0,J9s:1.0,JTs:1.0,QTs:1.0,JJ:1.0,QQ:0.5,KK:1.0
+hj	aafhuu	a	n	AA:1.0,AQs:1.0,AKs:1.0,AKo:1.0,97s:1.0,98s:1.0,T8s:1.0,T9s:1.0,T9o:1.0,TT:0.5,JTs:1.0,JJ:1.0,QQ:1.0,KK:1.0
+hj	afahuu	a	n	AA:1.0,AQs:1.0,AKs:1.0,AKo:1.0,97s:1.0,98s:1.0,T8s:1.0,T9s:1.0,T9o:1.0,TT:0.5,JTs:1.0,JJ:1.0,QQ:1.0,KK:1.0
+hj	caahuu	a	n	AA:1.0,AKs:1.0,87s:1.0,97s:1.0,98s:1.0,T8s:1.0,T9s:1.0,T9o:1.0,JTs:1.0,QQ:1.0,KK:1.0
+hj	faahuu	a	n	AA:1.0,AJs:0.5,AQs:1.0,AKs:1.0,AKo:1.0,97s:1.0,98s:1.0,T8s:1.0,T9s:1.0,T9o:1.0,TT:0.5,JTs:1.0,JJ:1.0,QQ:1.0,KK:1.0
+co	aaaahu	a	n	AA:1.0,AKs:1.0,87s:1.0,97s:1.0,88:1.0,98s:1.0,T8s:1.0,T9s:1.0,JTs:1.0,QTs:1.0,JJ:0.036,QQ:0.5,KK:1.0
+co	aaafhu	a	n	AA:1.0,AKs:1.0,87s:1.0,97s:1.0,98s:1.0,T8s:1.0,T9s:1.0,T9o:1.0,J9s:1.0,JTs:1.0,QTs:1.0,JJ:0.5,QQ:0.5,KK:1.0
+co	aafahu	a	n	AA:1.0,AKs:1.0,87s:1.0,97s:1.0,98s:1.0,T8s:1.0,T9s:1.0,T9o:1.0,J9s:1.0,JTs:1.0,QTs:1.0,JJ:0.5,QQ:0.5,KK:1.0
+co	afaahu	a	n	AA:1.0,AKs:1.0,87s:1.0,97s:1.0,98s:1.0,T8s:1.0,T9s:1.0,T9o:1.0,JTs:1.0,QTs:1.0,JJ:0.5,QQ:0.5,KK:1.0
+co	afafhu	a	n	AA:1.0,AQs:1.0,AKs:1.0,AKo:1.0,97s:1.0,98s:1.0,T8s:1.0,T9s:1.0,T9o:1.0,TT:0.5,JTs:1.0,JJ:1.0,QQ:1.0,KK:1.0
+co	affahu	a	n	AA:1.0,AQs:1.0,AKs:1.0,AKo:1.0,97s:1.0,98s:1.0,T8s:1.0,T9s:1.0,T9o:1.0,TT:0.5,JTs:1.0,JJ:1.0,QQ:1.0,KK:1.0
+co	faaahu	a	n	AA:1.0,AQs:1.0,AKs:1.0,AKo:0.17,87s:1.0,97s:1.0,98s:1.0,T8s:1.0,T9s:1.0,T9o:1.0,JTs:1.0,QTs:1.0,JJ:0.5,QQ:0.5,KK:1.0
+co	fafahu	a	n	AA:1.0,AJs:1.0,AQs:1.0,AQo:0.5,AKs:1.0,AKo:1.0,98s:1.0,T8s:1.0,T9s:1.0,T9o:1.0,TT:0.5,JTs:1.0,JJ:1.0,QQ:1.0,KK:1.0
+co	faafhu	a	n	AA:1.0,AJs:1.0,AQs:1.0,AQo:0.5,AKs:1.0,AKo:1.0,97s:1.0,98s:1.0,T8s:1.0,T9s:1.0,T9o:1.0,TT:0.5,JTs:1.0,JJ:1.0,QQ:1.0,KK:1.0
+co	ffaahu	a	n	AA:1.0,AJs:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,98s:1.0,T8s:1.0,T9s:1.0,TT:0.5,JTs:1.0,JJ:1.0,QQ:1.0,KQs:0.5,KK:1.0
+btn	aaaaah	a	n	AA:1.0,A8s:0.244,AQs:0.372,AKs:0.486,66:1.0,77:0.974,87s:1.0,97s:1.0,T7s:0.726,88:0.232,98s:1.0,T8s:1.0,T9s:1.0,J9s:1.0,JTs:1.0,QTs:1.0,QJs:1.0,QQ:1.0,KQs:0.004,KK:1.0
+btn	aaaafh	a	n	AA:1.0,AKs:1.0,86s:1.0,77:1.0,87s:1.0,97s:1.0,T7s:1.0,88:1.0,98s:1.0,T8s:1.0,T9s:1.0,J9s:1.0,JTs:1.0,QTs:1.0,JJ:0.5,QJs:0.524,QQ:0.5,KK:0.5
+btn	aaafah	a	n	AA:1.0,AKs:1.0,86s:1.0,77:1.0,87s:1.0,97s:1.0,T7s:1.0,88:1.0,98s:1.0,T8s:1.0,T9s:1.0,J9s:1.0,JTs:1.0,QTs:1.0,JJ:0.5,QJs:0.524,QQ:0.5,KK:0.5
+btn	aaaffh	a	n	AA:1.0,AKs:1.0,87s:1.0,97s:1.0,T7s:1.0,88:0.5,98s:1.0,98o:1.0,T8s:1.0,99:0.2,T9s:1.0,T9o:1.0,J9s:1.0,TT:0.5,JTs:1.0,JTo:1.0,QTs:1.0,JJ:0.5,QQ:0.5,KK:1.0
+btn	aafaah	a	n	AA:1.0,AKs:1.0,77:0.256,87s:1.0,97s:1.0,T7s:1.0,88:1.0,98s:1.0,T8s:1.0,T9s:1.0,J9s:1.0,JTs:1.0,QTs:1.0,JJ:0.5,QQ:0.5,KK:1.0
+btn	aafafh	a	n	AA:1.0,AKs:1.0,87s:1.0,97s:1.0,T7s:1.0,98s:1.0,T8s:1.0,T9s:1.0,T9o:1.0,J9s:1.0,JTs:1.0,JTo:1.0,QTs:1.0,JJ:0.5,QQ:0.5,KK:1.0
+btn	aaffah	a	n	AA:1.0,AKs:1.0,87s:1.0,97s:1.0,T7s:1.0,98s:1.0,T8s:1.0,T9s:1.0,T9o:1.0,J9s:1.0,JTs:1.0,JTo:1.0,QTs:1.0,JJ:0.5,QQ:0.5,KK:1.0
+btn	aafffh	a	n	AA:1.0,AQs:1.0,AKs:1.0,AKo:1.0,97s:1.0,98s:1.0,T8s:1.0,99:1.0,T9s:1.0,T9o:1.0,TT:0.5,JTs:1.0,QTs:1.0,KTs:0.5,JJ:0.5,QQ:1.0,KK:1.0
+btn	afaaah	a	n	AA:1.0,AKs:1.0,86s:1.0,77:1.0,87s:1.0,97s:1.0,T7s:1.0,88:1.0,98s:1.0,T8s:1.0,T9s:1.0,J9s:1.0,JTs:1.0,QTs:1.0,JJ:0.5,QJs:0.524,QQ:0.5,KK:0.5
+btn	afaafh	a	n	AA:1.0,AKs:1.0,87s:1.0,97s:1.0,T7s:1.0,88:0.5,98s:1.0,98o:1.0,T8s:1.0,99:0.2,T9s:1.0,T9o:1.0,J9s:1.0,TT:0.5,JTs:1.0,JTo:1.0,QTs:1.0,JJ:0.5,QQ:0.5,KK:1.0
+btn	afafah	a	n	AA:1.0,AKs:1.0,87s:1.0,97s:1.0,T7s:1.0,88:0.5,98s:1.0,98o:1.0,T8s:1.0,99:0.2,T9s:1.0,T9o:1.0,J9s:1.0,TT:0.5,JTs:1.0,JTo:1.0,QTs:1.0,JJ:0.5,QQ:0.5,KK:1.0
+btn	afaffh	a	n	AA:1.0,AQs:1.0,AKs:1.0,AKo:1.0,97s:1.0,98s:1.0,T8s:1.0,99:1.0,T9s:1.0,T9o:1.0,TT:0.5,JTs:1.0,QTs:1.0,KTs:0.5,JJ:0.5,QQ:1.0,KK:1.0
+btn	affaah	a	n	AA:1.0,AKs:1.0,87s:1.0,97s:1.0,T7s:1.0,88:0.5,98s:1.0,98o:1.0,T8s:1.0,99:0.2,T9s:1.0,T9o:1.0,J9s:1.0,TT:0.5,JTs:1.0,JTo:1.0,QTs:1.0,JJ:0.5,QQ:0.5,KK:1.0
+btn	affafh	a	n	AA:1.0,AJs:0.5,AQs:1.0,AQo:0.5,AKs:1.0,AKo:1.0,97s:1.0,98s:1.0,T8s:1.0,99:0.5,T9s:1.0,T9o:1.0,J9s:0.878,TT:0.5,JTs:1.0,JTo:1.0,QTs:0.296,JJ:0.5,QQ:1.0,KK:1.0
+btn	afffah	a	n	AA:1.0,AJs:0.5,AQs:1.0,AQo:0.5,AKs:1.0,AKo:1.0,97s:1.0,98s:1.0,T8s:1.0,99:0.5,T9s:1.0,T9o:1.0,J9s:0.878,TT:0.5,JTs:1.0,JTo:1.0,QTs:0.296,JJ:0.5,QQ:1.0,KK:1.0
+btn	faaaah	a	n	AA:1.0,A8s:0.5,AKs:1.0,86s:1.0,96s:0.51,77:1.0,87s:1.0,97s:1.0,T7s:1.0,88:1.0,98s:1.0,98o:1.0,T8s:1.0,T9s:1.0,T9o:1.0,J9s:1.0,JTs:1.0,JTo:1.0,QTs:1.0,JJ:0.5,QJs:0.988,QQ:0.5,KK:1.0
+btn	faaafh	a	n	AA:1.0,A9s:0.5,AQs:1.0,AKs:1.0,AKo:1.0,87s:1.0,97s:1.0,T7s:1.0,98s:1.0,98o:1.0,T8s:1.0,99:1.0,T9s:1.0,T9o:1.0,J9s:1.0,TT:0.5,JTs:1.0,JTo:1.0,QTs:1.0,JJ:0.5,QQ:0.5,KK:1.0
+btn	faafah	a	n	AA:1.0,A9s:0.5,AQs:1.0,AKs:1.0,AKo:1.0,87s:1.0,97s:1.0,T7s:1.0,98s:1.0,98o:1.0,T8s:1.0,99:1.0,T9s:1.0,T9o:1.0,J9s:1.0,TT:0.5,JTs:1.0,JTo:1.0,QTs:1.0,JJ:0.5,QQ:0.5,KK:1.0
+btn	faaffh	a	n	AA:1.0,A9s:0.5,ATs:0.5,AJs:0.5,AQs:1.0,AQo:0.5,AKs:1.0,AKo:1.0,97s:1.0,98s:1.0,T8s:1.0,99:1.0,T9s:1.0,T9o:1.0,TT:0.5,JTs:1.0,QTs:1.0,JJ:1.0,QQ:1.0,KQs:0.5,KK:1.0
+btn	fafaah	a	n	AA:1.0,A9s:0.5,AQs:1.0,AKs:1.0,AKo:1.0,87s:1.0,97s:1.0,T7s:1.0,98s:1.0,98o:1.0,T8s:1.0,99:1.0,T9s:1.0,T9o:1.0,J9s:1.0,TT:0.5,JTs:1.0,JTo:1.0,QTs:1.0,JJ:0.5,QQ:0.5,KK:1.0
+btn	fafafh	a	n	AA:1.0,A9s:0.5,ATs:0.5,AJs:0.5,AQs:1.0,AQo:0.5,AKs:1.0,AKo:1.0,97s:1.0,98s:1.0,T8s:1.0,99:1.0,T9s:1.0,T9o:1.0,TT:0.5,JTs:1.0,QTs:1.0,JJ:1.0,QQ:1.0,KQs:0.5,KK:1.0
+btn	faffah	a	n	AA:1.0,A9s:0.5,ATs:0.5,AJs:0.5,AQs:1.0,AQo:0.5,AKs:1.0,AKo:1.0,97s:1.0,98s:1.0,T8s:1.0,99:1.0,T9s:1.0,T9o:1.0,TT:0.5,JTs:1.0,QTs:1.0,JJ:1.0,QQ:1.0,KQs:0.5,KK:1.0
+btn	ffaaah	a	n	AA:1.0,A9s:0.5,AQs:0.5,AKs:1.0,AKo:1.0,86s:1.0,96s:1.0,87s:1.0,97s:1.0,97o:1.0,T7s:1.0,88:1.0,98s:1.0,98o:1.0,T8s:1.0,T8o:1.0,99:0.5,T9s:1.0,T9o:1.0,J9s:1.0,TT:0.2,JTs:1.0,JTo:1.0,QTs:1.0,KTs:0.5,JJ:0.2,QJs:0.5,QQ:1.0,KK:1.0
+btn	ffaafh	a	n	AA:1.0,A9s:0.5,ATs:0.5,AJs:0.5,AQs:1.0,AQo:0.5,AKs:1.0,AKo:1.0,98s:1.0,T8s:1.0,T9s:1.0,TT:0.5,JTs:1.0,QTs:1.0,JJ:1.0,QQ:1.0,KQs:0.5,KK:1.0
+btn	ffafah	a	n	AA:1.0,A9s:0.5,ATs:0.5,AJs:0.5,AJo:0.2,AQs:1.0,AQo:0.5,AKs:1.0,AKo:1.0,98s:1.0,T8s:1.0,T9s:1.0,TT:0.5,JTs:1.0,QTs:1.0,JJ:1.0,QQ:1.0,KQs:0.5,KK:1.0
+btn	fffaah	a	n	AA:1.0,A9s:0.5,ATs:0.5,AJs:0.5,AJo:0.2,AQs:1.0,AQo:0.5,AKs:1.0,AKo:1.0,98s:1.0,T8s:1.0,T9s:1.0,TT:0.5,JTs:1.0,QTs:1.0,JJ:1.0,QQ:1.0,KQs:0.5,KK:1.0
+
+co	aahu	a	n	AA:1.0,ATs:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,TT:1.0,JTs:1.0,QTs:1.0,KTs:0.96,JJ:1.0,QJs:1.0,KJs:1.0,QQ:1.0,KQs:1.0,KQo:0.524,KK:1.0
+btn	aaah	a	n	AA:1.0,AQs:1.0,AKs:1.0,AKo:1.0,97s:1.0,98s:1.0,T8s:1.0,99:1.0,T9s:1.0,T9o:1.0,TT:1.0,JTs:1.0,JJ:1.0,QQ:1.0,KK:1.0
+btn	aafh	a	n	AA:1.0,A9s:1.0,AJs:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,97s:1.0,98s:1.0,98o:1.0,T8s:1.0,99:1.0,T9s:1.0,T9o:1.0,TT:1.0,JTs:1.0,JJ:1.0,QQ:1.0,KK:1.0
+btn	afah	a	n	AA:1.0,A9s:1.0,AJs:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,97s:1.0,98s:1.0,98o:0.222,T8s:1.0,99:1.0,T9s:1.0,T9o:1.0,TT:1.0,JTs:1.0,JJ:1.0,QQ:1.0,KQs:1.0,KK:1.0
+btn	faah	a	n	AA:1.0,A9s:1.0,ATs:1.0,AJs:1.0,AJo:1.0,AQs:1.0,AQo:1.0,AKs:1.0,AKo:1.0,97s:1.0,98s:1.0,T8s:1.0,99:1.0,T9s:1.0,T9o:1.0,TT:1.0,JTs:1.0,JTo:1.0,QTs:1.0,KTs:0.922,JJ:1.0,QJs:1.0,QQ:1.0,KQs:1.0,KK:1.0
+btn	caah	a	n	AA:1.0,AQs:1.0,AKs:1.0,AKo:1.0,87s:1.0,97s:1.0,98s:1.0,T8s:1.0,T9s:1.0,T9o:1.0,JTs:1.0,JJ:1.0,QQ:1.0,KK:1.0
+
+second_round_overcall
+overcall2	2nd_overcall2	a	n	AA:1.0,AJs:0.5,AQs:1.0,AKs:1.0,AKo:1.0,JTs:0.802,JJ:1.0,QQ:1.0,KQs:0.3,AQo:0.3,KK:1.0,TT:0.5,T9s:1.0,T8s:1.0,98s:1.0,99:0.3,JTo:0.5,T9o:0.5,97s:0.5,j9s:0.5
+overcall3	2nd_overcall3	a	n	AA:1.0,AKs:1.0,87s:1.0,97s:1.0,T7s:1.0,88:0.5,98s:1.0,98o:1.0,T8s:1.0,99:0.2,T9s:1.0,T9o:1.0,J9s:1.0,TT:0.5,JTs:1.0,JTo:1.0,QTs:1.0,JJ:0.5,QQ:0.5,KK:1.0
+overcall4	2nd_overcall4	a	n	AA:1.0,AKs:1.0,86s:1.0,77:1.0,87s:1.0,97s:1.0,T7s:1.0,88:1.0,98s:1.0,T8s:1.0,T9s:1.0,J9s:1.0,JTs:1.0,QTs:1.0,JJ:0.5,QJs:0.524,QQ:0.5,KK:0.5
+overcall5	2nd_overcall5	a	n	AA:1.0,A8s:0.244,AQs:0.372,AKs:0.486,66:1.0,77:0.974,87s:1.0,97s:1.0,T7s:0.726,88:0.232,98s:1.0,T8s:1.0,T9s:1.0,J9s:1.0,JTs:1.0,QTs:1.0,QJs:1.0,QQ:1.0,KQs:0.004,KK:1.0
