@@ -391,10 +391,10 @@ public class SimpleWebServer extends NanoHTTPD {
         Map<String, Map<String, List<Double>>> targetTable;
         if (ver.equals("")){
             targetTable = shortActionV1Table;
-        } else if (ver.equals("0.1.3")) {
-            targetTable = shortActionV3Table;
-        } else {
+        } else if (ver.equals("0.1.2") ) {
             targetTable = shortActionV2Table;
+        } else {
+            targetTable = shortActionV3Table;
         }
 
         List<Double> queryRes = new ArrayList<>();

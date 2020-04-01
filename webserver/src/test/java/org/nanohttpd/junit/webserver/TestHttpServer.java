@@ -388,6 +388,7 @@ public class TestHttpServer extends AbstractTestHttpServer {
     public void testDataInit() throws ClientProtocolException, IOException {
         DataInit dataInit = new DataInit();
         try {
+            MessageDigest messageDigest = MessageDigest.getInstance("MD5");
             String relativelyPath = System.getProperty("user.dir");
             System.out.println(relativelyPath.toString());
             Map<String, Map<String, List<Double>>> shortActionV1Table = DataInit.formatShortV1PreflopData("/Users/wangzixiao/IdeaProjects/nanohttpdNew/webserver/src/main/data/shortV2.txt");
@@ -412,9 +413,9 @@ public class TestHttpServer extends AbstractTestHttpServer {
             // Assert.assertEquals("test", 304,
             // response.getStatusLine().getStatusCode());
             System.out.println("fcfhuu"+shortActionV2Table.get("fcfhuu").get("aa").toString());
-            System.out.println("ffch"+shortActionV2Table.get("ffch").get("t9o").toString());
+            System.out.println("aafffh"+shortActionV2Table.get("aafffh").get("t9o").toString());
             System.out.println("2nd_overcall5"+shortActionV2Table.get("2nd_overcall5").get("aa").toString());
-
+            System.out.println(dataInit.md5EncodeSalty(messageDigest,"jason7"));
 
         } catch (Exception e){
             System.out.println("err");

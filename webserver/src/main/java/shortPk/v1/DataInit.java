@@ -348,6 +348,13 @@ public class DataInit {
             res.put(md5EncodeSalty(messageDigest, "jsonWb"), md5EncodeSalty(messageDigest, "WBWB123"));
             res.put(md5EncodeSalty(messageDigest, "ZXZX"), md5EncodeSalty(messageDigest, "ZX1234"));
             res.put(md5EncodeSalty(messageDigest, "testwzx"), md5EncodeSalty(messageDigest, "testwzx"));
+            res.put(md5EncodeSalty(messageDigest, "jason4"), md5EncodeSalty(messageDigest, "BkAUAAL"));
+            res.put(md5EncodeSalty(messageDigest, "jason5"), md5EncodeSalty(messageDigest, "9sa2v"));
+            res.put(md5EncodeSalty(messageDigest, "jason6"), md5EncodeSalty(messageDigest, "kpL4Hw"));
+            res.put(md5EncodeSalty(messageDigest, "jason7"), md5EncodeSalty(messageDigest, "ru9cNvgG"));
+            res.put(md5EncodeSalty(messageDigest, "jason8"), md5EncodeSalty(messageDigest, "7EiTLCYM"));
+            res.put(md5EncodeSalty(messageDigest, "jason9"), md5EncodeSalty(messageDigest, "jb80I3hN"));
+            res.put(md5EncodeSalty(messageDigest, "jason10"), md5EncodeSalty(messageDigest, "XQpUYtU7"));
         } catch (Exception e){
             System.out.println(e.toString());
         }
@@ -358,9 +365,12 @@ public class DataInit {
         Map<String, String> res =  new ConcurrentHashMap<>();
         try {
             MessageDigest messageDigest = MessageDigest.getInstance("MD5");
-            res.put(md5EncodeSalty(messageDigest, "jason1"), "jason1");
-            res.put(md5EncodeSalty(messageDigest, "jason2"), "jason2");
-            res.put(md5EncodeSalty(messageDigest, "jason3"), "jason3");
+            for (int i = 0; i < 20; i++) {
+                res.put(md5EncodeSalty(messageDigest, "jason"+i), "jason"+i);
+            }
+//            res.put(md5EncodeSalty(messageDigest, "jason1"), "jason1");
+//            res.put(md5EncodeSalty(messageDigest, "jason2"), "jason2");
+//            res.put(md5EncodeSalty(messageDigest, "jason3"), "jason3");
             res.put(md5EncodeSalty(messageDigest, "jsonWb"), "jsonWb");
             res.put(md5EncodeSalty(messageDigest, "ZXZX"), "ZXZX");
             res.put(md5EncodeSalty(messageDigest, "testwzx"), "testwzx");
