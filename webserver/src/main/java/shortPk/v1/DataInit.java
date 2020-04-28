@@ -355,6 +355,10 @@ public class DataInit {
             res.put(md5EncodeSalty(messageDigest, "jason8"), md5EncodeSalty(messageDigest, "7EiTLCYM"));
             res.put(md5EncodeSalty(messageDigest, "jason9"), md5EncodeSalty(messageDigest, "jb80I3hN"));
             res.put(md5EncodeSalty(messageDigest, "jason10"), md5EncodeSalty(messageDigest, "XQpUYtU7"));
+            res.put(md5EncodeSalty(messageDigest, "jason11"), md5EncodeSalty(messageDigest, "qDBpGdAU"));
+            res.put(md5EncodeSalty(messageDigest, "jason12"), md5EncodeSalty(messageDigest, "Ud5J9mxI"));
+            res.put(md5EncodeSalty(messageDigest, "jason13"), md5EncodeSalty(messageDigest, "bMUI0igN"));
+            res.put(md5EncodeSalty(messageDigest, "jason14"), md5EncodeSalty(messageDigest, "dxR753lT"));
         } catch (Exception e){
             System.out.println(e.toString());
         }
@@ -365,7 +369,7 @@ public class DataInit {
         Map<String, String> res =  new ConcurrentHashMap<>();
         try {
             MessageDigest messageDigest = MessageDigest.getInstance("MD5");
-            for (int i = 0; i < 20; i++) {
+            for (int i = 0; i < 30; i++) {
                 res.put(md5EncodeSalty(messageDigest, "jason"+i), "jason"+i);
             }
 //            res.put(md5EncodeSalty(messageDigest, "jason1"), "jason1");
