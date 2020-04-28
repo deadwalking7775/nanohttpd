@@ -477,7 +477,7 @@ public class SimpleWebServer extends NanoHTTPD {
     public Response serve(IHTTPSession session) {
         Map<String, List<String>>  paramsAll = session.getParameters();
         Map<String, String> header = session.getHeaders();
-
+        String Ip = session.getRemoteIpAddress();
         String uri = session.getUri();
 
 
@@ -557,7 +557,7 @@ public class SimpleWebServer extends NanoHTTPD {
                     String queryRes = shortQueryRespond(parms.get("password"), parms.get("userName"), decodeQuery, decodeHands, ver);
 
                     System.out.println((new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss")).format(new Date())
-                            +": name: "+name+" md5 get query/hands: "+decodeQuery+" "+decodeHands+" queryRes: "+queryRes);
+                            +": name: "+name+" md5 get query/hands: "+decodeQuery+" "+decodeHands+" queryRes: "+queryRes + " Ip:"+Ip);
 
                     return newFixedLengthResponse(Status.OK, NanoHTTPD.MIME_PLAINTEXT, queryRes);
                 }
