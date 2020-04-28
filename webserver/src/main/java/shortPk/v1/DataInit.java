@@ -350,7 +350,7 @@ public class DataInit {
             res.put(md5EncodeSalty(messageDigest, "testwzx"), md5EncodeSalty(messageDigest, "testwzx"));
             res.put(md5EncodeSalty(messageDigest, "jason4"), md5EncodeSalty(messageDigest, "BkAUAAL"));
             res.put(md5EncodeSalty(messageDigest, "jason5"), md5EncodeSalty(messageDigest, "9sa2v"));
-            res.put(md5EncodeSalty(messageDigest, "jason6"), md5EncodeSalty(messageDigest, "kpL4Hw"));
+            res.put(md5EncodeSalty(messageDigest, "jason6"), md5EncodeSalty(messageDigest, "u89se1nis"));
             res.put(md5EncodeSalty(messageDigest, "jason7"), md5EncodeSalty(messageDigest, "ru9cNvgG"));
             res.put(md5EncodeSalty(messageDigest, "jason8"), md5EncodeSalty(messageDigest, "7EiTLCYM"));
             res.put(md5EncodeSalty(messageDigest, "jason9"), md5EncodeSalty(messageDigest, "jb80I3hN"));
