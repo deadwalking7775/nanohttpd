@@ -1,5 +1,5 @@
-utg	huuuuu	a	n	A8s:1.0,A9s:1.0,ATs:1.0,ATo:0.13,AJs:1.0,AJo:0.592,AQs:1.0,AQo:1.0,AKs:0.192,AKo:1.0,T9s:0.806,TT:0.678,JTs:1.0,JTo:0.624,QTs:1.0,KTs:1.0,JJ:0.816,QJs:1.0,KJs:1.0,QQ:0.592,KQs:1.0,KQo:1.0,KK:0.528
-utg	huuuuu	c	n	AA:1.0,A6s:0.216,A7s:1.0,A9o:0.272,ATo:0.87,AJo:0.408,AKs:0.808,98s:1.0,T8s:1.0,99:0.57,T9s:0.194,T9o:0.036,J9s:0.536,TT:0.322,JTo:0.376,QTo:0.524,KTo:0.212,JJ:0.184,QJo:0.806,KJo:0.886,QQ:0.408,KK:0.472
+utg	huuuuu	a	n	A8s:1.0,A9s:1.0,ATs:1.0,ATo:0.13,AJs:1.0,AJo:0.592,AQs:1.0,AQo:1.0,AKs:0.192,AKo:1.0,T9s:0.806,TT:0.678,JTs:1.0,QTs:1.0,KTs:1.0,JJ:0.816,QJs:1.0,KJs:1.0,QQ:0.592,KQs:1.0,KQo:1.0,KK:0.528
+utg	huuuuu	c	n	AA:1.0,A6s:0.216,A7s:1.0,A9o:0.272,ATo:0.87,AJo:0.408,AKs:0.808,98s:1.0,T8s:1.0,99:0.57,T9s:0.194,T9o:0.036,J9s:0.536,TT:0.322,JJ:0.184,QJo:0.806,KJo:0.886,QQ:0.408,KK:0.472
 utg	huuuuu	c	affff	AA:1.0,ATo:0.344,AJo:0.204,AKs:0.808,TT:0.161,JJ:0.184,QQ:0.408,KK:0.472
 utg	huuuuu	c	cafff	AA:1.0,AJo:0.204,AKs:0.808,TT:0.121,JJ:0.184,QQ:0.408,KK:0.472
 utg	huuuuu	c	fafff	AA:1.0,ATo:0.344,AJo:0.204,AKs:0.808,TT:0.161,JJ:0.184,QQ:0.408,KK:0.472
@@ -51,8 +51,8 @@ utg_plus_one	chuuuu	c	ffcaf	AA:0.744,ATo:0.331,AJo:0.082,AQo:0.252,AKs:0.194,TT:
 utg_plus_one	chuuuu	c	fffaf	AA:0.744,AJo:0.082,AQo:0.252,AKs:0.194,TT:0.5,JJ:0.212,QQ:0.274,KK:0.432
 utg_plus_one	chuuuu	c	ea	AA:0.744,ATo:0.386,AJo:0.082,AQo:0.252,AKs:0.194,TT:0.5,JJ:0.212,QQ:0.274,KK:0.432
 utg_plus_one	chuuuu	c	eac	AA:0.744,ATo:0.162,AJo:0.082,AQo:0.252,AKs:0.194,TT:0.5,JJ:0.212,QQ:0.274,KK:0.432
-utg_plus_one	fhuuuu	a	n	A8s:1.0,A9s:1.0,ATs:1.0,ATo:0.228,AJs:1.0,AJo:0.518,AQs:1.0,AQo:1.0,AKo:1.0,TT:0.83,JTs:1.0,JTo:1.0,QTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,KJs:1.0,KJo:0.602,QQ:0.182,KQs:1.0,KQo:1.0,KK:0.342
-utg_plus_one	fhuuuu	c	n	AA:1.0,A6s:1.0,A7s:1.0,A9o:0.778,ATo:0.772,AJo:0.482,AKs:1.0,98s:1.0,T8s:1.0,99:0.804,T9s:1.0,J9s:1.0,Q9s:1.0,K9s:0.264,TT:0.17,QTo:1.0,KTo:1.0,QJo:1.0,KJo:0.398,QQ:0.818,KK:0.658
+utg_plus_one	fhuuuu	a	n	A8s:1.0,A9s:1.0,ATs:1.0,ATo:0.228,AJs:1.0,AJo:0.518,AQs:1.0,AQo:1.0,AKo:1.0,TT:0.83,JTs:1.0,JTo:1.0,QTs:1.0,KTs:1.0,JJ:1.0,QJs:1.0,KJs:1.0,QQ:0.182,KQs:1.0,KQo:1.0,KK:0.342
+utg_plus_one	fhuuuu	c	n	AA:1.0,A6s:1.0,A7s:1.0,ATo:0.772,AJo:0.482,AKs:1.0,98s:1.0,T8s:1.0,99:0.804,T9s:1.0,J9s:1.0,Q9s:1.0,TT:0.17,QTo:1.0,KTo:1.0,QJo:1.0,KJo:1.0,QQ:0.818,KK:0.658
 utg_plus_one	fhuuuu	c	affff	AA:1.0,ATo:0.386,AJo:0.241,AKs:1.0,TT:0.085,QQ:0.818,KK:0.658
 utg_plus_one	fhuuuu	c	cafff	AA:1.0,ATo:0.386,AJo:0.241,AKs:1.0,TT:0.085,QQ:0.818,KK:0.658
 utg_plus_one	fhuuuu	c	ccaff	AA:1.0,ATo:0.386,AJo:0.241,AKs:1.0,TT:0.085,QQ:0.818,KK:0.658
