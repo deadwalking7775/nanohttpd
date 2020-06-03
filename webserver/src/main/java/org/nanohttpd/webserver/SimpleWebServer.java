@@ -99,8 +99,8 @@ public class SimpleWebServer extends NanoHTTPD {
         System.out.println(relativelyPath.toString());
         shortActionV1Table = DataInit.formatShortV1PreflopData(relativelyPath + "/webserver/src/main/data/shortV1.txt");
         shortActionV2Table = DataInit.formatShortV1PreflopDataV2(relativelyPath + "/webserver/src/main/data/shortV1.txt");
-        shortActionV3Table = DataInit.formatShortV1PreflopDataV2(relativelyPath + "/webserver/src/main/data/shortV2.txt");
-        md5Table = DataInit.formatMd5Data(relativelyPath + "/webserver/src/main/data/shortV2.txt");
+        shortActionV3Table = DataInit.formatShortV1PreflopDataV2(relativelyPath + "/webserver/src/main/data/shortV3.txt");
+        md5Table = DataInit.formatMd5Data(relativelyPath + "/webserver/src/main/data/shortV3.txt");
         userPasswordMd5Map = DataInit.getUserPassword();
         userNameMap = DataInit.getUserName();
 
