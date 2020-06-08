@@ -70,6 +70,7 @@ public class SimpleWebServer extends NanoHTTPD {
     public static Map<String, Map<String, List<Double>>> shortActionV1Table;
     public static Map<String, Map<String, List<Double>>> shortActionV2Table;
     public static Map<String, Map<String, List<Double>>> shortActionV3Table;
+    public static Map<String, Map<String, List<Double>>> shortActionV4Table;
     public static Map<String, String> md5Table;
     public static Map<String, String> userPasswordMd5Map;
     public static Map<String, String> userNameMap;
@@ -100,6 +101,7 @@ public class SimpleWebServer extends NanoHTTPD {
         shortActionV1Table = DataInit.formatShortV1PreflopData(relativelyPath + "/webserver/src/main/data/shortV1.txt");
         shortActionV2Table = DataInit.formatShortV1PreflopDataV2(relativelyPath + "/webserver/src/main/data/shortV1.txt");
         shortActionV3Table = DataInit.formatShortV1PreflopDataV2(relativelyPath + "/webserver/src/main/data/shortV3.txt");
+        shortActionV4Table = DataInit.formatShortV1PreflopDataV2(relativelyPath + "/webserver/src/main/data/shortV4.txt");
         md5Table = DataInit.formatMd5Data(relativelyPath + "/webserver/src/main/data/shortV3.txt");
         userPasswordMd5Map = DataInit.getUserPassword();
         userNameMap = DataInit.getUserName();
@@ -387,7 +389,7 @@ public class SimpleWebServer extends NanoHTTPD {
         return r;
     }
 
-    private String shortQueryRespond(String password, String userName, String query, String hands, String ver) {
+    private String shortQueryRespond(String password, String userName, String query, String hands, String ver, String bb) {
         Map<String, Map<String, List<Double>>> targetTable;
         if (ver.equals("")){
             targetTable = shortActionV1Table;
@@ -395,6 +397,10 @@ public class SimpleWebServer extends NanoHTTPD {
             targetTable = shortActionV2Table;
         } else {
             targetTable = shortActionV3Table;
+        }
+
+        if (bb != null && bb.equals("60")){
+            targetTable = shortActionV4Table;
         }
 
         List<Double> queryRes = new ArrayList<>();
@@ -553,8 +559,8 @@ public class SimpleWebServer extends NanoHTTPD {
                     String name = userNameMap.get(user);
                     String decodeQuery = md5Table.get(parms.get("query"));
                     String decodeHands = md5Table.get(parms.get("hands"));
-
-                    String queryRes = shortQueryRespond(parms.get("password"), parms.get("userName"), decodeQuery, decodeHands, ver);
+                    String bbSize = parms.get("bb");
+                    String queryRes = shortQueryRespond(parms.get("password"), parms.get("userName"), decodeQuery, decodeHands, ver, bbSize);
 
                     System.out.println((new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss")).format(new Date())
                             +": ,name: "+name+" ,md5 get query/hands: "+decodeQuery+" "+decodeHands+" ,queryRes: "+queryRes + ",Ip:"+Ip);
