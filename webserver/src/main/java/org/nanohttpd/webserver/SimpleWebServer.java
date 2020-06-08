@@ -561,9 +561,11 @@ public class SimpleWebServer extends NanoHTTPD {
                     String decodeHands = md5Table.get(parms.get("hands"));
                     String bbSize = parms.get("bb");
                     String queryRes = shortQueryRespond(parms.get("password"), parms.get("userName"), decodeQuery, decodeHands, ver, bbSize);
-
+                    if (bbSize == null || "".equals(bbSize)) {
+                        bbSize = "40";
+                    }
                     System.out.println((new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss")).format(new Date())
-                            +": ,name: "+name+" ,md5 get query/hands: "+decodeQuery+" "+decodeHands+" ,queryRes: "+queryRes + ",Ip:"+Ip);
+                            +": ,name: "+name+" ,md5 get query/hands: "+decodeQuery+" "+decodeHands+" ,bbSize "+bbSize+" ,queryRes: "+queryRes + ",Ip:"+Ip);
 
                     return newFixedLengthResponse(Status.OK, NanoHTTPD.MIME_PLAINTEXT, queryRes);
                 }
