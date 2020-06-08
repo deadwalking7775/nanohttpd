@@ -394,7 +394,7 @@ public class TestHttpServer extends AbstractTestHttpServer {
             Map<String, Map<String, List<Double>>> shortActionV1Table = DataInit.formatShortV1PreflopData("/Users/wangzixiao/IdeaProjects/nanohttpdNew/webserver/src/main/data/shortV3.txt");
             Map<String, String> md5Table = DataInit.formatMd5Data("/Users/wangzixiao/IdeaProjects/nanohttpdNew/webserver/src/main/data/shortV3.txt");
             Map<String, String> userPasswordMd5Map = DataInit.getUserPassword();
-            Map<String, Map<String, List<Double>>> shortActionV2Table = DataInit.formatShortV1PreflopDataV2("/Users/wangzixiao/IdeaProjects/nanohttpdNew/webserver/src/main/data/shortV3.txt");
+            Map<String, Map<String, List<Double>>> shortActionV2Table = DataInit.formatShortV1PreflopDataV2("/Users/wangzixiao/IdeaProjects/nanohttpdNew/webserver/src/main/data/shortV4.txt");
 
 
 //            MessageDigest messageDigest = MessageDigest.getInstance("MD5");
@@ -418,7 +418,8 @@ public class TestHttpServer extends AbstractTestHttpServer {
             System.out.println(dataInit.md5EncodeSalty(messageDigest,"jason7"));
 
         } catch (Exception e){
-            System.out.println("err");
+            e.printStackTrace();
+            System.out.println("err"+e.toString());
         } finally{
             // if (response != null) {
             // response.close();

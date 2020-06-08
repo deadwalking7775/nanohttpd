@@ -314,6 +314,7 @@ public class DataInit {
                 }
             }
         } catch  (Exception e) {
+            e.printStackTrace();
             System.out.println(line);
             System.out.println("err "+e.toString());
         }
