@@ -389,11 +389,11 @@ public class TestHttpServer extends AbstractTestHttpServer {
         DataInit dataInit = new DataInit();
         try {
             MessageDigest messageDigest = MessageDigest.getInstance("MD5");
-            String relativelyPath = System.getProperty("user.dir");
-            System.out.println(relativelyPath.toString());
-            Map<String, Map<String, List<Double>>> shortActionV1Table = DataInit.formatShortV1PreflopData("/Users/wangzixiao/IdeaProjects/nanohttpdNew/webserver/src/main/data/shortV3.txt");
-            Map<String, String> md5Table = DataInit.formatMd5Data("/Users/wangzixiao/IdeaProjects/nanohttpdNew/webserver/src/main/data/shortV3.txt");
-            Map<String, String> userPasswordMd5Map = DataInit.getUserPassword();
+//            String relativelyPath = System.getProperty("user.dir");
+//            System.out.println(relativelyPath.toString());
+//            Map<String, Map<String, List<Double>>> shortActionV1Table = DataInit.formatShortV1PreflopData("/Users/wangzixiao/IdeaProjects/nanohttpdNew/webserver/src/main/data/shortV3.txt");
+//            Map<String, String> md5Table = DataInit.formatMd5Data("/Users/wangzixiao/IdeaProjects/nanohttpdNew/webserver/src/main/data/shortV3.txt");
+//            Map<String, String> userPasswordMd5Map = DataInit.getUserPassword();
             Map<String, Map<String, List<Double>>> shortActionV2Table = DataInit.formatShortV1PreflopDataV2("/Users/wangzixiao/IdeaProjects/nanohttpdNew/webserver/src/main/data/shortV4.txt");
 
 
@@ -402,13 +402,16 @@ public class TestHttpServer extends AbstractTestHttpServer {
 //            String aaQ = DataInit.md5EncodeSalty(messageDigest, "aa");
 
 
-            shortActionV2Table.forEach((s, stringListMap) -> System.out.println(s + " "+stringListMap));
+//            shortActionV2Table.forEach((s, stringListMap) -> System.out.println(s + " "+stringListMap));
+//            md5Table.forEach((s,v) -> System.out.println(s+" "+v.toString()));
+//            userPasswordMd5Map.forEach((s,v) -> System.out.println(s+" "+v.toString()));
+
+
+
 //            System.out.println(shortActionV1Table.get("huuuuu").get("q9o").toString());
 //            String huuuuuMd5 = "a8bde0dd6fc786a1d85cf10403e2f1c9";
 //            String res = md5Table.get(huuuuuMd5);
 //            System.out.println(res);
-            md5Table.forEach((s,v) -> System.out.println(s+" "+v.toString()));
-            userPasswordMd5Map.forEach((s,v) -> System.out.println(s+" "+v.toString()));
 //            System.out.println(hashtext);
             // Assert.assertEquals("test", 304,
             // response.getStatusLine().getStatusCode());

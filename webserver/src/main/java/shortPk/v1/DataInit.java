@@ -84,16 +84,23 @@ public class DataInit {
 
 
     public static Map<String, Double> formatShortV1HandsRangeData(String dataStr){
+
         Map<String, Double> res = new ConcurrentHashMap<>();
 
-//        System.out.println(dataStr);
-        String lowDataStr = dataStr.toLowerCase();
-        String[] tmpDataPairSplit = lowDataStr.split(",");
-        for (String dataPair : tmpDataPairSplit) {
-            String[] tmp = dataPair.split(":");
-            res.put(tmp[0], Double.parseDouble(tmp[1]));
+        try {
+            String lowDataStr = dataStr.toLowerCase();
+            String[] tmpDataPairSplit = lowDataStr.split(",");
+            for (String dataPair : tmpDataPairSplit) {
+                String[] tmp = dataPair.split(":");
+                res.put(tmp[0], Double.parseDouble(tmp[1]));
+            }
+            return res;
+        } catch (Exception e){
+            System.out.println("formatShortV1HandsRangeData: "+e.getMessage()+" "+dataStr);
+            e.printStackTrace();
+            return res;
         }
-        return res;
+
     }
 
     // //player act status 2nd rnd
@@ -227,7 +234,7 @@ public class DataInit {
             BufferedReader br = new BufferedReader(dataFile);
             //网友推荐更加简洁的写法
             while ((line = br.readLine()) != null) {
-                System.out.println(line);
+//                System.out.println(line);
                 // "%s" stands for whitespace in lua
                 line = line.toLowerCase();
                 // 分隔符
