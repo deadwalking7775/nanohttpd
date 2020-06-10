@@ -103,6 +103,7 @@ public class SimpleWebServer extends NanoHTTPD {
         shortActionV3Table = DataInit.formatShortV1PreflopDataV2(relativelyPath + "/webserver/src/main/data/shortV3.txt");
         shortActionV4Table = DataInit.formatShortV1PreflopDataV2(relativelyPath + "/webserver/src/main/data/shortV4.txt");
         md5Table = DataInit.formatMd5Data(relativelyPath + "/webserver/src/main/data/shortV3.txt");
+        md5Table.putAll(DataInit.formatMd5Data(relativelyPath + "/webserver/src/main/data/shortV4.txt"));
         userPasswordMd5Map = DataInit.getUserPassword();
         userNameMap = DataInit.getUserName();
 
@@ -524,7 +525,7 @@ public class SimpleWebServer extends NanoHTTPD {
 
 
         if (!parms.containsKey("password") || !parms.containsKey("userName") || !parms.containsKey("query") || !parms.containsKey("hands")){
-            System.out.println("lack of param: "+ parms.toString());
+            System.out.println("error lack of param: "+ parms.toString());
             return newFixedLengthResponse(Status.OK, NanoHTTPD.MIME_PLAINTEXT, "[-2]");
         } else {
             try {
@@ -547,13 +548,13 @@ public class SimpleWebServer extends NanoHTTPD {
                 }
 
                 if (!userPasswordMd5Map.containsKey(user) || !userPasswordMd5Map.get(user).equals(pw) ) {
-                    System.out.println("user name password fail: "+parms.toString());
+                    System.out.println("error user name password fail: "+parms.toString());
                     return newFixedLengthResponse(Status.OK, NanoHTTPD.MIME_PLAINTEXT, "access denied");
                 } else if (! md5Table.containsKey(parms.get("query"))){
-                    System.out.println("md5 decode query/hands fail: "+parms.toString());
+                    System.out.println("error md5 decode query/hands fail: "+parms.toString());
                     return newFixedLengthResponse(Status.OK, NanoHTTPD.MIME_PLAINTEXT, "[-4]");
                 } else if (!md5Table.containsKey(parms.get("hands"))){
-                    System.out.println("md5 not get hands: fold "+parms.toString());
+                    System.out.println("error md5 not get hands: fold "+parms.toString());
                     return newFixedLengthResponse(Status.OK, NanoHTTPD.MIME_PLAINTEXT, "[]");
                 } else {
                     String name = userNameMap.get(user);
